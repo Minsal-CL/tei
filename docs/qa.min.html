@@ -1,0 +1,946 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 0, errors = 0, warn = 43, info = 62-->
+<head>
+  <title>ListaEsperaChile : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+    function toggle(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Validation Information') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Validation Information';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Validation Information';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for ListaEsperaChile</h1>
+ <p>Generated Mon May 08 17:41:56 CLT 2023, FHIR version 4.0.1 for fhir.minsal.ListaDeEspera#0.1.3 (canonical = <a href="http://minsal.cl/listaespera">http://minsal.cl/listaespera</a> (<a href="http://minsal.cl/listaespera/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.3.4, which is out of date. The current version is v1.3.8 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.minsal.ListaDeEspera, Canonical = http://minsal.cl/listaespera</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Publication Request:</td><td><ul><li>Error fetching package-list from http://minsal.cl/listaespera: Stuck in redirect loop <img src="icon-error.gif" height="16px" width="16px"/></li>
+<li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
+</ul>
+</td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/jano/Projects/Lista-Espera/SIGTEv2-IG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> fhir.minsal.ListaDeEspera</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.3</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://minsal.cl/listaespera</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/jano/Projects/Lista-Espera/SIGTEv2-IG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Outdated Release">O</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/5.0.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Latest Release is 5.1.0</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/jano/Projects/Lista-Espera/SIGTEv2-IG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR4Xu3IsQ0AIAwEsez6+89AqKGGJj7JzVWS+mm3zgcAAMxwDQAAgFcaYAVAgNGLTjgAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.cl.corecl</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.7.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Illegal Version">V</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://hl7chile.cl/fhir/ig/CoreCL</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://hl7chile.cl/fhir/ig/CoreCL/1.7.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/jano/Projects/Lista-Espera/SIGTEv2-IG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAMUlEQVR4Xu3LsQkAIBRDwb9r9p9BrbUSUZsLXPMglaReGmtz23H6BwAA/lkCAADALR1gq0BWueJ34gAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">3.1.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Outdated Release">O</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/3.1.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Latest Release is 5.1.0</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/jano/Projects/Lista-Espera/SIGTEv2-IG/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.ips</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Outdated Release">O</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/ips</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/ips/STU1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Latest Release is 1.1.0</td></tr>
+</table><para>Templates: hl7chile#0.1.1 -&gt; fhir.base.template#current</para></div></td></tr>
+ <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
+ <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://minsal.cl/listaespera (Problem #1 with package-list.json at http://minsal.cl/listaespera: Stuck in redirect loop)</td></tr>
+ <tr><td>IPA Comparison:</td><td> n/a</td></tr>
+ <tr><td>Summary:</td><td> errors = 0, warn = 43, info = 62, broken links = 0</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>5</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleAgendar"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/Bundle-EjemploBundleAgendar</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>5</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleAtender"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/Bundle-EjemploBundleAtender</b></a></td><td><b>0</b></td><td><b>8</b></td><td><b>13</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleInicio"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/Bundle-EjemploBundleInicio</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundlePriorizar"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/Bundle-EjemploBundlePriorizar</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>4</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleReferencia"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/Bundle-EjemploBundleReferencia</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>4</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleRevisar"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/Bundle-EjemploBundleRevisar</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>4</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleTerminar"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/Bundle-EjemploBundleTerminar</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>4</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_CarePlan-EjemploCarePlanLE"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/CarePlan-EjemploCarePlanLE</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Condition-EjemploCondition"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/Condition-EjemploCondition</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Encounter-EjemploEncounterAtender"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/Encounter-EjemploEncounterAtender</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestAgendar"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/ServiceRequest-EjemploServiceRequestAgendar</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestAtender"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/ServiceRequest-EjemploServiceRequestAtender</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestPriorizar"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/ServiceRequest-EjemploServiceRequestPriorizar</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestReferenciada"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/ServiceRequest-EjemploServiceRequestReferenciada</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestRevisar"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/ServiceRequest-EjemploServiceRequestRevisar</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestTerminar"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/ServiceRequest-EjemploServiceRequestTerminar</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-EncounterInicioLE"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/StructureDefinition-EncounterInicioLE</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ExtBool"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/StructureDefinition-ExtBool</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ExtBoolAtencionPreferente"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/StructureDefinition-ExtBoolAtencionPreferente</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ExtBoolPersonaMayor"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/StructureDefinition-ExtBoolPersonaMayor</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ExtInteger"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/StructureDefinition-ExtInteger</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-MedioNotificacion"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/StructureDefinition-MedioNotificacion</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ServiceRequestLE"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/StructureDefinition-ServiceRequestLE</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-TipoOtroTelefono"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/StructureDefinition-TipoOtroTelefono</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ValueSet-VSTipoIdentificador"><b>/home/jano/Projects/Lista-Espera/SIGTEv2-IG/fsh-generated/resources/ValueSet-VSTipoIdentificador</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
+ <div style="border: 1px grey solid; display: none" id="v"></div>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ExtStringFundamentoPriorizacion.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>1</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>2</b></td><td><b>warning</b></td><td title=""><b>An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>3</b></td><td><b>warning</b></td><td title=""><b>An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>4</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleAgendar"> </a>
+<h2><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(25)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-BundleAgendarLE.html">Bundle Agendar LE</a></li><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/messageheader.html">MessageHeader</a> and <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a> (per meta)</li><li>Bundle.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-AppointmentAgendarLE.html">AppointmentAgendarLE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/appointment.html">Appointment</a> and <i>this.</i><a href="StructureDefinition-AppointmentAgendarLE.html">AppointmentAgendarLE</a> (per meta)</li><li>Bundle.entry[2].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>, <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a> (per meta) and <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a></li><li>Bundle.entry[3].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> and <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a> (per meta)</li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> and <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a> (per meta)</li><li>Bundle.entry[5].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a> (per meta)</li><li>Bundle.entry[6].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a> (per meta)</li><li>Bundle.entry[7].resource: Validated against <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a> (per meta)</li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.entry[2].resource/*ServiceRequest/EjemploServiceRequestAgendar*/.identifier[0].type.coding[0] (l113/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[1].resource.entry[2].resource/*ServiceRequest/EjemploServiceRequestAgendar*/.identifier[0].type.coding[0] (l113/c18)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource.identifier[0].type.coding[0] (l197/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource/*Practitioner/EjemploPractitionerAgendarAtendedor*/.identifier[0].type.coding[0] (l197/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource.identifier[0].type.coding[0] (l251/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource/*Practitioner/EjemploPractitionerAgendarAgendador*/.identifier[0].type.coding[0] (l251/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[5] (l157/c6)</b></td><td><b>warning</b></td><td title="Bundle_BUNDLE_Entry_Orphan_MESSAGE"><b>Entry 'http://acme.com/ehr/fhir/PractitionerRole/agendarAtendedor' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6] (l182/c6)</b></td><td><b>warning</b></td><td title="Bundle_BUNDLE_Entry_Orphan_MESSAGE"><b>Entry 'http://acme.com/ehr/fhir/Practitioner/agendarAtendedor' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7] (l236/c6)</b></td><td><b>warning</b></td><td title="Bundle_BUNDLE_Entry_Orphan_MESSAGE"><b>Entry 'http://acme.com/ehr/fhir/Practitioner/agendarAgendador' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleAtender"> </a>
+<h2><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(39)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-BundleAtenderLE.html">Bundle Atender LE</a></li><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/messageheader.html">MessageHeader</a> and <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a> (per meta)</li><li>Bundle.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a> and <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a> (per meta)</li><li>Bundle.entry[2].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a> (per meta)</li><li>Bundle.entry[3].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> and <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a> (per meta)</li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a> (per meta)</li><li>Bundle.entry[5].resource: Validated against <i>this.</i><a href="StructureDefinition-EncounterAtenderLE.html">Encounter Atender LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a> and <i>this.</i><a href="StructureDefinition-EncounterAtenderLE.html">Encounter Atender LE</a> (per meta)</li><li>Bundle.entry[6].resource: Validated against <i>this.</i><a href="StructureDefinition-PatientLE.html">Paciente LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/patient.html">Patient</a> and <i>this.</i><a href="StructureDefinition-PatientLE.html">Paciente LE</a> (per meta)</li><li>Bundle.entry[7].resource: Validated against <i>this.</i><a href="StructureDefinition-CarePlanAtenderLE.html">CarePlan Atender LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a> and <i>this.</i><a href="StructureDefinition-CarePlanAtenderLE.html">CarePlan Atender LE</a> (per meta)</li><li>Bundle.entry[8].resource: Validated against <i>this.</i><a href="StructureDefinition-QuestionnaireResponseAtenderLE.html">QuestionnaireResponse Atender LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a> and <i>this.</i><a href="StructureDefinition-QuestionnaireResponseAtenderLE.html">QuestionnaireResponse Atender LE</a> (per meta)</li><li>Bundle.entry[9].resource: Validated against <i>this.</i><a href="StructureDefinition-ObservationAtenderLE.html">Observation Atender LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-ObservationAtenderLE.html">Observation Atender LE</a> (per meta)</li><li>Bundle.entry[10].resource: Validated against <i>this.</i><a href="StructureDefinition-CondicionAtenderDiagnosticoSospechaLE.html">Condicion Atender Diagnostico Sospecha LE</a>, <i>this.</i><a href="StructureDefinition-CondicionAtenderDiagnosticoConfirmacionLE.html">Condicion Atender Diagnostico Confirmacion LE</a>, <i>this.</i><a href="StructureDefinition-CondicionAtenderDiagnosticoSospechaLE.html">Condicion Atender Diagnostico Sospecha LE</a> (per meta) and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/condition.html">Condition</a></li><li>Bundle.entry[11].resource: Validated against <i>this.</i><a href="StructureDefinition-CondicionAtenderDiagnosticoConfirmacionLE.html">Condicion Atender Diagnostico Confirmacion LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/condition.html">Condition</a>, <i>this.</i><a href="StructureDefinition-CondicionAtenderDiagnosticoConfirmacionLE.html">Condicion Atender Diagnostico Confirmacion LE</a> (per meta) and <i>this.</i><a href="StructureDefinition-CondicionAtenderDiagnosticoSospechaLE.html">Condicion Atender Diagnostico Sospecha LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[1].resource.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource/*ServiceRequest/EjemploServiceRequestAtender*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource.identifier[0].type.coding[0] (l106/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource/*Practitioner/EjemploPractitionerAtender*/.identifier[0].type.coding[0] (l106/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.entry[5].resource/*Encounter/EjemploEncounterAtender*/.identifier[0].type.coding[0] (l225/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.entry[5].resource/*Encounter/EjemploEncounterAtender*/.class (l242/c10)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource/*Encounter/EjemploEncounterAtender*/.identifier[0].type.coding[0] (l225/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[5].resource/*Encounter/EjemploEncounterAtender*/.class (l242/c10)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource.activity[0].detail.code.coding[0] (l423/c20)</b></td><td><b>warning</b></td><td title="Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Error from server: Concept not found (next char = "f", in "farmacos") at character 1"><b>Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Error from server: Concept not found (next char = &quot;f&quot;, in &quot;farmacos&quot;) at character 1</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource/*CarePlan/EjemploCarePlanLE*/.activity[0].detail.code.coding[0] (l423/c20)</b></td><td><b>warning</b></td><td title="Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Error from server: Concept not found (next char = "f", in "farmacos") at character 1"><b>Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Error from server: Concept not found (next char = &quot;f&quot;, in &quot;farmacos&quot;) at character 1</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource/*QuestionnaireResponse/EjemploQuestionnaireResponseAtenderLE*/ (l442/c8)</b></td><td><b>information</b></td><td title="Questionnaire_QR_Q_None"><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource.entry[10].resource/*Condition/EjemploCondicionAtenderDiagnosticoSospechaLE*/.code.coding[0] (l496/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://diagnosticos.cl/uno' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource/*Condition/EjemploCondicionAtenderDiagnosticoSospechaLE*/.code.coding[0] (l496/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://diagnosticos.cl/uno' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource.entry[11].resource/*Condition/EjemploCondicionAtenderDiagnosticoConfirmacionLE*/.code.coding[0] (l529/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://diagnosticos.cl/uno' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13] (l42/c6)</b></td><td><b>information</b></td><td title="BUNDLE_BUNDLE_ENTRY_REVERSE_MSG"><b>Entry 'http://acme.com/ehr/fhir/ServiceRequest/EjemploServiceRequestAtender' isn't reachable by traversing forwards from the MessageHeader. Check that this is meant to be included (needed to process the message)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13] (l397/c6)</b></td><td><b>information</b></td><td title="BUNDLE_BUNDLE_ENTRY_REVERSE_MSG"><b>Entry 'http://acme.com/ehr/fhir/CarePlan/EjemploCarePlanLE' isn't reachable by traversing forwards from the MessageHeader. Check that this is meant to be included (needed to process the message)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13] (l440/c6)</b></td><td><b>information</b></td><td title="BUNDLE_BUNDLE_ENTRY_REVERSE_MSG"><b>Entry 'http://acme.com/ehr/fhir/QuestionnaireResponse/EjemploQuestionnaireResponseAtenderLE' isn't reachable by traversing forwards from the MessageHeader. Check that this is meant to be included (needed to process the message)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[3] (l91/c6)</b></td><td><b>warning</b></td><td title="Bundle_BUNDLE_Entry_Orphan_MESSAGE"><b>Entry 'http://acme.com/ehr/fhir/Practitioner/EjemploPractitionerAtender' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[4] (l145/c6)</b></td><td><b>warning</b></td><td title="Bundle_BUNDLE_Entry_Orphan_MESSAGE"><b>Entry 'http://acme.com/ehr/fhir/PractitionerRole/EjemploPractitionerRoleAtender' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[5] (l173/c6)</b></td><td><b>warning</b></td><td title="Bundle_BUNDLE_Entry_Orphan_MESSAGE"><b>Entry 'http://acme.com/ehr/fhir/Organization/EjemploOrganizationAtender' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleInicio"> </a>
+<h2><a href="Bundle-EjemploBundleInicio.html">fsh-generated/resources/Bundle-EjemploBundleInicio.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(49)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-BundleInicioLE.html">BundleInicio LE</a></li><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/messageheader.html">MessageHeader</a> and <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a> (per meta)</li><li>Bundle.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a> and <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a> (per meta)</li><li>Bundle.entry[2].resource: Validated against <i>this.</i><a href="StructureDefinition-EncounterInicioLE.html">Encounter Inicio LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a> and <i>this.</i><a href="StructureDefinition-EncounterInicioLE.html">Encounter Inicio LE</a> (per meta)</li><li>Bundle.entry[3].resource: Validated against <i>this.</i><a href="StructureDefinition-AppointmentInicioLE.html">Appointment Inicio LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/appointment.html">Appointment</a> and <i>this.</i><a href="StructureDefinition-AppointmentInicioLE.html">Appointment Inicio LE</a> (per meta)</li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-PatientLE.html">Paciente LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/patient.html">Patient</a> and <i>this.</i><a href="StructureDefinition-PatientLE.html">Paciente LE</a> (per meta)</li><li>Bundle.entry[5].resource: Validated against <i>this.</i><a href="StructureDefinition-QuestionnaireResponseInicioLE.html">QuestionnaireResponse Inicio LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a> and <i>this.</i><a href="StructureDefinition-QuestionnaireResponseInicioLE.html">QuestionnaireResponse Inicio LE</a> (per meta)</li><li>Bundle.entry[6].resource: Validated against <i>this.</i><a href="StructureDefinition-ConditionInicioDiagnosticoSospechaLE.html">Condition Inicio Diagnostico Sospecha LE</a>, <i>this.</i><a href="StructureDefinition-ConditionInicioSospechaGesLE.html">Condition Inicio Sospecha Ges LE</a>, <i>this.</i><a href="StructureDefinition-ConditionInicioDiagnosticoSospechaLE.html">Condition Inicio Diagnostico Sospecha LE</a> (per meta), <i>this.</i><a href="StructureDefinition-ConditionInicioIndiceComorbilidadLE.html">Condition Inicio Indice Comorbilidad LE</a> and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/condition.html">Condition</a></li><li>Bundle.entry[7].resource: Validated against <i>this.</i><a href="StructureDefinition-ConditionInicioDiagnosticoSospechaLE.html">Condition Inicio Diagnostico Sospecha LE</a>, <i>this.</i><a href="StructureDefinition-ConditionInicioIndiceComorbilidadLE.html">Condition Inicio Indice Comorbilidad LE</a> (per meta), <i>this.</i><a href="StructureDefinition-ConditionInicioSospechaGesLE.html">Condition Inicio Sospecha Ges LE</a>, <i>this.</i><a href="StructureDefinition-ConditionInicioIndiceComorbilidadLE.html">Condition Inicio Indice Comorbilidad LE</a> and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/condition.html">Condition</a></li><li>Bundle.entry[8].resource: Validated against <i>this.</i><a href="StructureDefinition-ConditionInicioDiagnosticoSospechaLE.html">Condition Inicio Diagnostico Sospecha LE</a>, <i>this.</i><a href="StructureDefinition-ConditionInicioSospechaGesLE.html">Condition Inicio Sospecha Ges LE</a> (per meta), <i>this.</i><a href="StructureDefinition-ConditionInicioSospechaGesLE.html">Condition Inicio Sospecha Ges LE</a>, <i>this.</i><a href="StructureDefinition-ConditionInicioIndiceComorbilidadLE.html">Condition Inicio Indice Comorbilidad LE</a> and <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/condition.html">Condition</a></li><li>Bundle.entry[9].resource: Validated against <i>this.</i><a href="StructureDefinition-ObservationInicioLE.html">Observation Inicio LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a> and <i>this.</i><a href="StructureDefinition-ObservationInicioLE.html">Observation Inicio LE</a> (per meta)</li><li>Bundle.entry[10].resource: Validated against <i>this.</i><a href="StructureDefinition-AllergyIntoleranceInicioLE.html">AllergyIntolerance Inicio LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/allergyintolerance.html">AllergyIntolerance</a> and <i>this.</i><a href="StructureDefinition-AllergyIntoleranceInicioLE.html">AllergyIntolerance Inicio LE</a> (per meta)</li><li>Bundle.entry[11].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> and <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a> (per meta)</li><li>Bundle.entry[12].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a> (per meta)</li><li>Bundle.entry[13].resource: Validated against <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a> (per meta)</li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource/*QuestionnaireResponse/EjemploQuestionnaireResponse*/ (l382/c8)</b></td><td><b>information</b></td><td title="Questionnaire_QR_Q_None"><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource.code.coding[0] (l427/c14)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[6].resource/*Condition/EjemploCondition*/.code.coding[0] (l427/c14)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource.entry[12].resource/*Practitioner/EjemploPractitioner*/.identifier[0].type.coding[0] (l601/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource/*Practitioner/EjemploPractitioner*/.identifier[0].type.coding[0] (l601/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundlePriorizar"> </a>
+<h2><a href="Bundle-EjemploBundlePriorizar.html">fsh-generated/resources/Bundle-EjemploBundlePriorizar.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(19)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-BundlePriorizarLE.html">Bundle Priorizar LE</a></li><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/messageheader.html">MessageHeader</a> and <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a> (per meta)</li><li>Bundle.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a> and <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a> (per meta)</li><li>Bundle.entry[2].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> and <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a> (per meta)</li><li>Bundle.entry[3].resource: Validated against <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a> (per meta)</li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a> (per meta)</li><li>Bundle.entry[5].resource: Validated against <i>this.</i><a href="StructureDefinition-PatientLE.html">Paciente LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/patient.html">Patient</a> and <i>this.</i><a href="StructureDefinition-PatientLE.html">Paciente LE</a> (per meta)</li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.entry[1].resource/*ServiceRequest/EjemploServiceRequestPriorizar*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.entry[1].resource/*ServiceRequest/EjemploServiceRequestPriorizar*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource/*ServiceRequest/EjemploServiceRequestPriorizar*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource.entry[4].resource/*Practitioner/EjemploPractitionerPriorizar*/.identifier[0].type.coding[0] (l134/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource/*Practitioner/EjemploPractitionerPriorizar*/.identifier[0].type.coding[0] (l134/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleReferencia"> </a>
+<h2><a href="Bundle-EjemploBundleReferencia.html">fsh-generated/resources/Bundle-EjemploBundleReferencia.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(22)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-BundleReferenciaLE.html">Bundle Referencia LE</a></li><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/messageheader.html">MessageHeader</a> and <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a> (per meta)</li><li>Bundle.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a> and <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a> (per meta)</li><li>Bundle.entry[2].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> and <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a> (per meta)</li><li>Bundle.entry[3].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> and <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a> (per meta)</li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a> (per meta)</li><li>Bundle.entry[5].resource: Validated against <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a> (per meta)</li><li>Bundle.entry[6].resource: Validated against <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a> (per meta)</li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.entry[1].resource/*ServiceRequest/EjemploServiceRequestReferenciada*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.entry[1].resource/*ServiceRequest/EjemploServiceRequestReferenciada*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource/*ServiceRequest/EjemploServiceRequestReferenciada*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.entry[4].resource/*Practitioner/EjemploPractitionerReferenciadorMHREFERENCIADA*/.identifier[0].type.coding[0] (l180/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource/*Practitioner/EjemploPractitionerReferenciadorMHREFERENCIADA*/.identifier[0].type.coding[0] (l180/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleRevisar"> </a>
+<h2><a href="Bundle-EjemploBundleRevisar.html">fsh-generated/resources/Bundle-EjemploBundleRevisar.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(16)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-BundleRevisarLE.html">Bundle Revisar LE</a></li><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/messageheader.html">MessageHeader</a> and <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a> (per meta)</li><li>Bundle.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a> and <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a> (per meta)</li><li>Bundle.entry[2].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> and <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a> (per meta)</li><li>Bundle.entry[3].resource: Validated against <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a> (per meta)</li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a> (per meta)</li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.entry[1].resource/*ServiceRequest/EjemploServiceRequestRevisar*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.entry[1].resource/*ServiceRequest/EjemploServiceRequestRevisar*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource/*ServiceRequest/EjemploServiceRequestRevisar*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource.entry[4].resource/*Practitioner/EjemploPractitionerRevisar*/.identifier[0].type.coding[0] (l187/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource/*Practitioner/EjemploPractitionerRevisar*/.identifier[0].type.coding[0] (l187/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Bundle-EjemploBundleTerminar"> </a>
+<h2><a href="Bundle-EjemploBundleTerminar.html">fsh-generated/resources/Bundle-EjemploBundleTerminar.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(16)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-BundleTerminarLE.html">Bundle Terminar LE</a></li><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/messageheader.html">MessageHeader</a> and <i>this.</i><a href="StructureDefinition-MessageHeaderLE.html">MessageHeader LE</a> (per meta)</li><li>Bundle.entry[1].resource: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a> and <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a> (per meta)</li><li>Bundle.entry[2].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> and <i>this.</i><a href="StructureDefinition-PractitionerRoleLE.html">PractitionerRole LE</a> (per meta)</li><li>Bundle.entry[3].resource: Validated against <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> and <i>this.</i><a href="StructureDefinition-PractitionerLE.html">Practitioner LE</a> (per meta)</li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-OrganizationLE.html">Organization LE</a> (per meta)</li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.entry[1].resource/*ServiceRequest/EjemploServiceRequestTerminar*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.entry[1].resource/*ServiceRequest/EjemploServiceRequestTerminar*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource/*ServiceRequest/EjemploServiceRequestTerminar*/.identifier[0].type.coding[0] (l57/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource.entry[3].resource/*Practitioner/EjemploPractitionerTerminar*/.identifier[0].type.coding[0] (l128/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource/*Practitioner/EjemploPractitionerTerminar*/.identifier[0].type.coding[0] (l128/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_CarePlan-EjemploCarePlanLE"> </a>
+<h2><a href="CarePlan-EjemploCarePlanLE.html">fsh-generated/resources/CarePlan-EjemploCarePlanLE.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>CarePlan: Validated against <i>this.</i><a href="StructureDefinition-CarePlanAtenderLE.html">CarePlan Atender LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CarePlan.activity[0].detail.code.coding[0] (l25/c14)</b></td><td><b>warning</b></td><td title="Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Error from server: Concept not found (next char = "f", in "farmacos") at character 1"><b>Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Error from server: Concept not found (next char = &quot;f&quot;, in &quot;farmacos&quot;) at character 1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Condition-EjemploCondition"> </a>
+<h2><a href="Condition-EjemploCondition.html">fsh-generated/resources/Condition-EjemploCondition.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>Condition: Validated against <i>this.</i><a href="StructureDefinition-ConditionInicioDiagnosticoSospechaLE.html">Condition Inicio Diagnostico Sospecha LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Condition.code.coding[0] (l22/c8)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_Encounter-EjemploEncounterAtender"> </a>
+<h2><a href="Encounter-EjemploEncounterAtender.html">fsh-generated/resources/Encounter-EjemploEncounterAtender.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>Encounter: Validated against <i>this.</i><a href="StructureDefinition-EncounterAtenderLE.html">Encounter Atender LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Encounter.identifier[0].type.coding[0] (l34/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Encounter.class (l51/c4)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestAgendar"> </a>
+<h2><a href="ServiceRequest-EjemploServiceRequestAgendar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestAgendar.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestAtender"> </a>
+<h2><a href="ServiceRequest-EjemploServiceRequestAtender.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestAtender.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestPriorizar"> </a>
+<h2><a href="ServiceRequest-EjemploServiceRequestPriorizar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestPriorizar.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestReferenciada"> </a>
+<h2><a href="ServiceRequest-EjemploServiceRequestReferenciada.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestReferenciada.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestRevisar"> </a>
+<h2><a href="ServiceRequest-EjemploServiceRequestRevisar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestRevisar.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ServiceRequest-EjemploServiceRequestTerminar"> </a>
+<h2><a href="ServiceRequest-EjemploServiceRequestTerminar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestTerminar.json</a> <span id="svi16" class="toggle" onclick="toggle('vi16')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi16')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi16"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-ServiceRequestLE.html">ServiceRequest LE</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ServiceRequest.identifier[0].type.coding[0] (l14/c12)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-EncounterInicioLE"> </a>
+<h2><a href="StructureDefinition-EncounterInicioLE.html">fsh-generated/resources/StructureDefinition-EncounterInicioLE.json</a> <span id="svi17" class="toggle" onclick="toggle('vi17')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi17')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi17"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0] (l1/c45301)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0] (l1/c127343)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ExtBool"> </a>
+<h2><a href="StructureDefinition-ExtBool.html">fsh-generated/resources/StructureDefinition-ExtBool.json</a> <span id="svi18" class="toggle" onclick="toggle('vi18')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi18')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi18"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://minsal.cl/listaespera/StructureDefinition/ExtBool')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ExtBoolAtencionPreferente"> </a>
+<h2><a href="StructureDefinition-ExtBoolAtencionPreferente.html">fsh-generated/resources/StructureDefinition-ExtBoolAtencionPreferente.json</a> <span id="svi19" class="toggle" onclick="toggle('vi19')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi19')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi19"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://minsal.cl/listaespera/StructureDefinition/ExtBoolAtencionPreferente')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ExtBoolPersonaMayor"> </a>
+<h2><a href="StructureDefinition-ExtBoolPersonaMayor.html">fsh-generated/resources/StructureDefinition-ExtBoolPersonaMayor.json</a> <span id="svi20" class="toggle" onclick="toggle('vi20')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi20')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi20"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://minsal.cl/listaespera/StructureDefinition/ExtBoolPersonaMayor')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ExtInteger"> </a>
+<h2><a href="StructureDefinition-ExtInteger.html">fsh-generated/resources/StructureDefinition-ExtInteger.json</a> <span id="svi21" class="toggle" onclick="toggle('vi21')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi21')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi21"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://minsal.cl/listaespera/StructureDefinition/ExtInteger')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-MedioNotificacion"> </a>
+<h2><a href="StructureDefinition-MedioNotificacion.html">fsh-generated/resources/StructureDefinition-MedioNotificacion.json</a> <span id="svi22" class="toggle" onclick="toggle('vi22')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi22')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi22"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://minsal.cl/listaespera/StructureDefinition/MedioNotificacion')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-ServiceRequestLE"> </a>
+<h2><a href="StructureDefinition-ServiceRequestLE.html">fsh-generated/resources/StructureDefinition-ServiceRequestLE.json</a> <span id="svi23" class="toggle" onclick="toggle('vi23')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi23')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi23"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[21].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference http://terminology.cens.cl/CodeSystem/listaespera on element ServiceRequest.identifier.type.coding could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[33].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference http://terminology.cens.cl/CodeSystem/listaespera on element ServiceRequest.identifier.type.coding could not be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_StructureDefinition-TipoOtroTelefono"> </a>
+<h2><a href="StructureDefinition-TipoOtroTelefono.html">fsh-generated/resources/StructureDefinition-TipoOtroTelefono.json</a> <span id="svi24" class="toggle" onclick="toggle('vi24')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi24')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi24"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://minsal.cl/listaespera/StructureDefinition/TipoOtroTelefono')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_jano_Projects_Lista-Espera_SIGTEv2-IG_fsh-generated_resources_ValueSet-VSTipoIdentificador"> </a>
+<h2><a href="ValueSet-VSTipoIdentificador.html">fsh-generated/resources/ValueSet-VSTipoIdentificador.json</a> <span id="svi25" class="toggle" onclick="toggle('vi25')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi25')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi25"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.where(id = 'VSTipoIdentificador')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/VSTiposDocumentos</b> (<a href="qa-tx.html#l5">see Tx log</a>)</td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="BUNDLE_BUNDLE_ENTRY_REVERSE_MSG"> </a>
+<h2>BUNDLE_BUNDLE_ENTRY_REVERSE_MSG</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Entry 'http://acme.com/ehr/fhir/ServiceRequest/EjemploServiceRequestAtender' isn't reachable by traversing forwards from the MessageHeader. Check that this is meant to be included (needed to process the message)</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Entry 'http://acme.com/ehr/fhir/CarePlan/EjemploCarePlanLE' isn't reachable by traversing forwards from the MessageHeader. Check that this is meant to be included (needed to process the message)</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Entry 'http://acme.com/ehr/fhir/QuestionnaireResponse/EjemploQuestionnaireResponseAtenderLE' isn't reachable by traversing forwards from the MessageHeader. Check that this is meant to be included (needed to process the message)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Bundle_BUNDLE_Entry_Orphan_MESSAGE"> </a>
+<h2>Bundle_BUNDLE_Entry_Orphan_MESSAGE</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a></td><td><b>Entry 'http://acme.com/ehr/fhir/PractitionerRole/agendarAtendedor' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a></td><td><b>Entry 'http://acme.com/ehr/fhir/Practitioner/agendarAtendedor' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a></td><td><b>Entry 'http://acme.com/ehr/fhir/Practitioner/agendarAgendador' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Entry 'http://acme.com/ehr/fhir/Practitioner/EjemploPractitionerAtender' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Entry 'http://acme.com/ehr/fhir/PractitionerRole/EjemploPractitionerRoleAtender' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Entry 'http://acme.com/ehr/fhir/Organization/EjemploOrganizationAtender' isn't reachable by traversing links (forward or backward) from the MessageHeader, so its presence should be reviewed (is it needed to process the message?)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Questionnaire_QR_Q_None"> </a>
+<h2>Questionnaire_QR_Q_None</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleInicio.html">fsh-generated/resources/Bundle-EjemploBundleInicio.json</a></td><td><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="QuestionnaireResponse-EjemploQuestionnaireResponse.html">fsh-generated/resources/QuestionnaireResponse-EjemploQuestionnaireResponse.json</a></td><td><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="QuestionnaireResponse-EjemploQuestionnaireResponseAtenderLE.html">fsh-generated/resources/QuestionnaireResponse-EjemploQuestionnaireResponseAtenderLE.json</a></td><td><b>No questionnaire is identified, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="TERMINOLOGY_TX_SYSTEM_NO_CODE"> </a>
+<h2>TERMINOLOGY_TX_SYSTEM_NO_CODE</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleInicio.html">fsh-generated/resources/Bundle-EjemploBundleInicio.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleInicio.html">fsh-generated/resources/Bundle-EjemploBundleInicio.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Condition-EjemploCondition.html">fsh-generated/resources/Condition-EjemploCondition.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Encounter-EjemploEncounterAtender.html">fsh-generated/resources/Encounter-EjemploEncounterAtender.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-EncounterInicioLE.html">fsh-generated/resources/StructureDefinition-EncounterInicioLE.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-EncounterInicioLE.html">fsh-generated/resources/StructureDefinition-EncounterInicioLE.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_NotKnown"> </a>
+<h2>Terminology_TX_System_NotKnown</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Code System URI 'http://diagnosticos.cl/uno' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Code System URI 'http://diagnosticos.cl/uno' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>Code System URI 'http://diagnosticos.cl/uno' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleInicio.html">fsh-generated/resources/Bundle-EjemploBundleInicio.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleInicio.html">fsh-generated/resources/Bundle-EjemploBundleInicio.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundlePriorizar.html">fsh-generated/resources/Bundle-EjemploBundlePriorizar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundlePriorizar.html">fsh-generated/resources/Bundle-EjemploBundlePriorizar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundlePriorizar.html">fsh-generated/resources/Bundle-EjemploBundlePriorizar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundlePriorizar.html">fsh-generated/resources/Bundle-EjemploBundlePriorizar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleReferencia.html">fsh-generated/resources/Bundle-EjemploBundleReferencia.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleReferencia.html">fsh-generated/resources/Bundle-EjemploBundleReferencia.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleReferencia.html">fsh-generated/resources/Bundle-EjemploBundleReferencia.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleReferencia.html">fsh-generated/resources/Bundle-EjemploBundleReferencia.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleRevisar.html">fsh-generated/resources/Bundle-EjemploBundleRevisar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleRevisar.html">fsh-generated/resources/Bundle-EjemploBundleRevisar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleRevisar.html">fsh-generated/resources/Bundle-EjemploBundleRevisar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleRevisar.html">fsh-generated/resources/Bundle-EjemploBundleRevisar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleTerminar.html">fsh-generated/resources/Bundle-EjemploBundleTerminar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleTerminar.html">fsh-generated/resources/Bundle-EjemploBundleTerminar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleTerminar.html">fsh-generated/resources/Bundle-EjemploBundleTerminar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-EjemploBundleTerminar.html">fsh-generated/resources/Bundle-EjemploBundleTerminar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-EjemploCondicionAtenderDiagnosticoConfirmacionLE.html">fsh-generated/resources/Condition-EjemploCondicionAtenderDiagnosticoConfirmacionLE.json</a></td><td><b>Code System URI 'http://diagnosticos.cl/uno' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-EjemploCondicionAtenderDiagnosticoSospechaLE.html">fsh-generated/resources/Condition-EjemploCondicionAtenderDiagnosticoSospechaLE.json</a></td><td><b>Code System URI 'http://diagnosticos.cl/uno' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Encounter-EjemploEncounterAtender.html">fsh-generated/resources/Encounter-EjemploEncounterAtender.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-EjemploPractitioner.html">fsh-generated/resources/Practitioner-EjemploPractitioner.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-EjemploPractitionerAgendarAgendador.html">fsh-generated/resources/Practitioner-EjemploPractitionerAgendarAgendador.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-EjemploPractitionerAgendarAtendedor.html">fsh-generated/resources/Practitioner-EjemploPractitionerAgendarAtendedor.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-EjemploPractitionerAtender.html">fsh-generated/resources/Practitioner-EjemploPractitionerAtender.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-EjemploPractitionerPriorizar.html">fsh-generated/resources/Practitioner-EjemploPractitionerPriorizar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-EjemploPractitionerReferenciadorMHREFERENCIADA.html">fsh-generated/resources/Practitioner-EjemploPractitionerReferenciadorMHREFERENCIADA.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-EjemploPractitionerRevisar.html">fsh-generated/resources/Practitioner-EjemploPractitionerRevisar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-EjemploPractitionerTerminar.html">fsh-generated/resources/Practitioner-EjemploPractitionerTerminar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ServiceRequest-EjemploServiceRequestAgendar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestAgendar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ServiceRequest-EjemploServiceRequestAtender.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestAtender.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ServiceRequest-EjemploServiceRequestPriorizar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestPriorizar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ServiceRequest-EjemploServiceRequestReferenciada.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestReferenciada.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ServiceRequest-EjemploServiceRequestRevisar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestRevisar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ServiceRequest-EjemploServiceRequestTerminar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestTerminar.json</a></td><td><b>Code System URI 'http://terminology.cens.cl/CodeSystem/listaespera' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_ValueSet_NotFound"> </a>
+<h2>Terminology_TX_ValueSet_NotFound</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAgendar.html">fsh-generated/resources/Bundle-EjemploBundleAgendar.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleAtender.html">fsh-generated/resources/Bundle-EjemploBundleAtender.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundlePriorizar.html">fsh-generated/resources/Bundle-EjemploBundlePriorizar.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleReferencia.html">fsh-generated/resources/Bundle-EjemploBundleReferencia.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleRevisar.html">fsh-generated/resources/Bundle-EjemploBundleRevisar.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-EjemploBundleTerminar.html">fsh-generated/resources/Bundle-EjemploBundleTerminar.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ServiceRequest-EjemploServiceRequestAgendar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestAgendar.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ServiceRequest-EjemploServiceRequestAtender.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestAtender.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ServiceRequest-EjemploServiceRequestPriorizar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestPriorizar.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ServiceRequest-EjemploServiceRequestReferenciada.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestReferenciada.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ServiceRequest-EjemploServiceRequestRevisar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestRevisar.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ServiceRequest-EjemploServiceRequestTerminar.html">fsh-generated/resources/ServiceRequest-EjemploServiceRequestTerminar.json</a></td><td><b>ValueSet http://terminology.cens.cl/CodeSystem/listaespera not found by validator</b></td>
+   </tr>
+</table>
+</body>
+</html>

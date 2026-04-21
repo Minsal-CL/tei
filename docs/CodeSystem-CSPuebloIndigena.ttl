@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://minsal.cl/listaespera/CodeSystem/CSPuebloIndigena> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CSPuebloIndigena"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://minsal.cl/listaespera/CodeSystem/CSPuebloIndigena</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSPuebloIndigena-1\"> </a></td><td>Mapuche</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSPuebloIndigena-2\"> </a></td><td>Aymara</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSPuebloIndigena-3\"> </a></td><td>Rapa Nui O Pascuense</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSPuebloIndigena-4\"> </a></td><td>Lickanantay</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSPuebloIndigena-5\"> </a></td><td>Quechua</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CSPuebloIndigena-6\"> </a></td><td>Colla</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CSPuebloIndigena-7\"> </a></td><td>Diaguita</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CSPuebloIndigena-8\"> </a></td><td>Kawésqar</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CSPuebloIndigena-9\"> </a></td><td>Yagán</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"CSPuebloIndigena-11\"> </a></td><td>Chango</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CSPuebloIndigena-10\"> </a></td><td>Otro (Especificar)</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://minsal.cl/listaespera/CodeSystem/CSPuebloIndigena"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.3"] ; # 
+  fhir:name [ fhir:v "CSPuebloIndigena"] ; # 
+  fhir:title [ fhir:v "Pueblo Indigena"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-01-15"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "MINSAL Chile"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MINSAL Chile" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://minsal.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Pueblo Indigena"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Mapuche" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Aymara" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Rapa Nui O Pascuense" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Lickanantay" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Quechua" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Colla" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Diaguita" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Kawésqar" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Yagán" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Chango" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Otro (Especificar)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

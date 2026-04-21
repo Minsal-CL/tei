@@ -1,0 +1,14 @@
+@startuml
+title Transacción: Evento Iniciar
+
+hide footbox
+
+!include ./style.iuml
+
+Participant "CESFAM"  as CESFAM
+
+autonumber 1.1.1
+
+CESFAM->CESFAM: Creación de Interconsulta
+
+@enduml

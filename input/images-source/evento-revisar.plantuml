@@ -1,0 +1,14 @@
+@startuml
+title Transacción: Evento Revisar
+
+hide footbox
+
+!include ./style.iuml
+
+Participant "Establecimiento"  as HOSPITAL
+
+autonumber 1.1.1
+
+HOSPITAL->HOSPITAL: Revisión de pertinencia
+
+@enduml

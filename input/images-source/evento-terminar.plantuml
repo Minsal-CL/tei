@@ -1,0 +1,14 @@
+@startuml
+title Transacción: Evento Terminar
+
+hide footbox
+
+!include ./style.iuml
+
+Participant "Hospital"  as HOSPITAL
+
+autonumber 1.1.1
+
+HOSPITAL->HOSPITAL: Terminar la Interconsulta
+
+@enduml

@@ -1,4 +1,3 @@
-/*
 CodeSystem: ProblemaSaludGESCS
 Id: cs-problema-ges-tei
 Title: "Sitema de Codificación para los Problemas de Salud GES"
@@ -104,8 +103,6 @@ Description: "Sistema de codificación de los problemas de salud GES"
 * #89	"Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida" "Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida"
 * #90	"Cesación del consumo de tabaco en personas de 25 años y más" "Cesación del consumo de tabaco en personas de 25 años y más"
 
-*/
-
 Alias: SCT = http://snomed.info/sct
 
 ValueSet: ProblemaSaludGESVS
@@ -124,4 +121,6 @@ Description: "Set de valores utilizados para los problemas de salud ges"
 * ^contact.telecom.value = "minsal@minsal.cl"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* include codes from system SCT|http://snomed.info/sct/21000325107/version/20260315 where concept descendent-of #1741000325106 
+* include codes from system ProblemaSaludGESCS
+
+//* include codes from system SCT|http://snomed.info/sct/21000325107/version/20260315 where concept descendent-of #1741000325106 

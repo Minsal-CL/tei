@@ -21,6 +21,7 @@
       ]
     }
   ],
+  
   "jurisdiction": [
     {
       "coding": [
@@ -32,6 +33,7 @@
       ]
     }
   ],
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement\nThe SNOMED International IPS Terminology is distributed by International Health Terminology Standards Development Organisation, trading as SNOMED International, and is subject the terms of the Creative Commons Attribution 4.0 International Public License. For more information, see SNOMED IPS Terminology\nThe HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review usage terms or directly contact SNOMED International: info@snomed.org",
   "compose": {
     "include": [
       {
@@ -54,7 +56,6 @@
                 "valueBoolean": true
             }
         ],
-        "identifier": "urn:uuid:8fa80dd9-144f-4f0e-a966-6b0d54a5b178",
         "timestamp": "2026-04-22T19:46:19.344Z",
         "offset": 0,
         "parameter": [

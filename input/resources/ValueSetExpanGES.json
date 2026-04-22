@@ -1,0 +1,531 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ProblemaSaludGESVS",
+  "id": "vs-problema-ges-tei",
+  "title": "Value Set de los Problemas de Salud  GES",
+  "description": "Set de valores utilizados para los problemas de salud ges",
+  "url": "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/vs-problema-ges-tei",
+  "experimental": false,
+  "version": "0.1",
+  "language": "es",
+  "date": "2023-01-15",
+  "contact": [
+    {
+      "name": "MINSAL CHILE",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "minsal@minsal.cl"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CL",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Chile"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000325107/version/20260315",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "1741000325106"
+          }
+        ]
+      }
+    ]
+  },
+      "expansion": {
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+                "valueBoolean": true
+            }
+        ],
+        "identifier": "urn:uuid:8fa80dd9-144f-4f0e-a966-6b0d54a5b178",
+        "timestamp": "2026-04-22T19:46:19.344Z",
+        "offset": 0,
+        "parameter": [
+            {
+                "name": "excludeNested",
+                "valueBoolean": true
+            },
+            {
+                "name": "offset",
+                "valueInteger": 0
+            },
+            {
+                "name": "count",
+                "valueInteger": 1000
+            },
+            {
+                "name": "used-codesystem",
+                "valueUri": "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+            }
+        ],
+        "contains": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1751000325109",
+                "display": "programa de Garantías Explícitas en Salud para enfermedad renal crónica en etapas 4 y 5 (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1771000325100",
+                "display": "programa de Garantías Explícitas en Salud para cardiopatías congénitas operables en menores de 15 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1781000325103",
+                "display": "programa de Garantías Explícitas en Salud para cáncer cervicouterino en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1791000325101",
+                "display": "programa de Garantías Explícitas en Salud para cáncer de mama en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1801000325102",
+                "display": "Programa de Garantías Explícitas en Salud para cáncer en personas menores de 15 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1811000325100",
+                "display": "programa de Garantías Explícitas en Salud para cáncer de testículo en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1821000325106",
+                "display": "programa de Garantías Explícitas en Salud para linfomas en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1831000325108",
+                "display": "programa de Garantías Explícitas en Salud para cáncer gástrico (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1841000325104",
+                "display": "programa de Garantías Explícitas en Salud para cáncer de próstata en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1851000325101",
+                "display": "programa de Garantías Explícitas en Salud para cáncer colorrectal en personas de 15 años y más"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1861000325103",
+                "display": "programa de Garantías Explícitas en Salud para cáncer epitelial de ovario (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1871000325105",
+                "display": "programa de Garantías Explícitas en Salud para cáncer vesical en personas de 15 años y más"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1881000325107",
+                "display": "programa de Garantías Explícitas en Salud para osteosarcoma en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1891000325109",
+                "display": "programa de Garantías Explícitas en Salud para cáncer de pulmón en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1901000325105",
+                "display": "programa de Garantías Explícitas en Salud para cáncer de tiroides en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1911000325107",
+                "display": "programa de Garantías Explícitas en Salud para cáncer renal en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1921000325101",
+                "display": "programa de Garantías Explícitas en Salud para mieloma múltiple en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1931000325104",
+                "display": "programa de Garantías Explícitas en Salud para esquizofrenia (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1941000325108",
+                "display": "programa de Garantías Explícitas en Salud para depresión en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1951000325106",
+                "display": "programa de Garantías Explícitas en Salud para trastorno bipolar en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1961000325109",
+                "display": "programa de Garantías Explícitas en Salud para infección por virus de la inmunodeficiencia humana/síndrome de inmunodeficiencia adquirida (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1971000325102",
+                "display": "programa de Garantías Explícitas en Salud para infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1981000325100",
+                "display": "programa de Garantías Explícitas en Salud para neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1991000325103",
+                "display": "programa de Garantías Explícitas en Salud para diabetes mellitus tipo I (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2001000325100",
+                "display": "programa de Garantías Explícitas en Salud para diabetes mellitus tipo II (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2011000325103",
+                "display": "programa de Garantías Explícitas en Salud para hipotiroidismo en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2021000325109",
+                "display": "programa de Garantías Explícitas en Salud para hipertensión arterial primaria en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2031000325106",
+                "display": "programa de Garantías Explícitas en Salud para enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2041000325102",
+                "display": "programa de Garantías Explícitas en Salud para asma bronquial moderada y grave en menores de 15 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2051000325104",
+                "display": "programa de Garantías Explícitas en Salud para asma bronquial en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2061000325101",
+                "display": "programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas desde 1 año y menores de 15 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2071000325108",
+                "display": "programa de Garantías Explícitas en Salud para epilepsia no refractaria en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2081000325105",
+                "display": "programa de Garantías Explícitas en Salud para enfermedad de Parkinson (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2091000325107",
+                "display": "programa de Garantías Explícitas en Salud para accidente cerebrovascular isquémico en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2101000325104",
+                "display": "programa de Garantías Explícitas en Salud para tumores primarios del sistema nervioso central en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2111000325102",
+                "display": "programa de Garantías Explícitas en Salud para urgencia odontológica ambulatoria (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2121000325108",
+                "display": "programa de Garantías Explícitas en Salud para salud oral integral de personas de 60 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2131000325105",
+                "display": "programa de Garantías Explícitas en Salud para síndrome de dificultad respiratoria en el recién nacido (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2141000325101",
+                "display": "programa de Garantías Explícitas en Salud para salud oral integral para niños y niñas de 6 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2151000325103",
+                "display": "programa GES (Garantías Explícitas en Salud) para prevención de parto prematuro"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2161000325100",
+                "display": "programa de Garantías Explícitas en Salud para analgesia del parto (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2171000325107",
+                "display": "programa de Garantías Explícitas en Salud para salud oral integral de la persona gestante (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2181000325109",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de cataratas (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2191000325106",
+                "display": "programa GES (Garantías Explícitas en Salud) para vicios de refracción en personas de 65 años y más"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2201000325108",
+                "display": "programa de Garantías Explícitas en Salud para estrabismo en personas menores de 9 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2211000325105",
+                "display": "programa de Garantías Explícitas en Salud para retinopatía diabética (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2221000325104",
+                "display": "programa de Garantías Explícitas en Salud para desprendimiento de retina regmatógeno no traumático (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2231000325102",
+                "display": "programa de Garantías Explícitas en Salud para hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2241000325106",
+                "display": "programa de Garantías Explícitas en Salud para retinopatía del prematuro (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2251000325109",
+                "display": "programa de Garantías Explícitas en Salud para hipoacusia neurosensorial bilateral del prematuro (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2261000325107",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento de hipoacusia moderada, severa y profunda en personas menores de 4 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2271000325100",
+                "display": "programa de Garantías Explícitas en Salud para artritis reumatoidea (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2281000325103",
+                "display": "programa GES (Garantías Explícitas en Salud) para artritis idiopática juvenil"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2291000325101",
+                "display": "programa de Garantías Explícitas en Salud para lupus eritematoso sistémico (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2301000325102",
+                "display": "programa de Garantías Explícitas en Salud para displasia broncopulmonar del prematuro"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2311000325100",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento de erradicación de Helicobacter pylori (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2321000325106",
+                "display": "programa de Garantías Explícitas en Salud para hepatitis crónica por virus hepatitis B (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2331000325108",
+                "display": "programa de Garantías Explícitas en Salud para hepatitis C (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2361000325103",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2371000325105",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de escoliosis en personas menores de 25 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2381000325107",
+                "display": "programa de Garantías Explícitas en Salud para endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2391000325109",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2401000325107",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de hernia del núcleo pulposo lumbar (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2411000325109",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2421000325103",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2431000325101",
+                "display": "programa de Garantías Explícitas en Salud para displasia luxante de caderas (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2441000325105",
+                "display": "programa de Garantías Explícitas en Salud para leucemia en personas de 15 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2451000325108",
+                "display": "programa de Garantías Explícitas en Salud para prevención secundaria enfermedad renal crónica terminal (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2461000325106",
+                "display": "programa de Garantías Explícitas en Salud para colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2471000325104",
+                "display": "programa de Garantías Explícitas en Salud para rehabilitación SARS-COV-2 (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2481000325102",
+                "display": "programa de Garantías Explícitas en Salud para órtesis (o ayudas técnicas) para personas de 65 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2491000325100",
+                "display": "programa de Garantías Explícitas en Salud para disrafias espinales (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2501000325106",
+                "display": "programa de Garantías Explícitas en Salud para fisura labiopalatina (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2511000325108",
+                "display": "programa de Garantías Explícitas en Salud para atención integral de salud en agresión sexual aguda (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2521000325102",
+                "display": "programa de Garantías Explícitas en Salud para politraumatizado grave (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2531000325100",
+                "display": "programa de Garantías Explícitas en Salud para traumatismo cráneo-encefálico moderado o grave (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2541000325109",
+                "display": "programa de Garantías Explícitas en Salud para trauma ocular grave (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2551000325107",
+                "display": "programa de Garantías Explícitas en Salud para gran quemado (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2561000325105",
+                "display": "programa de Garantías Explícitas en Salud para hemofilia (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2571000325103",
+                "display": "programa GES (Garantías Explícitas en Salud) para enfermedad de Alzheimer y otras demencias"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2581000325101",
+                "display": "programa de Garantías Explícitas en Salud para esclerosis múltiple remitente recurrente (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2591000325104",
+                "display": "programa de Garantías Explícitas en Salud para fibrosis quística (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2601000325105",
+                "display": "programa de Garantías Explícitas en Salud para hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2611000325107",
+                "display": "programa de Garantías Explícitas en Salud para trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapaso (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2881000325104",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento farmacológico tras alta hospitalaria por cirrosis hepática (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2891000325102",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo de suicidio (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2901000325101",
+                "display": "programa de Garantías Explícitas en Salud para cesación del consumo de tabaco en personas mayores de 25 años y más (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2911000325104",
+                "display": "programa de Garantías Explícitas en Salud para alivio del dolor y cuidados paliativos por cáncer avanzado (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2921000325105",
+                "display": "programa de Garantías Explícitas en Salud para tratamiento hospitalario de infarto agudo de miocardio (régimen/tratamiento)"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "2931000325107",
+                "display": "programa de Garantías Explícitas en Salud para consumo perjudicial y dependencia de alcohol y drogas en personas menores de 20 años (régimen/tratamiento)"
+            }
+        ]
+    }
+}

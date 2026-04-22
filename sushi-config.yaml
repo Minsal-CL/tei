@@ -85,6 +85,7 @@ pages:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
 parameters:
+  #path-expansion-params: '../../input/_resources/exp-params.json'
   path-resource:
     - input/resources
     - fsh-generated/resources

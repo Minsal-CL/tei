@@ -329,13 +329,22 @@ Context: ServiceRequest
 
 * value[x] only boolean
 
+Extension: SospechaOncologica
+Id: SospechaOncologica
+Title: "Sospecha Oncológica"
+Description: "Indica si existe sospecha oncológica"
+Context: ServiceRequest
+
+* value[x] only boolean
+
 Extension: ProblemaSaludGES
 Id: ProblemaSaludGESTEI
 Title: "Problema GES"
 Description: "Indica si corresponde a que problema de salud GES"
 Context: ServiceRequest
 
-* extension contains ProblemaSaludGES 1..1 MS and RamaGES 0..1 MS and SubRamaGES 0..1 MS
+* extension contains ProblemaSaludGES 1..1 MS and RamaGES 0..1 MS and SubRamaGES 0..1 MS and ConfirmaSospechaGES 0..1 MS
+
 * extension[ProblemaSaludGES]
   * ^short = "Indica el problema de salud GES" 
   * value[x] only CodeableConcept
@@ -364,3 +373,7 @@ Context: ServiceRequest
   * value[x].text 0..1 MS
   * value[x].text ^short = "Descripción en texto libre de la subrama, en caso de no tener un código específico para la subrama GES"
     //* display  ^short = "Descripción en texto libre de la subrama, en caso de no tener un código específico para la subrama GES"
+
+* extension[ConfirmaSospechaGES]
+  * ^short = "Confirma sospecha GES" 
+  * value[x] only boolean

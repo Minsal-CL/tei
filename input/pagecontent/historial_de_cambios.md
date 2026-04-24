@@ -1,7 +1,3 @@
-### Versión 0.2.3
-
-#### Extension [Problema GES](https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ProblemaSaludGESTEI)
- - Se agrega
 ### Versión 0.2.2
 
 #### ServiceRequest LE

@@ -1,10 +1,32 @@
+### Versión 0.2.3
+
+#### Extension [Problema GES](https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ProblemaSaludGESTEI)
+ - Se agrega
 ### Versión 0.2.2
 
 #### ServiceRequest LE
 
   - Se incluye la extension para validar si la solicitud corresponde a GES.
-  - Se inlcuye extensión para especificar la patología ges a tratar.
+  - Se incluye extensión para especificar la patología ges a tratar.
   - Se incluye ejemplo para el uso de extensiones.
+  - Se crea extensión [Sospecha Oncológica](https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/SospechaOncologica)
+
+#### Extension [Problema GES](https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ProblemaSaludGESTEI)
+  - Sub-extension "RamaGES" se modifica el binding
+  - Se agrega extension anidada "SubRamaGES"
+  - Se agrega extension anidada "ConfirmaSospechaGes"
+
+#### ValueSet y CodeSystems
+##### CodeSystems
+ - Se modifica el CodeSystem "Derivado Para"
+ - Se crea CodeSystem "Rama GES"
+ - Se crea CodeSystem "Sub Rama GES"
+
+##### ValueSet
+ - Se modifica el ValueSet "Derivado Para"
+ - Se crea ValueSet "Rama GES"
+ - Se crea ValueSet "Sub Rama GES"
+
 
 #### Bundle Iniciar LE
 

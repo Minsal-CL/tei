@@ -28,11 +28,13 @@ Description: "Derivado Para"
 * ^contact.telecom.value = "minsal@minsal.cl"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #1 "Confirmación" "Confirmación"
-* #2 "Control Especialista" "Control Especialista"
-* #3 "Realiza Tratamiento" "Realiza Tratamiento"
-* #4 "Seguimiento" "Seguimiento"
-* #5 "Otro" "Otro"
+
+* #1 "Confirmación Diagnóstica" "Corresponde a la primera atención de especialidad, cuyo objetivo es analizar la historia médica, signos clínicos y los exámenes disponibles, para confirmar o descartar la necesidad sanitaria u otro requerimiento clínico."
+* #3 "Tratamiento" "Corresponde a la primera atención de especialidad, cuyo objetivo es evaluar, diagnosticar y/o estabilizar dicho requerimiento de salud. En la cual se pueden indicar una o más prestaciones diagnósticas o terapéuticas para abordar una necesidad sanitaria"
+* #4 "Seguimiento" "Corresponde a la primera atención de especialidad cuyo objetivo es dar continuidad de atención a una persona con diagnóstico confirmado que se encuentra en tratamiento y que desde otro nivel de atención u otro centro de la macrored se detecta un requerimiento de especialidad para evaluar su evolución, ajustar indicaciones o definir nuevas conductas terapéuticas."
+* #6 "Pase Quirúrgico" "Corresponde a la primera atención de especialidad, cuyo objetivo es la evaluación clínica y autorización preoperatoria por parte de un médico de especialidad, tales como, cardiología, anestesiología entre otras con el fin de asegurar que el usuario(a) cumple con las condiciones necesarias para someterse a una intervención quirúrgica."
+* #7 "Rehabilitación" "Corresponde a la primera atención de especialidad, cuyo objetivo es la valoración clínica del usuario para la prevención de la pérdida de la funcionalidad y/o discapacidad, ya sea transitoria o permanente en todo el curso de vida, coordinando las derivaciones al equipo multidisciplinario de rehabilitación según pertinencia."
+
 
 ValueSet: VSorigenInterconsulta
 Id: VSorigenInterconsulta
@@ -1160,7 +1162,10 @@ Description: "Rama GES"
 * ^contact.telecom.value = "minsal@minsal.cl"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #00 "Dummy" "Dummy"
+* #TMP-QA-R-001	"Infarto Agudo del Miocardio" "Infarto Agudo del Miocardio"
+* #TMP-QA-R-002	"Seguimiento Bypass" "Seguimiento Bypass"
+* #TMP-QA-R-003	"Diabetes Mellitus I" "Diabetes Mellitus I"
+* #TMP-QA-R-004	"Descompensación - Diabetes Mellitus I" "Descompensación - Diabetes Mellitus I"
 
 ValueSet: VSSubRamaGES
 Id: VSSubRamaGES
@@ -1192,4 +1197,10 @@ Description: "Sub Rama GES"
 * ^contact.telecom.value = "minsal@minsal.cl"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #00 "Dummy" "Dummy"
+* #TMP-QA-SB-001 "Velocidad Glomerular 15-29" "Velocidad Glomerular 15-30"
+* #TMP-QA-SB-002 "Velocidad Glomerular <15" "Velocidad Glomerular <16"
+* #TMP-QA-SB-003 "ANGINA Inestable" "ANGINA Inestable"
+* #TMP-QA-SB-004 "Otro IAM" "Otro IAM"
+* #TMP-QA-SB-005 "IAM sin Elevacion del Segmento ST" "IAM sin Elevacion del Segmento ST"
+* #TMP-QA-SB-006 "IAM con Elevacion del Segmento ST" "IAM con Elevacion del Segmento ST"
+* #TMP-QA-SB-007 "Dolor Torácico no IAM" "Dolor Torácico no IAM"

@@ -38,7 +38,7 @@ Para representar este proceso se definen 7 eventos, los cuáles son:
 
 #### Descripción
     
-  Se propone desarrollar de un sistema de Información que permita hacer
+  Se propone desarrollar un sistema de información que permita hacer
   trazabilidad del proceso desde que se solicita interconsulta para Nueva
   atención de Especialidad, hasta que se atiende en atención secundaria, dejando
   disponible esta información tanto para el paciente, como para los 

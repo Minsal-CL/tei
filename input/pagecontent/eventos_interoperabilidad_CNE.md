@@ -1,9 +1,9 @@
 ### Iniciar
   
   Ocurre cuando un usuario acude a su Centro de Atención Primaria (APS) a
-  consulta médica, de odontología, matronería, consulta oftalmológica con       
-  tecnólogo/a médico/a y el profesional de salud que lo atiende, genera la 
-  solicitud de interconsulta (SIC) para nueva consulta de especialidad en el 
+  consulta médica, de odontología, matronería, consulta oftalmológica con
+  tecnólogo/a médico/a y el profesional de salud que lo atiende, genera la
+  solicitud de interconsulta (SIC) para nueva consulta de especialidad en el
   nivel secundario. 
 
 ### Referenciar

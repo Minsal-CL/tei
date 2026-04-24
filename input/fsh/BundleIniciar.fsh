@@ -23,20 +23,20 @@ Description: "Bundle Iniciar LE, recurso utilizado para transportar todos los da
         and servicerequest 1..1 MS
         and encounter 1..1 MS
         and patient 1..1 MS
-        and conditionDiagnostico 1..1 MS
-        and observationComorbilidad 0..1 MS
-        and observationDiscapacidad 0..1 MS
-        and observationCuidador 0..1 MS
+        and conditionDiagnostico 1..1 MS //supportingInfo
+        and observationComorbilidad 0..1 MS //supportingInfo
+        and observationDiscapacidad 0..1 MS //supportingInfo
+        and observationCuidador 0..1 MS //supportingInfo
         // and conditionGes 0..1 
-        and ObservationResultadoExamen 0..* MS
-        and allergyintolerance 0..* MS
+        and ObservationResultadoExamen 0..* MS //supportingInfo
+        and allergyintolerance 0..* MS //supportingInfo
         and practitionerrole 1..1 MS
         and practitioner 1..1 MS
         and organization 1..1 MS
         //and docCuidador 0..1
         //and prevision 0..1
-        and motivoDerivacion 0..1 MS
-        and SolicitudExamen 0..* MS
+        and motivoDerivacion 0..1 MS //supportingInfo
+        and SolicitudExamen 0..* MS //supportingInfo
 
 * entry[messageheader] ^short = "Entrada en el Bundle: contendrá un recurso MessageHeader"
   * fullUrl 0..1 MS

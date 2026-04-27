@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.cl.minsal.tei
 canonical: https://interoperabilidad.minsal.cl/fhir/ig/tei
-name: Tiempos De Espera Interoperable
+name: Tiempos de Espera Interoperable
 title: Tiempos de Espera Interoperable
 description: Tiempos de Espera Interoperable
 status: draft # draft | active | retired | unknown

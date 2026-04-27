@@ -5,7 +5,8 @@ Title: "Ejemplo de un Encuentro"
 Description: "Es un ejemplo de un encuentro que se realiza en al finalizar el evento atender"
 
 
-* extension[PertinenciaAtencionBox] = ExtensionPertinenciaAtencionBoxEj1
+//* extension[PertinenciaAtencionBox] = ExtensionPertinenciaAtencionBoxEj1
+* extension[PertinenciaAtencionBox].valueBoolean = true
 * identifier
   * value = "123"
 * status = #finished

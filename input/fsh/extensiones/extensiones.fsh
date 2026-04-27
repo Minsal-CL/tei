@@ -329,6 +329,7 @@ Context: ServiceRequest
 
 * value[x] only boolean
 
+/*
 Extension: SospechaOncologica
 Id: SospechaOncologica
 Title: "Sospecha Oncológica"
@@ -336,7 +337,9 @@ Description: "Indica si existe sospecha oncológica"
 Context: ServiceRequest
 
 * value[x] only boolean
+*/
 
+/*
 Extension: ProblemaSaludGES
 Id: ProblemaSaludGESTEI
 Title: "Problema GES"
@@ -377,3 +380,5 @@ Context: ServiceRequest
 * extension[ConfirmaSospechaGES]
   * ^short = "Confirma sospecha GES" 
   * value[x] only boolean
+
+*/

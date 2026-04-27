@@ -1,7 +1,8 @@
 ### Versión 0.2.2
 
 #### ServiceRequest LE
-
+- Se incluye la extension para marcar si la IC corresponde a GES.
+<!--
   - Se incluye la extension para validar si la solicitud corresponde a GES.
   - Se incluye extensión para especificar la patología ges a tratar.
   - Se incluye ejemplo para el uso de extensiones.
@@ -22,11 +23,10 @@
  - Se modifica el ValueSet "Derivado Para"
  - Se crea ValueSet "Rama GES"
  - Se crea ValueSet "Sub Rama GES"
+-->
 
-
-#### Bundle Iniciar LE
-
-  - Se genera un nuevo Ejemplo para el iniciar LE que incluya un ServiceRequest con las extensiones nuevas.  
+#### Bundle Referenciar LE
+- Se incorporan en el Bundle Referenciar los entries necesarios, provenientes del Bundle Iniciar, asociados a los `supportingInfo` del recurso `ServiceRequest`, con el objetivo de permitir actualizaciones de la IC.
 
 ### Versión 0.2.1
 

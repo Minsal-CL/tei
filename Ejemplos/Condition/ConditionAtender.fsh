@@ -23,4 +23,4 @@ Description: "Ejemplo condición como resultado del evento atender"
 
 * subject = Reference(EjemploPatientLE)
 
-* encounter = Reference(AtencionEjemplo)
+//* encounter = Reference(AtencionEjemplo)

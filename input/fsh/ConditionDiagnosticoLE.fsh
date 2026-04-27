@@ -82,4 +82,3 @@ Description: "Condicion Diagnostico LE, recurso que se utiliza para indicar el d
     * display ^short = "Representación visual definida por el sistema terminológico"
 * severity ^short = "Severidad del diagnóstico, indicada por el médico solicitante"
 * severity from http://hl7.org/fhir/ValueSet/condition-severity
-

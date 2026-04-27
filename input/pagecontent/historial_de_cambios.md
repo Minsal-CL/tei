@@ -2,28 +2,6 @@
 
 #### ServiceRequest LE
 - Se incluye la extension para marcar si la IC corresponde a GES.
-<!--
-  - Se incluye la extension para validar si la solicitud corresponde a GES.
-  - Se incluye extensión para especificar la patología ges a tratar.
-  - Se incluye ejemplo para el uso de extensiones.
-  - Se crea extensión [Sospecha Oncológica](https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/SospechaOncologica)
-
-#### Extension [Problema GES](https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ProblemaSaludGESTEI)
-  - Sub-extension "RamaGES" se modifica el binding
-  - Se agrega extension anidada "SubRamaGES"
-  - Se agrega extension anidada "ConfirmaSospechaGes"
-
-#### ValueSet y CodeSystems
-##### CodeSystems
- - Se modifica el CodeSystem "Derivado Para"
- - Se crea CodeSystem "Rama GES"
- - Se crea CodeSystem "Sub Rama GES"
-
-##### ValueSet
- - Se modifica el ValueSet "Derivado Para"
- - Se crea ValueSet "Rama GES"
- - Se crea ValueSet "Sub Rama GES"
--->
 
 #### Bundle Referenciar LE
 - Se incorporan en el Bundle Referenciar los entries necesarios, provenientes del Bundle Iniciar, asociados a los `supportingInfo` del recurso `ServiceRequest`, con el objetivo de permitir actualizaciones de la IC.

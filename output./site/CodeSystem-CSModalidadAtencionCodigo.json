@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSModalidadAtencionCodigo",
+  "language" : "es-CL",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"es-CL\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es-CL\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos CSModalidadAtencionCodigo</b></p><a name=\"CSModalidadAtencionCodigo\"> </a><a name=\"hcCSModalidadAtencionCodigo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es-CL</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSModalidadAtencionCodigo</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSModalidadAtencionCodigo-1\"> </a></td><td>Presencial</td><td>Presencial</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSModalidadAtencionCodigo-2\"> </a></td><td>Remota</td><td>Remota</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSModalidadAtencionCodigo-3\"> </a></td><td>Telemedicina</td><td>Telemedicina</td></tr></table></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSModalidadAtencionCodigo",
+  "version" : "0.2.2",
+  "name" : "CSModalidadAtencionCodigo",
+  "title" : "Modalidad Atencion Codigo",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-01-15",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloa@minsal.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Modalidad Atencion Codigo",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Presencial",
+    "definition" : "Presencial"
+  },
+  {
+    "code" : "2",
+    "display" : "Remota",
+    "definition" : "Remota"
+  },
+  {
+    "code" : "3",
+    "display" : "Telemedicina",
+    "definition" : "Telemedicina"
+  }]
+}

@@ -1,0 +1,423 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSEspecialidadMed",
+  "language" : "es-CL",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"es-CL\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es-CL\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos CSEspecialidadMed</b></p><a name=\"CSEspecialidadMed\"> </a><a name=\"hcCSEspecialidadMed\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es-CL</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadMed</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSEspecialidadMed-1\"> </a></td><td>ANATOMÍA PATOLÓGICA</td><td>ANATOMÍA PATOLÓGICA</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSEspecialidadMed-2\"> </a></td><td>ANESTESIOLOGÍA</td><td>ANESTESIOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSEspecialidadMed-3\"> </a></td><td>CARDIOLOGÍA</td><td>CARDIOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSEspecialidadMed-4\"> </a></td><td>CIRUGÍA GENERAL</td><td>CIRUGÍA GENERAL</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSEspecialidadMed-5\"> </a></td><td>CIRUGÍA DE CABEZA, CUELLO Y MAXILOFACIAL</td><td>CIRUGÍA DE CABEZA, CUELLO Y MAXILOFACIAL</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CSEspecialidadMed-6\"> </a></td><td>CIRUGÍA CARDIOVASCULAR</td><td>CIRUGÍA CARDIOVASCULAR</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CSEspecialidadMed-7\"> </a></td><td>CIRUGÍA DE TÓRAX</td><td>CIRUGÍA DE TÓRAX</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CSEspecialidadMed-8\"> </a></td><td>CIRUGÍA PLÁSTICA Y REPARADORA</td><td>CIRUGÍA PLÁSTICA Y REPARADORA</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CSEspecialidadMed-9\"> </a></td><td>CIRUGÍA PEDIÁTRICA</td><td>CIRUGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CSEspecialidadMed-10\"> </a></td><td>CIRUGÍA VASCULAR PERIFÉRICA</td><td>CIRUGÍA VASCULAR PERIFÉRICA</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"CSEspecialidadMed-11\"> </a></td><td>COLOPROCTOLOGÍA</td><td>COLOPROCTOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"CSEspecialidadMed-12\"> </a></td><td>DERMATOLOGÍA</td><td>DERMATOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"CSEspecialidadMed-13\"> </a></td><td>DIABETOLOGÍA</td><td>DIABETOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"CSEspecialidadMed-14\"> </a></td><td>ENDOCRINOLOGÍA ADULTO</td><td>ENDOCRINOLOGÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"CSEspecialidadMed-15\"> </a></td><td>ENDOCRINOLOGÍA PEDIÁTRICA</td><td>ENDOCRINOLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"CSEspecialidadMed-16\"> </a></td><td>ENFERMEDADES RESPIRATORIAS DEL ADULTO (BRONCOPULMONAR)</td><td>ENFERMEDADES RESPIRATORIAS DEL ADULTO (BRONCOPULMONAR)</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"CSEspecialidadMed-17\"> </a></td><td>ENFERMEDADES RESPIRATORIAS PEDIÁTRICAS (BRONCOPULMONAR PEDIATRICO)</td><td>ENFERMEDADES RESPIRATORIAS PEDIÁTRICAS (BRONCOPULMONAR PEDIATRICO)</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"CSEspecialidadMed-18\"> </a></td><td>GASTROENTEROLOGÍA ADULTO</td><td>GASTROENTEROLOGÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"CSEspecialidadMed-19\"> </a></td><td>GASTROENTEROLOGÍA PEDIÁTRICA</td><td>GASTROENTEROLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"CSEspecialidadMed-20\"> </a></td><td>GENÉTICA CLÍNICA</td><td>GENÉTICA CLÍNICA</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"CSEspecialidadMed-21\"> </a></td><td>GERIATRÍA</td><td>GERIATRÍA</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"CSEspecialidadMed-22\"> </a></td><td>GINECOLOGÍA PEDIÁTRICA Y DE LA ADOLESCENCIA</td><td>GINECOLOGÍA PEDIÁTRICA Y DE LA ADOLESCENCIA</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"CSEspecialidadMed-23\"> </a></td><td>HEMATOLOGÍA</td><td>HEMATOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"CSEspecialidadMed-24\"> </a></td><td>IMAGENOLOGÍA</td><td>IMAGENOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"CSEspecialidadMed-25\"> </a></td><td>INFECTOLOGÍA</td><td>INFECTOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"CSEspecialidadMed-26\"> </a></td><td>INMUNOLOGÍA</td><td>INMUNOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"CSEspecialidadMed-27\"> </a></td><td>LABORATORIO CLÍNICO</td><td>LABORATORIO CLÍNICO</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"CSEspecialidadMed-28\"> </a></td><td>MEDICINA FAMILIAR</td><td>MEDICINA FAMILIAR</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"CSEspecialidadMed-29\"> </a></td><td>MEDICINA FÍSICA Y REHABILITACIÓN (FISIATRIA ADULTO)</td><td>MEDICINA FÍSICA Y REHABILITACIÓN (FISIATRIA ADULTO)</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"CSEspecialidadMed-30\"> </a></td><td>MEDICINA INTERNA</td><td>MEDICINA INTERNA</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"CSEspecialidadMed-31\"> </a></td><td>MEDICINA INTENSIVA ADULTO</td><td>MEDICINA INTENSIVA ADULTO</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"CSEspecialidadMed-32\"> </a></td><td>MEDICINA INTENSIVA PEDIÁTRICA</td><td>MEDICINA INTENSIVA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"CSEspecialidadMed-33\"> </a></td><td>MEDICINA LEGAL</td><td>MEDICINA LEGAL</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"CSEspecialidadMed-34\"> </a></td><td>MEDICINA MATERNO INFANTIL</td><td>MEDICINA MATERNO INFANTIL</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"CSEspecialidadMed-35\"> </a></td><td>MEDICINA NUCLEAR</td><td>MEDICINA NUCLEAR</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"CSEspecialidadMed-36\"> </a></td><td>MEDICINA DE URGENCIA</td><td>MEDICINA DE URGENCIA</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"CSEspecialidadMed-37\"> </a></td><td>NEFROLOGÍA ADULTO</td><td>NEFROLOGÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"CSEspecialidadMed-38\"> </a></td><td>NEFROLOGÍA PEDIÁTRICO</td><td>NEFROLOGÍA PEDIÁTRICO</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"CSEspecialidadMed-39\"> </a></td><td>NEONATOLOGÍA</td><td>NEONATOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"CSEspecialidadMed-40\"> </a></td><td>NEUROCIRUGÍA</td><td>NEUROCIRUGÍA</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"CSEspecialidadMed-41\"> </a></td><td>NEUROLOGÍA ADULTO</td><td>NEUROLOGÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"CSEspecialidadMed-42\"> </a></td><td>NEUROLOGÍA PEDIÁTRICA</td><td>NEUROLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"CSEspecialidadMed-43\"> </a></td><td>OBSTETRICIA Y GINECOLOGÍA</td><td>OBSTETRICIA Y GINECOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"CSEspecialidadMed-44\"> </a></td><td>OFTALMOLOGÍA</td><td>OFTALMOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"CSEspecialidadMed-45\"> </a></td><td>ONCOLOGÍA MÉDICA</td><td>ONCOLOGÍA MÉDICA</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"CSEspecialidadMed-46\"> </a></td><td>OTORRINOLARINGOLOGÍA</td><td>OTORRINOLARINGOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"CSEspecialidadMed-47\"> </a></td><td>PEDIATRÍA</td><td>PEDIATRÍA</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"CSEspecialidadMed-48\"> </a></td><td>PSIQUIATRÍA ADULTO</td><td>PSIQUIATRÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"CSEspecialidadMed-49\"> </a></td><td>PSIQUIATRÍA PEDIÁTRICA Y DE LA ADOLESCENCIA</td><td>PSIQUIATRÍA PEDIÁTRICA Y DE LA ADOLESCENCIA</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"CSEspecialidadMed-50\"> </a></td><td>RADIOTERAPIA ONCOLÓGICA</td><td>RADIOTERAPIA ONCOLÓGICA</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"CSEspecialidadMed-51\"> </a></td><td>REUMATOLOGÍA</td><td>REUMATOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"CSEspecialidadMed-52\"> </a></td><td>SALUD PÚBLICA</td><td>SALUD PÚBLICA</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"CSEspecialidadMed-53\"> </a></td><td>TRAUMATOLOGÍA Y ORTOPEDIA</td><td>TRAUMATOLOGÍA Y ORTOPEDIA</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"CSEspecialidadMed-54\"> </a></td><td>UROLOGÍA</td><td>UROLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"CSEspecialidadMed-55\"> </a></td><td>CARDIOLOGÍA PEDIÁTRICA</td><td>CARDIOLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"CSEspecialidadMed-56\"> </a></td><td>CIRUGÍA DIGESTIVA</td><td>CIRUGÍA DIGESTIVA</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"CSEspecialidadMed-57\"> </a></td><td>CIRUGÍA PLASTICA Y REPARADORA PEDIÁTRICA</td><td>CIRUGÍA PLASTICA Y REPARADORA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"CSEspecialidadMed-58\"> </a></td><td>GINECOLOGÍA</td><td>GINECOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"CSEspecialidadMed-59\"> </a></td><td>HEMATO-ONCOLOGÍA PEDIÁTRICA</td><td>HEMATO-ONCOLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"CSEspecialidadMed-60\"> </a></td><td>INFECTOLOGÍA PEDIATRICA</td><td>INFECTOLOGÍA PEDIATRICA</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"CSEspecialidadMed-61\"> </a></td><td>MEDICINA FAMILIAR DEL NIÑO</td><td>MEDICINA FAMILIAR DEL NIÑO</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"CSEspecialidadMed-62\"> </a></td><td>MEDICINA FISICA Y REHABILITACIÓN PEDIÁTRICA (FISIATRIA PEDIATRICA)</td><td>MEDICINA FISICA Y REHABILITACIÓN PEDIÁTRICA (FISIATRIA PEDIATRICA)</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"CSEspecialidadMed-63\"> </a></td><td>NUTRIÓLOGO</td><td>NUTRIÓLOGO</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"CSEspecialidadMed-64\"> </a></td><td>NUTRIÓLOGO PEDIÁTRICO</td><td>NUTRIÓLOGO PEDIÁTRICO</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"CSEspecialidadMed-65\"> </a></td><td>REUMATOLOGÍA PEDIÁTRICA</td><td>REUMATOLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"CSEspecialidadMed-66\"> </a></td><td>OBSTETRICIA</td><td>OBSTETRICIA</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"CSEspecialidadMed-67\"> </a></td><td>TRAUMATOLOGÍA Y ORTOPEDIA PEDIÁTRICA</td><td>TRAUMATOLOGÍA Y ORTOPEDIA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"CSEspecialidadMed-68\"> </a></td><td>UROLOGÍA PEDIÁTRICA</td><td>UROLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"CSEspecialidadMed-69\"> </a></td><td>GINECOLOGÍA ONCOLÓGICA</td><td>GINECOLOGÍA ONCOLÓGICA</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"CSEspecialidadMed-70\"> </a></td><td>MASTOLOGÍA (CIRUGÍA DE LA MAMA)</td><td>MASTOLOGÍA (CIRUGÍA DE LA MAMA)</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"CSEspecialidadMed-71\"> </a></td><td>MEDICINA PALEATIVA Y DE MANEJO DEL DOLOR</td><td>MEDICINA PALEATIVA Y DE MANEJO DEL DOLOR</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"CSEspecialidadMed-72\"> </a></td><td>MEDICINA REPRODUCTIVA E INFERTILIDAD</td><td>MEDICINA REPRODUCTIVA E INFERTILIDAD</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"CSEspecialidadMed-73\"> </a></td><td>MEDICINA DEL ADOLESCENTE</td><td>MEDICINA DEL ADOLESCENTE</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"CSEspecialidadMed-74\"> </a></td><td>MEDICINA DEL DEPORTE</td><td>MEDICINA DEL DEPORTE</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"CSEspecialidadMed-75\"> </a></td><td>MICROBIOLOGÍA</td><td>MICROBIOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"CSEspecialidadMed-76\"> </a></td><td>NEURORRADIOLOGÍA</td><td>NEURORRADIOLÓGIA</td></tr></table></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadMed",
+  "version" : "0.2.2",
+  "name" : "CSEspecialidadMed",
+  "title" : "EspecialidadMed",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-01-15",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloa@minsal.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "EspecialidadMed",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 76,
+  "concept" : [{
+    "code" : "1",
+    "display" : "ANATOMÍA PATOLÓGICA",
+    "definition" : "ANATOMÍA PATOLÓGICA"
+  },
+  {
+    "code" : "2",
+    "display" : "ANESTESIOLOGÍA",
+    "definition" : "ANESTESIOLOGÍA"
+  },
+  {
+    "code" : "3",
+    "display" : "CARDIOLOGÍA",
+    "definition" : "CARDIOLOGÍA"
+  },
+  {
+    "code" : "4",
+    "display" : "CIRUGÍA GENERAL",
+    "definition" : "CIRUGÍA GENERAL"
+  },
+  {
+    "code" : "5",
+    "display" : "CIRUGÍA DE CABEZA, CUELLO Y MAXILOFACIAL",
+    "definition" : "CIRUGÍA DE CABEZA, CUELLO Y MAXILOFACIAL"
+  },
+  {
+    "code" : "6",
+    "display" : "CIRUGÍA CARDIOVASCULAR",
+    "definition" : "CIRUGÍA CARDIOVASCULAR"
+  },
+  {
+    "code" : "7",
+    "display" : "CIRUGÍA DE TÓRAX",
+    "definition" : "CIRUGÍA DE TÓRAX"
+  },
+  {
+    "code" : "8",
+    "display" : "CIRUGÍA PLÁSTICA Y REPARADORA",
+    "definition" : "CIRUGÍA PLÁSTICA Y REPARADORA"
+  },
+  {
+    "code" : "9",
+    "display" : "CIRUGÍA PEDIÁTRICA",
+    "definition" : "CIRUGÍA PEDIÁTRICA"
+  },
+  {
+    "code" : "10",
+    "display" : "CIRUGÍA VASCULAR PERIFÉRICA",
+    "definition" : "CIRUGÍA VASCULAR PERIFÉRICA"
+  },
+  {
+    "code" : "11",
+    "display" : "COLOPROCTOLOGÍA",
+    "definition" : "COLOPROCTOLOGÍA"
+  },
+  {
+    "code" : "12",
+    "display" : "DERMATOLOGÍA",
+    "definition" : "DERMATOLOGÍA"
+  },
+  {
+    "code" : "13",
+    "display" : "DIABETOLOGÍA",
+    "definition" : "DIABETOLOGÍA"
+  },
+  {
+    "code" : "14",
+    "display" : "ENDOCRINOLOGÍA ADULTO",
+    "definition" : "ENDOCRINOLOGÍA ADULTO"
+  },
+  {
+    "code" : "15",
+    "display" : "ENDOCRINOLOGÍA PEDIÁTRICA",
+    "definition" : "ENDOCRINOLOGÍA PEDIÁTRICA"
+  },
+  {
+    "code" : "16",
+    "display" : "ENFERMEDADES RESPIRATORIAS DEL ADULTO (BRONCOPULMONAR)",
+    "definition" : "ENFERMEDADES RESPIRATORIAS DEL ADULTO (BRONCOPULMONAR)"
+  },
+  {
+    "code" : "17",
+    "display" : "ENFERMEDADES RESPIRATORIAS PEDIÁTRICAS (BRONCOPULMONAR PEDIATRICO)",
+    "definition" : "ENFERMEDADES RESPIRATORIAS PEDIÁTRICAS (BRONCOPULMONAR PEDIATRICO)"
+  },
+  {
+    "code" : "18",
+    "display" : "GASTROENTEROLOGÍA ADULTO",
+    "definition" : "GASTROENTEROLOGÍA ADULTO"
+  },
+  {
+    "code" : "19",
+    "display" : "GASTROENTEROLOGÍA PEDIÁTRICA",
+    "definition" : "GASTROENTEROLOGÍA PEDIÁTRICA"
+  },
+  {
+    "code" : "20",
+    "display" : "GENÉTICA CLÍNICA",
+    "definition" : "GENÉTICA CLÍNICA"
+  },
+  {
+    "code" : "21",
+    "display" : "GERIATRÍA",
+    "definition" : "GERIATRÍA"
+  },
+  {
+    "code" : "22",
+    "display" : "GINECOLOGÍA PEDIÁTRICA Y DE LA ADOLESCENCIA",
+    "definition" : "GINECOLOGÍA PEDIÁTRICA Y DE LA ADOLESCENCIA"
+  },
+  {
+    "code" : "23",
+    "display" : "HEMATOLOGÍA",
+    "definition" : "HEMATOLOGÍA"
+  },
+  {
+    "code" : "24",
+    "display" : "IMAGENOLOGÍA",
+    "definition" : "IMAGENOLOGÍA"
+  },
+  {
+    "code" : "25",
+    "display" : "INFECTOLOGÍA",
+    "definition" : "INFECTOLOGÍA"
+  },
+  {
+    "code" : "26",
+    "display" : "INMUNOLOGÍA",
+    "definition" : "INMUNOLOGÍA"
+  },
+  {
+    "code" : "27",
+    "display" : "LABORATORIO CLÍNICO",
+    "definition" : "LABORATORIO CLÍNICO"
+  },
+  {
+    "code" : "28",
+    "display" : "MEDICINA FAMILIAR",
+    "definition" : "MEDICINA FAMILIAR"
+  },
+  {
+    "code" : "29",
+    "display" : "MEDICINA FÍSICA Y REHABILITACIÓN (FISIATRIA ADULTO)",
+    "definition" : "MEDICINA FÍSICA Y REHABILITACIÓN (FISIATRIA ADULTO)"
+  },
+  {
+    "code" : "30",
+    "display" : "MEDICINA INTERNA",
+    "definition" : "MEDICINA INTERNA"
+  },
+  {
+    "code" : "31",
+    "display" : "MEDICINA INTENSIVA ADULTO",
+    "definition" : "MEDICINA INTENSIVA ADULTO"
+  },
+  {
+    "code" : "32",
+    "display" : "MEDICINA INTENSIVA PEDIÁTRICA",
+    "definition" : "MEDICINA INTENSIVA PEDIÁTRICA"
+  },
+  {
+    "code" : "33",
+    "display" : "MEDICINA LEGAL",
+    "definition" : "MEDICINA LEGAL"
+  },
+  {
+    "code" : "34",
+    "display" : "MEDICINA MATERNO INFANTIL",
+    "definition" : "MEDICINA MATERNO INFANTIL"
+  },
+  {
+    "code" : "35",
+    "display" : "MEDICINA NUCLEAR",
+    "definition" : "MEDICINA NUCLEAR"
+  },
+  {
+    "code" : "36",
+    "display" : "MEDICINA DE URGENCIA",
+    "definition" : "MEDICINA DE URGENCIA"
+  },
+  {
+    "code" : "37",
+    "display" : "NEFROLOGÍA ADULTO",
+    "definition" : "NEFROLOGÍA ADULTO"
+  },
+  {
+    "code" : "38",
+    "display" : "NEFROLOGÍA PEDIÁTRICO",
+    "definition" : "NEFROLOGÍA PEDIÁTRICO"
+  },
+  {
+    "code" : "39",
+    "display" : "NEONATOLOGÍA",
+    "definition" : "NEONATOLOGÍA"
+  },
+  {
+    "code" : "40",
+    "display" : "NEUROCIRUGÍA",
+    "definition" : "NEUROCIRUGÍA"
+  },
+  {
+    "code" : "41",
+    "display" : "NEUROLOGÍA ADULTO",
+    "definition" : "NEUROLOGÍA ADULTO"
+  },
+  {
+    "code" : "42",
+    "display" : "NEUROLOGÍA PEDIÁTRICA",
+    "definition" : "NEUROLOGÍA PEDIÁTRICA"
+  },
+  {
+    "code" : "43",
+    "display" : "OBSTETRICIA Y GINECOLOGÍA",
+    "definition" : "OBSTETRICIA Y GINECOLOGÍA"
+  },
+  {
+    "code" : "44",
+    "display" : "OFTALMOLOGÍA",
+    "definition" : "OFTALMOLOGÍA"
+  },
+  {
+    "code" : "45",
+    "display" : "ONCOLOGÍA MÉDICA",
+    "definition" : "ONCOLOGÍA MÉDICA"
+  },
+  {
+    "code" : "46",
+    "display" : "OTORRINOLARINGOLOGÍA",
+    "definition" : "OTORRINOLARINGOLOGÍA"
+  },
+  {
+    "code" : "47",
+    "display" : "PEDIATRÍA",
+    "definition" : "PEDIATRÍA"
+  },
+  {
+    "code" : "48",
+    "display" : "PSIQUIATRÍA ADULTO",
+    "definition" : "PSIQUIATRÍA ADULTO"
+  },
+  {
+    "code" : "49",
+    "display" : "PSIQUIATRÍA PEDIÁTRICA Y DE LA ADOLESCENCIA",
+    "definition" : "PSIQUIATRÍA PEDIÁTRICA Y DE LA ADOLESCENCIA"
+  },
+  {
+    "code" : "50",
+    "display" : "RADIOTERAPIA ONCOLÓGICA",
+    "definition" : "RADIOTERAPIA ONCOLÓGICA"
+  },
+  {
+    "code" : "51",
+    "display" : "REUMATOLOGÍA",
+    "definition" : "REUMATOLOGÍA"
+  },
+  {
+    "code" : "52",
+    "display" : "SALUD PÚBLICA",
+    "definition" : "SALUD PÚBLICA"
+  },
+  {
+    "code" : "53",
+    "display" : "TRAUMATOLOGÍA Y ORTOPEDIA",
+    "definition" : "TRAUMATOLOGÍA Y ORTOPEDIA"
+  },
+  {
+    "code" : "54",
+    "display" : "UROLOGÍA",
+    "definition" : "UROLOGÍA"
+  },
+  {
+    "code" : "55",
+    "display" : "CARDIOLOGÍA PEDIÁTRICA",
+    "definition" : "CARDIOLOGÍA PEDIÁTRICA"
+  },
+  {
+    "code" : "56",
+    "display" : "CIRUGÍA DIGESTIVA",
+    "definition" : "CIRUGÍA DIGESTIVA"
+  },
+  {
+    "code" : "57",
+    "display" : "CIRUGÍA PLASTICA Y REPARADORA PEDIÁTRICA",
+    "definition" : "CIRUGÍA PLASTICA Y REPARADORA PEDIÁTRICA"
+  },
+  {
+    "code" : "58",
+    "display" : "GINECOLOGÍA",
+    "definition" : "GINECOLOGÍA"
+  },
+  {
+    "code" : "59",
+    "display" : "HEMATO-ONCOLOGÍA PEDIÁTRICA",
+    "definition" : "HEMATO-ONCOLOGÍA PEDIÁTRICA"
+  },
+  {
+    "code" : "60",
+    "display" : "INFECTOLOGÍA PEDIATRICA",
+    "definition" : "INFECTOLOGÍA PEDIATRICA"
+  },
+  {
+    "code" : "61",
+    "display" : "MEDICINA FAMILIAR DEL NIÑO",
+    "definition" : "MEDICINA FAMILIAR DEL NIÑO"
+  },
+  {
+    "code" : "62",
+    "display" : "MEDICINA FISICA Y REHABILITACIÓN PEDIÁTRICA (FISIATRIA PEDIATRICA)",
+    "definition" : "MEDICINA FISICA Y REHABILITACIÓN PEDIÁTRICA (FISIATRIA PEDIATRICA)"
+  },
+  {
+    "code" : "63",
+    "display" : "NUTRIÓLOGO",
+    "definition" : "NUTRIÓLOGO"
+  },
+  {
+    "code" : "64",
+    "display" : "NUTRIÓLOGO PEDIÁTRICO",
+    "definition" : "NUTRIÓLOGO PEDIÁTRICO"
+  },
+  {
+    "code" : "65",
+    "display" : "REUMATOLOGÍA PEDIÁTRICA",
+    "definition" : "REUMATOLOGÍA PEDIÁTRICA"
+  },
+  {
+    "code" : "66",
+    "display" : "OBSTETRICIA",
+    "definition" : "OBSTETRICIA"
+  },
+  {
+    "code" : "67",
+    "display" : "TRAUMATOLOGÍA Y ORTOPEDIA PEDIÁTRICA",
+    "definition" : "TRAUMATOLOGÍA Y ORTOPEDIA PEDIÁTRICA"
+  },
+  {
+    "code" : "68",
+    "display" : "UROLOGÍA PEDIÁTRICA",
+    "definition" : "UROLOGÍA PEDIÁTRICA"
+  },
+  {
+    "code" : "69",
+    "display" : "GINECOLOGÍA ONCOLÓGICA",
+    "definition" : "GINECOLOGÍA ONCOLÓGICA"
+  },
+  {
+    "code" : "70",
+    "display" : "MASTOLOGÍA (CIRUGÍA DE LA MAMA)",
+    "definition" : "MASTOLOGÍA (CIRUGÍA DE LA MAMA)"
+  },
+  {
+    "code" : "71",
+    "display" : "MEDICINA PALEATIVA Y DE MANEJO DEL DOLOR",
+    "definition" : "MEDICINA PALEATIVA Y DE MANEJO DEL DOLOR"
+  },
+  {
+    "code" : "72",
+    "display" : "MEDICINA REPRODUCTIVA E INFERTILIDAD",
+    "definition" : "MEDICINA REPRODUCTIVA E INFERTILIDAD"
+  },
+  {
+    "code" : "73",
+    "display" : "MEDICINA DEL ADOLESCENTE",
+    "definition" : "MEDICINA DEL ADOLESCENTE"
+  },
+  {
+    "code" : "74",
+    "display" : "MEDICINA DEL DEPORTE",
+    "definition" : "MEDICINA DEL DEPORTE"
+  },
+  {
+    "code" : "75",
+    "display" : "MICROBIOLOGÍA",
+    "definition" : "MICROBIOLOGÍA"
+  },
+  {
+    "code" : "76",
+    "display" : "NEURORRADIOLOGÍA",
+    "definition" : "NEURORRADIOLÓGIA"
+  }]
+}

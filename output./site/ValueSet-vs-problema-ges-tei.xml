@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-problema-ges-tei"/>
+  <language value="es"/>
+  <text>
+    <status value="generated"/><div xml:lang="es" xmlns="http://www.w3.org/1999/xhtml" lang="es"><p class="res-header-id"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores vs-problema-ges-tei</b></p><a name="vs-problema-ges-tei"> </a><a name="hcvs-problema-ges-tei"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: es</p></div><ul><li>Include all codes defined in <a href="CodeSystem-cs-problema-ges-tei.html"><code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.2.2</span></li></ul></div>
+  </text>
+  <url value="https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/vs-problema-ges-tei"/>
+  <version value="0.2.2"/>
+  <name value="ProblemaSaludGESVS"/>
+  <title value="Value Set de los Problemas de Salud  GES"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-01-15"/>
+  <publisher value="Unidad de Interoperabilidad - MINSAL"/>
+  <contact>
+    <name value="Unidad de Interoperabilidad - MINSAL"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://interoperabilidad.minsal.cl"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Franco Ulloa"/>
+    <telecom>
+      <system value="email"/>
+      <value value="franco.ulloa@minsal.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Set de valores utilizados para los problemas de salud ges"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei"/>
+    </include>
+  </compose>
+</ValueSet>

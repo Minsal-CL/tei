@@ -1,0 +1,44 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSIndicecomorbilidad",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores VSIndicecomorbilidad</b></p><a name=\"VSIndicecomorbilidad\"> </a><a name=\"hcVSIndicecomorbilidad\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-CSIndicecomorbilidad.html\"><code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSIndicecomorbilidad</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.2.2</span></li></ul></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSIndicecomorbilidad",
+  "version" : "0.2.2",
+  "name" : "VSIndicecomorbilidad",
+  "title" : "Indice Comorbilidad",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-01-15",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloa@minsal.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Indice Comorbilidad",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSIndicecomorbilidad"
+    }]
+  }
+}

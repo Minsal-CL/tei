@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSTituloProfesional"/>
+  <language value="es-CL"/>
+  <text>
+    <status value="generated"/><div xml:lang="es-CL" xmlns="http://www.w3.org/1999/xhtml" lang="es-CL"><p class="res-header-id"><b>Generated Narrative: SistemaDeCodigos CSTituloProfesional</b></p><a name="CSTituloProfesional"> </a><a name="hcCSTituloProfesional"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: es-CL</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSTituloProfesional-1"> </a></td><td>MÉDICO CIRUJANO</td><td>MÉDICO CIRUJANO</td></tr><tr><td style="white-space:nowrap">2<a name="CSTituloProfesional-2"> </a></td><td>CIRUJANO DENTISTA</td><td>CIRUJANO DENTISTA</td></tr><tr><td style="white-space:nowrap">3<a name="CSTituloProfesional-3"> </a></td><td>ENFERMERAS(OS)</td><td>ENFERMERAS(OS)</td></tr><tr><td style="white-space:nowrap">4<a name="CSTituloProfesional-4"> </a></td><td>ENFERMERAS(OS) MATRONAS(ES)</td><td>ENFERMERAS(OS) MATRONAS(ES)</td></tr><tr><td style="white-space:nowrap">5<a name="CSTituloProfesional-5"> </a></td><td>MATRONAS(ES)</td><td>MATRONAS(ES)</td></tr><tr><td style="white-space:nowrap">6<a name="CSTituloProfesional-6"> </a></td><td>TECNÓLOGOS MÉDICOS</td><td>TECNÓLOGOS MÉDICOS</td></tr><tr><td style="white-space:nowrap">7<a name="CSTituloProfesional-7"> </a></td><td>PSICÓLOGOS/AS</td><td>PSICÓLOGOS/AS</td></tr><tr><td style="white-space:nowrap">8<a name="CSTituloProfesional-8"> </a></td><td>KINESIÓLOGOS/AS</td><td>KINESIÓLOGOS/AS</td></tr><tr><td style="white-space:nowrap">9<a name="CSTituloProfesional-9"> </a></td><td>FARMACÉUTICOS Y QUÍMICO-FARMACÉUTICOS</td><td>FARMACÉUTICOS Y QUÍMICO-FARMACÉUTICOS</td></tr><tr><td style="white-space:nowrap">10<a name="CSTituloProfesional-10"> </a></td><td>BIOQUÍMICOS</td><td>BIOQUÍMICOS</td></tr><tr><td style="white-space:nowrap">11<a name="CSTituloProfesional-11"> </a></td><td>NUTRICIONISTAS</td><td>NUTRICIONISTAS</td></tr><tr><td style="white-space:nowrap">12<a name="CSTituloProfesional-12"> </a></td><td>FONOAUDIÓLOGOS/AS</td><td>FONOAUDIÓLOGOS/AS</td></tr><tr><td style="white-space:nowrap">13<a name="CSTituloProfesional-13"> </a></td><td>TERAPEUTAS OCUPACIONALES</td><td>TERAPEUTAS OCUPACIONALES</td></tr><tr><td style="white-space:nowrap">14<a name="CSTituloProfesional-14"> </a></td><td>AUXILIARES PARAMÉDICOS DE ALIMENTACIÓN</td><td>AUXILIARES PARAMÉDICOS DE ALIMENTACIÓN</td></tr><tr><td style="white-space:nowrap">15<a name="CSTituloProfesional-15"> </a></td><td>A.P. DE RADIOLOGÍA, RADIOTERAPIA, LAB</td><td>A.P. DE RADIOLOGÍA, RADIOTERAPIA, LAB</td></tr><tr><td style="white-space:nowrap">16<a name="CSTituloProfesional-16"> </a></td><td>AUXILIARES PARAMÉDICOS DE ODONTOLOGÍA</td><td>AUXILIARES PARAMÉDICOS DE ODONTOLOGÍA</td></tr><tr><td style="white-space:nowrap">17<a name="CSTituloProfesional-17"> </a></td><td>AUXILIARES PARAMÉDICOS DE FARMACIA</td><td>AUXILIARES PARAMÉDICOS DE FARMACIA</td></tr><tr><td style="white-space:nowrap">18<a name="CSTituloProfesional-18"> </a></td><td>AUXILIARES DE ENFERMERÍA</td><td>AUXILIARES DE ENFERMERÍA</td></tr><tr><td style="white-space:nowrap">19<a name="CSTituloProfesional-19"> </a></td><td>TÉCNICO EN NIVEL SUPERIOR EN SALUD</td><td>TÉCNICO EN NIVEL SUPERIOR EN SALUD</td></tr><tr><td style="white-space:nowrap">20<a name="CSTituloProfesional-20"> </a></td><td>TÉCNICOS EN SALUD</td><td>TÉCNICOS EN SALUD</td></tr><tr><td style="white-space:nowrap">21<a name="CSTituloProfesional-21"> </a></td><td>TÉCNICOS NIVEL MEDIO EN SALUD</td><td>TÉCNICOS NIVEL MEDIO EN SALUD</td></tr><tr><td style="white-space:nowrap">22<a name="CSTituloProfesional-22"> </a></td><td>LABORATORISTAS DENTALES</td><td>LABORATORISTAS DENTALES</td></tr><tr><td style="white-space:nowrap">23<a name="CSTituloProfesional-23"> </a></td><td>PODÓLOGOS/AS</td><td>PODÓLOGOS/AS</td></tr><tr><td style="white-space:nowrap">24<a name="CSTituloProfesional-24"> </a></td><td>ÓPTICOS/AS</td><td>ÓPTICOS/AS</td></tr><tr><td style="white-space:nowrap">25<a name="CSTituloProfesional-25"> </a></td><td>CONTACTÓLOGOS/AS</td><td>CONTACTÓLOGOS/AS</td></tr><tr><td style="white-space:nowrap">26<a name="CSTituloProfesional-26"> </a></td><td>HOMEÓPATAS</td><td>HOMEÓPATAS</td></tr><tr><td style="white-space:nowrap">27<a name="CSTituloProfesional-27"> </a></td><td>ACUPUNTURISTAS</td><td>ACUPUNTURISTAS</td></tr><tr><td style="white-space:nowrap">28<a name="CSTituloProfesional-28"> </a></td><td>NATURÓPATAS</td><td>NATURÓPATAS</td></tr><tr><td style="white-space:nowrap">29<a name="CSTituloProfesional-29"> </a></td><td>COSMETÓLOGOS/AS</td><td>COSMETÓLOGOS/AS</td></tr><tr><td style="white-space:nowrap">30<a name="CSTituloProfesional-30"> </a></td><td>MÉDICO GENERAL</td><td>MÉDICO GENERAL</td></tr><tr><td style="white-space:nowrap">99<a name="CSTituloProfesional-99"> </a></td><td>DESCONOCIDA</td><td>DESCONOCIDA</td></tr></table></div>
+  </text>
+  <url value="https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional"/>
+  <version value="0.2.2"/>
+  <name value="CSTituloProfesional"/>
+  <title value="TituloProfesional"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-01-15"/>
+  <publisher value="Unidad de Interoperabilidad - MINSAL"/>
+  <contact>
+    <name value="Unidad de Interoperabilidad - MINSAL"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://interoperabilidad.minsal.cl"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Franco Ulloa"/>
+    <telecom>
+      <system value="email"/>
+      <value value="franco.ulloa@minsal.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="TituloProfesional"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="31"/>
+  <concept>
+    <code value="1"/>
+    <display value="MÉDICO CIRUJANO"/>
+    <definition value="MÉDICO CIRUJANO"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="CIRUJANO DENTISTA"/>
+    <definition value="CIRUJANO DENTISTA"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="ENFERMERAS(OS)"/>
+    <definition value="ENFERMERAS(OS)"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="ENFERMERAS(OS) MATRONAS(ES)"/>
+    <definition value="ENFERMERAS(OS) MATRONAS(ES)"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="MATRONAS(ES)"/>
+    <definition value="MATRONAS(ES)"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="TECNÓLOGOS MÉDICOS"/>
+    <definition value="TECNÓLOGOS MÉDICOS"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="PSICÓLOGOS/AS"/>
+    <definition value="PSICÓLOGOS/AS"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="KINESIÓLOGOS/AS"/>
+    <definition value="KINESIÓLOGOS/AS"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="FARMACÉUTICOS Y QUÍMICO-FARMACÉUTICOS"/>
+    <definition value="FARMACÉUTICOS Y QUÍMICO-FARMACÉUTICOS"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="BIOQUÍMICOS"/>
+    <definition value="BIOQUÍMICOS"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="NUTRICIONISTAS"/>
+    <definition value="NUTRICIONISTAS"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="FONOAUDIÓLOGOS/AS"/>
+    <definition value="FONOAUDIÓLOGOS/AS"/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="TERAPEUTAS OCUPACIONALES"/>
+    <definition value="TERAPEUTAS OCUPACIONALES"/>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <display value="AUXILIARES PARAMÉDICOS DE ALIMENTACIÓN"/>
+    <definition value="AUXILIARES PARAMÉDICOS DE ALIMENTACIÓN"/>
+  </concept>
+  <concept>
+    <code value="15"/>
+    <display value="A.P. DE RADIOLOGÍA, RADIOTERAPIA, LAB"/>
+    <definition value="A.P. DE RADIOLOGÍA, RADIOTERAPIA, LAB"/>
+  </concept>
+  <concept>
+    <code value="16"/>
+    <display value="AUXILIARES PARAMÉDICOS DE ODONTOLOGÍA"/>
+    <definition value="AUXILIARES PARAMÉDICOS DE ODONTOLOGÍA"/>
+  </concept>
+  <concept>
+    <code value="17"/>
+    <display value="AUXILIARES PARAMÉDICOS DE FARMACIA"/>
+    <definition value="AUXILIARES PARAMÉDICOS DE FARMACIA"/>
+  </concept>
+  <concept>
+    <code value="18"/>
+    <display value="AUXILIARES DE ENFERMERÍA"/>
+    <definition value="AUXILIARES DE ENFERMERÍA"/>
+  </concept>
+  <concept>
+    <code value="19"/>
+    <display value="TÉCNICO EN NIVEL SUPERIOR EN SALUD"/>
+    <definition value="TÉCNICO EN NIVEL SUPERIOR EN SALUD"/>
+  </concept>
+  <concept>
+    <code value="20"/>
+    <display value="TÉCNICOS EN SALUD"/>
+    <definition value="TÉCNICOS EN SALUD"/>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <display value="TÉCNICOS NIVEL MEDIO EN SALUD"/>
+    <definition value="TÉCNICOS NIVEL MEDIO EN SALUD"/>
+  </concept>
+  <concept>
+    <code value="22"/>
+    <display value="LABORATORISTAS DENTALES"/>
+    <definition value="LABORATORISTAS DENTALES"/>
+  </concept>
+  <concept>
+    <code value="23"/>
+    <display value="PODÓLOGOS/AS"/>
+    <definition value="PODÓLOGOS/AS"/>
+  </concept>
+  <concept>
+    <code value="24"/>
+    <display value="ÓPTICOS/AS"/>
+    <definition value="ÓPTICOS/AS"/>
+  </concept>
+  <concept>
+    <code value="25"/>
+    <display value="CONTACTÓLOGOS/AS"/>
+    <definition value="CONTACTÓLOGOS/AS"/>
+  </concept>
+  <concept>
+    <code value="26"/>
+    <display value="HOMEÓPATAS"/>
+    <definition value="HOMEÓPATAS"/>
+  </concept>
+  <concept>
+    <code value="27"/>
+    <display value="ACUPUNTURISTAS"/>
+    <definition value="ACUPUNTURISTAS"/>
+  </concept>
+  <concept>
+    <code value="28"/>
+    <display value="NATURÓPATAS"/>
+    <definition value="NATURÓPATAS"/>
+  </concept>
+  <concept>
+    <code value="29"/>
+    <display value="COSMETÓLOGOS/AS"/>
+    <definition value="COSMETÓLOGOS/AS"/>
+  </concept>
+  <concept>
+    <code value="30"/>
+    <display value="MÉDICO GENERAL"/>
+    <definition value="MÉDICO GENERAL"/>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <display value="DESCONOCIDA"/>
+    <definition value="DESCONOCIDA"/>
+  </concept>
+</CodeSystem>

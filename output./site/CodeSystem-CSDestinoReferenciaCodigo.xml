@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSDestinoReferenciaCodigo"/>
+  <language value="es-CL"/>
+  <text>
+    <status value="generated"/><div xml:lang="es-CL" xmlns="http://www.w3.org/1999/xhtml" lang="es-CL"><p class="res-header-id"><b>Generated Narrative: SistemaDeCodigos CSDestinoReferenciaCodigo</b></p><a name="CSDestinoReferenciaCodigo"> </a><a name="hcCSDestinoReferenciaCodigo"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: es-CL</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDestinoReferenciaCodigo</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSDestinoReferenciaCodigo-1"> </a></td><td>Nivel Secundario</td><td>Nivel Secundario</td></tr><tr><td style="white-space:nowrap">2<a name="CSDestinoReferenciaCodigo-2"> </a></td><td>APS</td><td>APS</td></tr><tr><td style="white-space:nowrap">3<a name="CSDestinoReferenciaCodigo-3"> </a></td><td>Extra Sistema</td><td>Extra Sistema</td></tr><tr><td style="white-space:nowrap">4<a name="CSDestinoReferenciaCodigo-4"> </a></td><td>Hospital Digital</td><td>Hospital Digital</td></tr><tr><td style="white-space:nowrap">5<a name="CSDestinoReferenciaCodigo-5"> </a></td><td>Establecimiento de alta complejidad</td><td>Establecimiento de alta complejidad</td></tr></table></div>
+  </text>
+  <url value="https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDestinoReferenciaCodigo"/>
+  <version value="0.2.2"/>
+  <name value="CSDestinoReferenciaCodigo"/>
+  <title value="Destino Referencia Codigo"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-01-15"/>
+  <publisher value="Unidad de Interoperabilidad - MINSAL"/>
+  <contact>
+    <name value="Unidad de Interoperabilidad - MINSAL"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://interoperabilidad.minsal.cl"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Franco Ulloa"/>
+    <telecom>
+      <system value="email"/>
+      <value value="franco.ulloa@minsal.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Destino Referencia Codigo"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="1"/>
+    <display value="Nivel Secundario"/>
+    <definition value="Nivel Secundario"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="APS"/>
+    <definition value="APS"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Extra Sistema"/>
+    <definition value="Extra Sistema"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Hospital Digital"/>
+    <definition value="Hospital Digital"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Establecimiento de alta complejidad"/>
+    <definition value="Establecimiento de alta complejidad"/>
+  </concept>
+</CodeSystem>

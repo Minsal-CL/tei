@@ -1,0 +1,78 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSPractitionerTipoRolLE",
+  "language" : "es-CL",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"es-CL\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es-CL\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos CSPractitionerTipoRolLE</b></p><a name=\"CSPractitionerTipoRolLE\"> </a><a name=\"hcCSPractitionerTipoRolLE\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es-CL</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSPractitionerTipoRolLE</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">iniciador<a name=\"CSPractitionerTipoRolLE-iniciador\"> </a></td><td>Iniciador</td><td>Iniciador</td></tr><tr><td style=\"white-space:nowrap\">referenciador<a name=\"CSPractitionerTipoRolLE-referenciador\"> </a></td><td>Referenciador</td><td>Referenciador</td></tr><tr><td style=\"white-space:nowrap\">revisor<a name=\"CSPractitionerTipoRolLE-revisor\"> </a></td><td>Revisor</td><td>Revisor</td></tr><tr><td style=\"white-space:nowrap\">priorizador<a name=\"CSPractitionerTipoRolLE-priorizador\"> </a></td><td>Priorizador</td><td>Priorizador</td></tr><tr><td style=\"white-space:nowrap\">agendador<a name=\"CSPractitionerTipoRolLE-agendador\"> </a></td><td>Agendador</td><td>Agendador</td></tr><tr><td style=\"white-space:nowrap\">atendedor<a name=\"CSPractitionerTipoRolLE-atendedor\"> </a></td><td>Atendedor</td><td>Atendedor</td></tr><tr><td style=\"white-space:nowrap\">terminador<a name=\"CSPractitionerTipoRolLE-terminador\"> </a></td><td>Terminador</td><td>Terminador</td></tr></table></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSPractitionerTipoRolLE",
+  "version" : "0.2.2",
+  "name" : "CSPractitionerTipoRolLE",
+  "title" : "Rol de profesionales",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-01-15",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloa@minsal.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "CodeSystem con códigos definidos para representar cada rol de profesional o funcionario administrativo dentro de la interconsulta",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "iniciador",
+    "display" : "Iniciador",
+    "definition" : "Iniciador"
+  },
+  {
+    "code" : "referenciador",
+    "display" : "Referenciador",
+    "definition" : "Referenciador"
+  },
+  {
+    "code" : "revisor",
+    "display" : "Revisor",
+    "definition" : "Revisor"
+  },
+  {
+    "code" : "priorizador",
+    "display" : "Priorizador",
+    "definition" : "Priorizador"
+  },
+  {
+    "code" : "agendador",
+    "display" : "Agendador",
+    "definition" : "Agendador"
+  },
+  {
+    "code" : "atendedor",
+    "display" : "Atendedor",
+    "definition" : "Atendedor"
+  },
+  {
+    "code" : "terminador",
+    "display" : "Terminador",
+    "definition" : "Terminador"
+  }]
+}

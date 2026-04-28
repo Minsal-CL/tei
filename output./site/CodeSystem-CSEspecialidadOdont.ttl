@@ -1,0 +1,123 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadOdont> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CSEspecialidadOdont"] ; # 
+  fhir:language [ fhir:v "es-CL"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"es-CL\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es-CL\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos CSEspecialidadOdont</b></p><a name=\"CSEspecialidadOdont\"> </a><a name=\"hcCSEspecialidadOdont\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es-CL</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadOdont</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSEspecialidadOdont-1\"> </a></td><td>Cirugía y Traumatología Buco Maxilofacial</td><td>Cirugía y Traumatología Buco Maxilofacial</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSEspecialidadOdont-2\"> </a></td><td>Cirugía Bucal</td><td>Cirugía Bucal</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSEspecialidadOdont-3\"> </a></td><td>Endodoncia</td><td>Endodoncia</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSEspecialidadOdont-4\"> </a></td><td>Imagenología Oral y Maxilofacial</td><td>Imagenología Oral y Maxilofacial</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSEspecialidadOdont-5\"> </a></td><td>Implantología Buco Maxilofacial</td><td>Implantología Buco Maxilofacial</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CSEspecialidadOdont-6\"> </a></td><td>Odontología legal</td><td>Odontología legal</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CSEspecialidadOdont-7\"> </a></td><td>Odontopediatría</td><td>Odontopediatría</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CSEspecialidadOdont-8\"> </a></td><td>Ortodoncia y Ortopedia Dento Máxilo Facial</td><td>Ortodoncia y Ortopedia Dento Máxilo Facial</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CSEspecialidadOdont-9\"> </a></td><td>Patología Oral Maxilofacial</td><td>Patología Oral Maxilofacial</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CSEspecialidadOdont-10\"> </a></td><td>Periodoncia</td><td>Periodoncia</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"CSEspecialidadOdont-11\"> </a></td><td>Rehabilitación Oral Removible</td><td>Rehabilitación Oral Removible</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"CSEspecialidadOdont-12\"> </a></td><td>Salud Pública</td><td>Salud Pública</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"CSEspecialidadOdont-13\"> </a></td><td>Somato-Prótesis</td><td>Somato-Prótesis</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"CSEspecialidadOdont-14\"> </a></td><td>Trastornos Temporomandibulares Y Dolor Orofacial</td><td>Trastornos Temporomandibulares Y Dolor Orofacial</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"CSEspecialidadOdont-15\"> </a></td><td>Odontogeriatría</td><td>Odontogeriatría</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"CSEspecialidadOdont-16\"> </a></td><td>Rehabilitación Oral Fija</td><td>Rehabilitación Oral Fija</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadOdont"^^xsd:anyURI ;
+     fhir:l <https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadOdont>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.2"] ; # 
+  fhir:name [ fhir:v "CSEspecialidadOdont"] ; # 
+  fhir:title [ fhir:v "Especialidades Odontológicas"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-01-15"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Franco Ulloa" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "franco.ulloa@minsal.cl" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Especialidades Odontológicas"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "16"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Cirugía y Traumatología Buco Maxilofacial" ] ;
+     fhir:definition [ fhir:v "Cirugía y Traumatología Buco Maxilofacial" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Cirugía Bucal" ] ;
+     fhir:definition [ fhir:v "Cirugía Bucal" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Endodoncia" ] ;
+     fhir:definition [ fhir:v "Endodoncia" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Imagenología Oral y Maxilofacial" ] ;
+     fhir:definition [ fhir:v "Imagenología Oral y Maxilofacial" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Implantología Buco Maxilofacial" ] ;
+     fhir:definition [ fhir:v "Implantología Buco Maxilofacial" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Odontología legal" ] ;
+     fhir:definition [ fhir:v "Odontología legal" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Odontopediatría" ] ;
+     fhir:definition [ fhir:v "Odontopediatría" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Ortodoncia y Ortopedia Dento Máxilo Facial" ] ;
+     fhir:definition [ fhir:v "Ortodoncia y Ortopedia Dento Máxilo Facial" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Patología Oral Maxilofacial" ] ;
+     fhir:definition [ fhir:v "Patología Oral Maxilofacial" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Periodoncia" ] ;
+     fhir:definition [ fhir:v "Periodoncia" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Rehabilitación Oral Removible" ] ;
+     fhir:definition [ fhir:v "Rehabilitación Oral Removible" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Salud Pública" ] ;
+     fhir:definition [ fhir:v "Salud Pública" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Somato-Prótesis" ] ;
+     fhir:definition [ fhir:v "Somato-Prótesis" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Trastornos Temporomandibulares Y Dolor Orofacial" ] ;
+     fhir:definition [ fhir:v "Trastornos Temporomandibulares Y Dolor Orofacial" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Odontogeriatría" ] ;
+     fhir:definition [ fhir:v "Odontogeriatría" ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Rehabilitación Oral Fija" ] ;
+     fhir:definition [ fhir:v "Rehabilitación Oral Fija" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

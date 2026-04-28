@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VSEstadoCivil"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores VSEstadoCivil</b></p><a name="VSEstadoCivil"> </a><a name="hcVSEstadoCivil"> </a><ul><li>Include all codes defined in <a href="CodeSystem-CSEstadoCivil.html"><code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEstadoCivil</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.2.2</span></li></ul></div>
+  </text>
+  <url value="https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEstadoCivil"/>
+  <version value="0.2.2"/>
+  <name value="VSEstadoCivil"/>
+  <title value="EstadoCivil"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-01-15"/>
+  <publisher value="Unidad de Interoperabilidad - MINSAL"/>
+  <contact>
+    <name value="Unidad de Interoperabilidad - MINSAL"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://interoperabilidad.minsal.cl"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Franco Ulloa"/>
+    <telecom>
+      <system value="email"/>
+      <value value="franco.ulloa@minsal.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="EstadoCivil"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEstadoCivil"/>
+    </include>
+  </compose>
+</ValueSet>

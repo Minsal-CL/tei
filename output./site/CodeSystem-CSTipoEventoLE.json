@@ -1,0 +1,78 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSTipoEventoLE",
+  "language" : "es-CL",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"es-CL\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es-CL\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos CSTipoEventoLE</b></p><a name=\"CSTipoEventoLE\"> </a><a name=\"hcCSTipoEventoLE\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es-CL</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoEventoLE</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">iniciar<a name=\"CSTipoEventoLE-iniciar\"> </a></td><td>Iniciar</td><td>Iniciar</td></tr><tr><td style=\"white-space:nowrap\">referenciar<a name=\"CSTipoEventoLE-referenciar\"> </a></td><td>Referenciar</td><td>Referenciar</td></tr><tr><td style=\"white-space:nowrap\">revisar<a name=\"CSTipoEventoLE-revisar\"> </a></td><td>Revisar</td><td>Revisar</td></tr><tr><td style=\"white-space:nowrap\">priorizar<a name=\"CSTipoEventoLE-priorizar\"> </a></td><td>Priorizar</td><td>Priorizar</td></tr><tr><td style=\"white-space:nowrap\">agendar<a name=\"CSTipoEventoLE-agendar\"> </a></td><td>Agendar</td><td>Agendar</td></tr><tr><td style=\"white-space:nowrap\">atender<a name=\"CSTipoEventoLE-atender\"> </a></td><td>Atender</td><td>Atender</td></tr><tr><td style=\"white-space:nowrap\">terminar<a name=\"CSTipoEventoLE-terminar\"> </a></td><td>Terminar</td><td>Terminar</td></tr></table></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoEventoLE",
+  "version" : "0.2.2",
+  "name" : "CSTipoEventoLE",
+  "title" : "Tipo de Evento",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-01-15",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  },
+  {
+    "name" : "Franco Ulloa",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "franco.ulloa@minsal.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "CodeSystem con códigos definidos para representar cada evento en la interconsulta",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "iniciar",
+    "display" : "Iniciar",
+    "definition" : "Iniciar"
+  },
+  {
+    "code" : "referenciar",
+    "display" : "Referenciar",
+    "definition" : "Referenciar"
+  },
+  {
+    "code" : "revisar",
+    "display" : "Revisar",
+    "definition" : "Revisar"
+  },
+  {
+    "code" : "priorizar",
+    "display" : "Priorizar",
+    "definition" : "Priorizar"
+  },
+  {
+    "code" : "agendar",
+    "display" : "Agendar",
+    "definition" : "Agendar"
+  },
+  {
+    "code" : "atender",
+    "display" : "Atender",
+    "definition" : "Atender"
+  },
+  {
+    "code" : "terminar",
+    "display" : "Terminar",
+    "definition" : "Terminar"
+  }]
+}

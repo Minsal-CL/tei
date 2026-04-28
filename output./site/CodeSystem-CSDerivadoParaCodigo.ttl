@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDerivadoParaCodigo> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CSDerivadoParaCodigo"] ; # 
+  fhir:language [ fhir:v "es-CL"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"es-CL\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es-CL\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos CSDerivadoParaCodigo</b></p><a name=\"CSDerivadoParaCodigo\"> </a><a name=\"hcCSDerivadoParaCodigo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es-CL</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDerivadoParaCodigo</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSDerivadoParaCodigo-1\"> </a></td><td>Confirmación</td><td>Confirmación</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSDerivadoParaCodigo-2\"> </a></td><td>Control Especialista</td><td>Control Especialista</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSDerivadoParaCodigo-3\"> </a></td><td>Realiza Tratamiento</td><td>Realiza Tratamiento</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSDerivadoParaCodigo-4\"> </a></td><td>Seguimiento</td><td>Seguimiento</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSDerivadoParaCodigo-5\"> </a></td><td>Otro</td><td>Otro</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDerivadoParaCodigo"^^xsd:anyURI ;
+     fhir:l <https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDerivadoParaCodigo>
+  ] ; # 
+  fhir:version [ fhir:v "0.2.2"] ; # 
+  fhir:name [ fhir:v "CSDerivadoParaCodigo"] ; # 
+  fhir:title [ fhir:v "Derivado Para"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-01-15"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Franco Ulloa" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "franco.ulloa@minsal.cl" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Derivado Para"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Confirmación" ] ;
+     fhir:definition [ fhir:v "Confirmación" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Control Especialista" ] ;
+     fhir:definition [ fhir:v "Control Especialista" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Realiza Tratamiento" ] ;
+     fhir:definition [ fhir:v "Realiza Tratamiento" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Seguimiento" ] ;
+     fhir:definition [ fhir:v "Seguimiento" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Otro" ] ;
+     fhir:definition [ fhir:v "Otro" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

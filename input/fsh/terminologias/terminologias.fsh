@@ -17,7 +17,7 @@ CodeSystem: CSDerivadoParaCodigo
 Id: CSDerivadoParaCodigo
 Title: "Derivado Para"
 Description: "Derivado Para"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -61,7 +61,7 @@ CodeSystem: CSorigenInterconsulta
 Id: CSorigenInterconsulta
 Title: "Origen Interconsulta"
 Description: "Origen Interconsulta"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -96,7 +96,7 @@ CodeSystem: CSDestinoReferenciaCodigo
 Id: CSDestinoReferenciaCodigo
 Title: "Destino Referencia Codigo"
 Description: "Destino Referencia Codigo"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -134,7 +134,7 @@ CodeSystem: CSEstadoInterconsulta
 Id: CSEstadoInterconsulta
 Title: "Estado Interconsulta"
 Description: "Estado Interconsulta"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -172,7 +172,7 @@ CodeSystem: CSPertinenciaInterconsulta
 Id: CSPertinenciaInterconsulta
 Title: "Pertinencia Interconsulta"
 Description: "Pertinencia Interconsulta"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -206,7 +206,7 @@ CodeSystem: CSModalidadAtencionCodigo
 Id: CSModalidadAtencionCodigo
 Title: "Modalidad Atencion Codigo"
 Description: "Modalidad Atencion Codigo"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -240,7 +240,7 @@ CodeSystem: CSMediodeContacto
 Id: CSMediodeContacto
 Title: "Medio Notificación"
 Description: "Medio Notificación"
-* ^language = #es-CL
+//* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -278,7 +278,7 @@ CodeSystem: CSMotivoNoContactabilidad
 Id: CSMotivoNoContactabilidad
 Title: "Motivo No Contactabilidad"
 Description: "Motivo No Contactabilidad"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -313,7 +313,7 @@ CodeSystem: CSTipoConsulta
 Id: CSTipoConsulta
 Title: "Tipo Consulta"
 Description: "Tipo Consulta"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -347,7 +347,7 @@ CodeSystem: CSConsecuenciaAtencionCodigo
 Id: CSConsecuenciaAtencionCodigo
 Title: "Consecuencia Atención Codigo"
 Description: "Consecuencia Atención Codigo"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -381,7 +381,7 @@ CodeSystem: CSMotivoCierreInterconsulta
 Id: CSMotivoCierreInterconsulta
 Title: "Motivo Cierre Interconsulta"
 Description: "Motivo Cierre Interconsulta"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -431,7 +431,7 @@ CodeSystem: CSIndicecomorbilidad
 Id: CSIndicecomorbilidad
 Title: "Indice Comorbilidad"
 Description: "Indice Comorbilidad"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -468,7 +468,7 @@ CodeSystem: CSMotivoNoPertinenciaCodigo
 Id: CSMotivoNoPertinenciaCodigo
 Title: "Motivo No Pertinencia Codigo"
 Description: "Motivo No Pertinencia Codigo"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -535,7 +535,7 @@ CodeSystem: CSTipoEventoLE
 Id: CSTipoEventoLE
 Title: "Tipo de Evento"
 Description: "CodeSystem con códigos definidos para representar cada evento en la interconsulta"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -573,7 +573,7 @@ CodeSystem: CSPractitionerTipoRolLE
 Id: CSPractitionerTipoRolLE
 Title: "Rol de profesionales"
 Description: "CodeSystem con códigos definidos para representar cada rol de profesional o funcionario administrativo dentro de la interconsulta"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -611,7 +611,7 @@ CodeSystem: CSTituloProfesional
 Id: CSTituloProfesional
 Title: "TituloProfesional"
 Description: "TituloProfesional"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -673,7 +673,7 @@ CodeSystem: CSEspecialidadMed
 Id: CSEspecialidadMed
 Title: "EspecialidadMed"
 Description: "EspecialidadMed"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -803,7 +803,7 @@ CodeSystem: CSEspecialidadOdont
 Id: CSEspecialidadOdont
 Title: "Especialidades Odontológicas"
 Description: "Especialidades Odontológicas"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -850,7 +850,7 @@ CodeSystem: CSEspecialidadFarma
 Id: CSEspecialidadFarma
 Title: "Especialidades Farmaceúticas o Química Farmaceúticas"
 Description: "Especialidades Farmaceúticas o Química Farmaceúticas"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -887,7 +887,7 @@ CodeSystem: CSEspecialidadBioqca
 Id: CSEspecialidadBioqca
 Title: "Especialidades y Subespecialidades Bioquímicas"
 Description: "Especialidades y Subespecialidades Bioquímicas"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -963,7 +963,7 @@ CodeSystem: CSTipoObservacionMinsal
 Id: CSTipoObservacionMinsal
 Title: "Tipo de Observación"
 Description: "Son todos los tipos de observaciones dadas por el Ministerio De Salud"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -997,7 +997,7 @@ CodeSystem: CSReligion
 Id: CSReligion
 Title: "Religion"
 Description: "Religion"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -1031,7 +1031,7 @@ CodeSystem: PueblosOriginariosCS
 Id: PueblosOriginariosCS
 Title: "Pueblos Originarios de Chile"
 Description:  "Pueblos Originarios de Chile"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = true
 * ^caseSensitive = true
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
@@ -1067,7 +1067,7 @@ CodeSystem: CSEstadoCivil
 Id: CSEstadoCivil
 Title: "EstadoCivil"
 Description: "EstadoCivil"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -1158,7 +1158,7 @@ CodeSystem: CSRamaGES
 Id: CSRamaGES
 Title: "Rama GES"
 Description: "Rama GES"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"
@@ -1193,7 +1193,7 @@ CodeSystem: CSSubRamaGES
 Id: CSSubRamaGES
 Title: "Sub Rama GES"
 Description: "Sub Rama GES"
-* ^language = #es-CL
+* ^language = #es
 * ^experimental = false
 * ^caseSensitive = true
 * ^version = "0.9"

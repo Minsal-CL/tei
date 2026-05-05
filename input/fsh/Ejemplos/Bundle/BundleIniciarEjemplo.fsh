@@ -1,7 +1,7 @@
 Instance: BundleIniciarEjemplo
 InstanceOf: BundleIniciarLE
 Usage: #example
-Title: "Ejemplo Bundle Iniciar"
+Title: "Bundle Iniciar"
 Description: "Ejemplo de un mensaje del evento Iniciar"
 
 * type = #message

@@ -89,6 +89,9 @@ parameters:
   path-resource:
     - input/resources
     - fsh-generated/resources
+  suppress-warninfo:
+    - CodeSystem.jurisdiction
+    - CodeSystem.language
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #

@@ -1,7 +1,7 @@
 Instance: BundleAgendarEjemplo
 InstanceOf: BundleAgendarLE
 Usage: #example
-Title: "Ejemplo Bundle Agendar"
+Title: "Bundle Agendar"
 Description: "Ejemplo del mensaje de la agenda para la atención de la interconsulta"
 
 * type = #message

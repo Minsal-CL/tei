@@ -1,7 +1,7 @@
 Instance: BundleTerminarEjemplo
 InstanceOf: BundleTerminarLE
 Usage: #example
-Title: "Ejemplo Bundle Terminar"
+Title: "Bundle Terminar"
 Description: "Ejemplo del mensaje del termino de una interconsulta"
 
 * type = #message

@@ -1,7 +1,7 @@
 Instance: BundleAtenderEjemplo
 InstanceOf: BundleAtenderLE
 Usage: #example
-Title: "Ejemplo Bundle Atender"
+Title: "Bundle Atender"
 Description: "Ejemplo del mensaje de la atención de la interconsulta"
 
 * type = #message

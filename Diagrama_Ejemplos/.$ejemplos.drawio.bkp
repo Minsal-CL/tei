@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
   <diagram name="Page-1" id="sO8O2JdV9gZYofRGhTY7">
-    <mxGraphModel dx="2022" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="2167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,7 +237,7 @@
         <mxCell id="XwsN4jQS1j-uw9lBJEH0-120" value="&lt;div&gt;- EjemploPatientLE&lt;/div&gt;&lt;div&gt;- PractitionerRoleAtendedor&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XwsN4jQS1j-uw9lBJEH0-119">
           <mxGeometry y="20" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XwsN4jQS1j-uw9lBJEH0-123" value="MessageHeaderAtender" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="XwsN4jQS1j-uw9lBJEH0-123" value="MessageHeaderAtender" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-430" y="780" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XwsN4jQS1j-uw9lBJEH0-124" value="&lt;div&gt;- AtencionEjemplo&lt;/div&gt;&lt;div&gt;- PractitionerRoleAtendedor&lt;/div&gt;&lt;div&gt;&lt;div&gt;EjemploSolicitudInterconsultaFinalizada (SR)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XwsN4jQS1j-uw9lBJEH0-123">

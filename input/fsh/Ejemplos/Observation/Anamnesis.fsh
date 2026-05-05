@@ -1,7 +1,7 @@
 Instance: AnamnesisEjemplo
 InstanceOf: ObservationAnamnesisLE
 Usage: #example
-Title: "Ejemplo de Anamnesis"
+Title: "Observacion Ejemplo de Anamnesis"
 Description: "Una pequeña descripción del encuentro y el tratamiento, como relato"
 
 * status = #registered

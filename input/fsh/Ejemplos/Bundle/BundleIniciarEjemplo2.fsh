@@ -1,7 +1,7 @@
 Instance: BundleIniciarEjemplo2
 InstanceOf: BundleIniciarLE
 Usage: #example
-Title: "Ejemplo Bundle Iniciar con uso de las extensiones GES"
+Title: "Bundle Iniciar (GES)"
 Description: "Ejemplo de un mensaje del evento Iniciar con uso de las extensiones GES"
 
 * type = #message
@@ -83,7 +83,7 @@ Usage: #inline
 * extension[SubEspecialidadMedicaDestinoCodigo] = ExtensionSubEspecialidadMedicaDestinoCodigoEj1
 //* extension[PertinenciaInterconsulta] = ExtensionPertinenciaInterconsultaEj1
 * extension[CorrespondeGES] = ExtensionSospechaGESEj2
-* extension[ProblemaSaludGES] = ProblemaSaludGES2
+//* extension[ProblemaSaludGES] = ProblemaSaludGES2
 
 //* id = "SolicitudInterconsultaEjemplo2"
 
@@ -124,12 +124,12 @@ Usage: #inline
 
 * valueBoolean = true
 
-Instance: ProblemaSaludGES2
-InstanceOf: ProblemaSaludGES
-Usage: #inline
+//Instance: ProblemaSaludGES2
+//InstanceOf: ProblemaSaludGES
+//Usage: #inline
 
-* extension[ProblemaSaludGES].valueCodeableConcept = ProblemaSaludGESCS#1	"Enfermedad renal crónica etapa 4 y 5"
-* extension[RamaGES].valueCodeableConcept.text = "En riñón derecho"
+//* extension[ProblemaSaludGES].valueCodeableConcept = ProblemaSaludGESCS#1	"Enfermedad renal crónica etapa 4 y 5"
+//* extension[RamaGES].valueCodeableConcept.text = "En riñón derecho"
 
 
 Instance: EjemploSolicitudExamen2

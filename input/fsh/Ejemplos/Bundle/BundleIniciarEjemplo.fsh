@@ -46,8 +46,8 @@ Description: "Ejemplo de un mensaje del evento Iniciar"
   * fullUrl = "https://interoperabilidad.minsal.cl/fhir/ig/tei/Organization/OrganizationLEEjemplo"
   * resource = OrganizationLEEjemplo
 * entry[motivoDerivacion]
-  * fullUrl = "https://interoperabilidad.minsal.cl/fhir/ig/tei/QuestionnaireResponse/MotivoDerivacionEjemplo"
-  * resource = MotivoDerivacionEjemplo
+  * fullUrl = "https://interoperabilidad.minsal.cl/fhir/ig/tei/QuestionnaireResponse/MotivoDerivacionEjemplo1"
+  * resource = MotivoDerivacionEjemplo1
 * entry[SolicitudExamen]
   * fullUrl = "https://interoperabilidad.minsal.cl/fhir/ig/tei/ServiceRequest/EjemploSolicitudExamen"
   * resource = EjemploSolicitudExamen
@@ -108,7 +108,7 @@ Usage: #inline
 * supportingInfo[IndiceComorbilidad] = Reference(IndiceConmorbilidadEjemplo)
 * supportingInfo[Cuidador] = Reference(EjemploObservationCuidador)
 * supportingInfo[Discapacidad] = Reference(EjemploObservationDiscapacidadLE)
-* supportingInfo[motivoDerivacion] = Reference(MotivoDerivacionEjemplo)
+* supportingInfo[motivoDerivacion] = Reference(MotivoDerivacionEjemplo1)
 * supportingInfo[SolicitudExamen] = Reference(EjemploSolicitudExamen)
 * supportingInfo[ResultadoExamen] = Reference(AnticuerpoAdrenal)
 

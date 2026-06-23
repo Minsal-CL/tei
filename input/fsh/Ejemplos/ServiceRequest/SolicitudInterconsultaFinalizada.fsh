@@ -52,7 +52,7 @@ Description: "Ejemplo de una Solicitud finalizada"
 * supportingInfo[IndiceComorbilidad] = Reference(IndiceConmorbilidadEjemplo)
 * supportingInfo[Cuidador] = Reference(EjemploObservationCuidador)
 * supportingInfo[Discapacidad] = Reference(EjemploObservationDiscapacidadLE)
-* supportingInfo[motivoDerivacion] = Reference(MotivoDerivacionEjemplo)
+* supportingInfo[motivoDerivacion] = Reference(MotivoDerivacionEjemplo1)
 * supportingInfo[SolicitudExamen] = Reference(EjemploSolicitudExamen)
 * supportingInfo[ResultadoExamen] = Reference(AnticuerpoAdrenal)
 

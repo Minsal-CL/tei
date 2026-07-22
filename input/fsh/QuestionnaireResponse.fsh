@@ -12,7 +12,7 @@ Description: "Permite describir el motivo de derivacion de un paciente"
 
 * item[0]
   * linkId = "MotivoDerivacion"
-  * text = "Motivo Derivación"
+  * text = "Motivo de Derivación"
 //  * text 1..1 MS
   * type = #text
   * required = true
@@ -37,7 +37,7 @@ Description: "Permite describir el motivo de derivacion de un paciente"
 
 // Pregunta 2 dentro del grupo
 * item[1].item[1].linkId = "SubProblemadeSaludGES"
-* item[1].item[1].text = "Sub Problema de Salud GES"
+* item[1].item[1].text = "SubProblema de Salud GES"
 * item[1].item[1].type = #text
 * item[1].item[1].required = false
 * item[1].item[1].repeats = false
@@ -68,23 +68,24 @@ Description: "QuestionnaireResponse Iniciar para Motivo de Derivación LE"
 * questionnaire = Canonical(MotivoDerivacion)
 
 // Slicing primer nivel: grupo
-* item 0..2 MS
+* item 1..2 MS
 * item ^slicing.discriminator[0].type = #value
 * item ^slicing.discriminator[0].path = "linkId"
 * item ^slicing.rules = #closed
 
-* item contains GarantiaExplicitaenSalud-GES 0..1 MS and MotivoDerivacion 1..1 MS
+* item contains MotivoDerivacion 1..1 MS and GarantiaExplicitaenSalud-GES 0..1 MS 
 
 * item[MotivoDerivacion].linkId 1..1 MS
-* item[MotivoDerivacion].linkId = "MotivoDerivacion"
-* item[MotivoDerivacion].text 1..1 MS
-* item[MotivoDerivacion].text = "Motivo de Derivación"
+* item[MotivoDerivacion].linkId = "MotivoDerivacion" (exactly)
+* item[MotivoDerivacion].text 0..1 MS
+//* item[MotivoDerivacion].text = "Motivo de Derivación"
 * item[MotivoDerivacion].answer 1..1 MS
 * item[MotivoDerivacion].answer.value[x] only string
 * item[MotivoDerivacion].answer.valueString 1..1 MS
 
 // El grupo NO debe tener answer
 * item[GarantiaExplicitaenSalud-GES].answer 0..0
+* item[GarantiaExplicitaenSalud-GES].text 0..1 MS
 
 // Slicing dentro del grupo
 * item[GarantiaExplicitaenSalud-GES].item 0..2 MS
@@ -98,10 +99,10 @@ Description: "QuestionnaireResponse Iniciar para Motivo de Derivación LE"
 
 // ProblemadeSaludGES
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].linkId 1..1 MS
-* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].linkId = "GES"
+* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].linkId = "ProblemadeSaludGES" (exactly)
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES] 1..1 MS
-* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].text 1..1 MS
-* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].text = "GES"
+* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].text 0..1 MS
+
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].answer 1..1 MS
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].answer.value[x] only Coding
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].answer.valueCoding 1..1 MS
@@ -110,8 +111,7 @@ Description: "QuestionnaireResponse Iniciar para Motivo de Derivación LE"
 // SubProblemadeSaludGES
 * item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].linkId 1..1 MS
 * item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].linkId = "SubProblemadeSaludGES"
-* item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].text 1..1 MS
-* item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].text = "SubProblema de Salud GES"
+* item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].text 0..1 MS
 * item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].answer 1..1 MS
 * item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].answer.value[x] only string
 * item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].answer.valueString 1..1 MS

@@ -1,3 +1,14 @@
+### Versión 0.2.3
+
+#### QuestionnaireResponseIniciarLE
+- Se agrega la pregunta GarantiaExplicitaenSalud-GES
+  - Se agregan las sub-preguntas bajo "GarantiaExplicitaenSalud-GES"
+    - ProblemadeSaludGES -> Tipo 'Coding' (Binding: Value Set de los Problemas de Salud GES)
+    - SubProblemadeSaludGES	-> 'string'
+
+#### ValueSet
+- Se agrega ValueSet Problemas de Salud GES 
+
 ### Versión 0.2.2
 
 #### ServiceRequest LE

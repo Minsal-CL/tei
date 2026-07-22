@@ -35,10 +35,8 @@ Description: "Respuesta Motivo de derivación y Problema de salud GES"
 * item[MotivoDerivacion].answer[0].valueString = "Paciente requiere derivación por evaluación de especialidad."
 
 * item[GarantiaExplicitaenSalud-GES].linkId = "GarantiaExplicitaenSalud-GES"
-* item[GarantiaExplicitaenSalud-GES].text = "Garantía Explícita en Salud (GES)"
 
-* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].linkId = "GES"
-* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].text = "GES"
+* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].linkId = "ProblemadeSaludGES"
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].answer[0].valueCoding.system = "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei"
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].answer[0].valueCoding.code = #1751000325109
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].answer[0].valueCoding.display = "programa GES (Garantías Explícitas en Salud) para enfermedad renal crónica en etapas 4 y 5"
@@ -65,12 +63,10 @@ Description: "Respuesta Full Motivo de derivación, Problema de salud GES y Subp
 * item[GarantiaExplicitaenSalud-GES].linkId = "GarantiaExplicitaenSalud-GES"
 * item[GarantiaExplicitaenSalud-GES].text = "Garantía Explícita en Salud (GES)"
 
-* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].linkId = "GES"
-* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].text = "GES"
+* item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].linkId = "ProblemadeSaludGES"
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].answer[0].valueCoding.system = "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei"
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].answer[0].valueCoding.code = #1991000325103
 * item[GarantiaExplicitaenSalud-GES].item[ProblemadeSaludGES].answer[0].valueCoding.display = "programa GES (Garantías Explícitas en Salud) para diabetes mellitus tipo I"
 
 * item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].linkId = "SubProblemadeSaludGES"
-* item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].text = "SubProblema de Salud GES"
 * item[GarantiaExplicitaenSalud-GES].item[SubProblemadeSaludGES].answer[0].valueString = "Ejemplo SubProblema de Salud GES"

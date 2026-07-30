@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="EjemploObservationCuidador"/>
+  <meta>
+    <profile value="https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ObservationIniciarCuidadorLE"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observación EjemploObservationCuidador</b></p><a name="EjemploObservationCuidador"> </a><a name="hcEjemploObservationCuidador"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ObservationIniciarCuidadorLE.html">Cuidador LE</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 95385-1}">Cuidador de una persona con dolencias relacionadas con la edad o enfermedades crónicas.</span></p><p><b>subject</b>: <a href="Patient-EjemploPatientLE.html">María Josefina Gonzalez (official) Male, DoB: 1974-12-25 ( Rol Único Nacional: 90000000-6 (use: official, ))</a></p><p><b>value</b>: true</p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="95385-1"/>
+      <display value="Cuidador de personas con molestias relacionadas con la edad, enfermedades crónicas o fragilidad.: Paciente:Punto temporal:Tipo:Ordinal:"/>
+    </coding>
+    <text value="Cuidador de una persona con dolencias relacionadas con la edad o enfermedades crónicas."/>
+  </code>
+  <subject>
+    <reference value="Patient/EjemploPatientLE"/>
+  </subject>
+  <valueBoolean value="true"/>
+</Observation>

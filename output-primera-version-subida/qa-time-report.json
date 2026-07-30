@@ -1,0 +1,5554 @@
+{
+  "date" : "Wed, 22 Jul, 2026 14:55:14 -0400",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-hl7.fhir.cl.minsal.tei.json",
+    "size" : 44449,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 7
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 27,
+      "length" : 34
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 6157
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 49,
+      "length" : 106
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 78
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/AllergyIntolerance-AllergyIntoleranceExample.json",
+    "size" : 933,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 27,
+      "length" : 233
+    },
+    {
+      "activity" : "validate",
+      "start" : 48,
+      "length" : 12
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 6
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 93,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Appointment-AgendaEjemplo.json",
+    "size" : 1344,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 27,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 48,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-BundleIniciarEjemplo.json",
+    "size" : 31995,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 23
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 73
+    },
+    {
+      "activity" : "validate",
+      "start" : 48,
+      "length" : 251
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 66
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 44
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CarePlan-CarePlanAtencionEjemplo.json",
+    "size" : 976,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSConsecuenciaAtencionCodigo.json",
+    "size" : 1133,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 22
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 30
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSDerivadoParaCodigo.json",
+    "size" : 1319,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 8
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSDestinoReferenciaCodigo.json",
+    "size" : 1390,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 21
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSEspecialidadBioqca.json",
+    "size" : 1207,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSEspecialidadFarma.json",
+    "size" : 1448,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 6
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 20
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSEspecialidadMed.json",
+    "size" : 10202,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 39
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 26
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 49
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSEspecialidadOdont.json",
+    "size" : 2852,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 9
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 23
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSEstablecimientoDestino.json",
+    "size" : 1427,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 5
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSEstadoCivil.json",
+    "size" : 1505,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 18
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSEstadoInterconsulta.json",
+    "size" : 1668,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 10
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 17
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSIndicecomorbilidad.json",
+    "size" : 1491,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 16
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSMediodeContacto.json",
+    "size" : 1388,
+    "processes" : [{
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 15
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSModalidadAtencionCodigo.json",
+    "size" : 1128,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 4
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSMotivoCierreInterconsulta.json",
+    "size" : 3318,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 14
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSMotivoNoContactabilidad.json",
+    "size" : 1296,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSMotivoNoPertinenciaCodigo.json",
+    "size" : 1222,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 9
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSPertinenciaInterconsulta.json",
+    "size" : 1163,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSPractitionerTipoRolLE.json",
+    "size" : 1667,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSReligion.json",
+    "size" : 1781,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 7
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSTipoConsulta.json",
+    "size" : 963,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSTipoEventoLE.json",
+    "size" : 1550,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 7
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSTipoObservacionMinsal.json",
+    "size" : 1068,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 3
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSTituloProfesional.json",
+    "size" : 4483,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 28,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 13
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 13
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-CSorigenInterconsulta.json",
+    "size" : 1094,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 8
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-PueblosOriginariosCS.json",
+    "size" : 1667,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 9
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-cs-problema-ges-tei.json",
+    "size" : 16694,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 25
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 42
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 21
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-ConditionAtencionejemplo.json",
+    "size" : 1482,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-ConditionInicialEjemplo.json",
+    "size" : 1467,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Encounter-AtencionEjemplo.json",
+    "size" : 1367,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Encounter-EncounterIniciarEjemplo.json",
+    "size" : 1395,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/MedicationRequest-PrednisonaEjemplo.json",
+    "size" : 607,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/MessageHeader-MesssageHeaderAtenderEjemplo.json",
+    "size" : 754,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 62
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-AnamnesisEjemplo.json",
+    "size" : 821,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-AnticuerpoAdrenal.json",
+    "size" : 906,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 11
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 93,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-EjemploObservationCuidador.json",
+    "size" : 710,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-EjemploObservationDiscapacidadLE.json",
+    "size" : 519,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-IndiceConmorbilidadEjemplo.json",
+    "size" : 1049,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Organization-OrganizationLEAtendedor.json",
+    "size" : 419,
+    "processes" : [{
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Organization-OrganizationLEEjemplo.json",
+    "size" : 1679,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-EjemploPatientLE.json",
+    "size" : 5033,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 34
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Practitioner-PractitionerProfesionalLEAtendedor.json",
+    "size" : 3106,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Practitioner-PractitionerProfesionalLEEjemplo.json",
+    "size" : 2665,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 12
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Practitioner-ProfesionalAdministrativoEjemplo.json",
+    "size" : 1980,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 9
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/PractitionerRole-PractitionerRoleAtendedor.json",
+    "size" : 673,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/PractitionerRole-PractitionerRoleIniciador.json",
+    "size" : 645,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Questionnaire-MotivoDerivacion.json",
+    "size" : 1304,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 48,
+      "length" : 18
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/QuestionnaireResponse-MotivoDerivacionEjemplo1.json",
+    "size" : 810,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/QuestionnaireResponse-MotivoDerivacionEjemplo2.json",
+    "size" : 1338,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/QuestionnaireResponse-MotivoDerivacionEjemplo3.json",
+    "size" : 1566,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 17
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ServiceRequest-AbadrenalEjemplo.json",
+    "size" : 1057,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ServiceRequest-EjemploSolicitudExamen.json",
+    "size" : 1288,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ServiceRequest-EjemploSolicitudInterconsultaFinalizada.json",
+    "size" : 5621,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 56
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 13
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-AllergyIntoleranceIniciarLE.json",
+    "size" : 3767,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 21
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 16
+    },
+    {
+      "activity" : "validate",
+      "start" : 32,
+      "length" : 197
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 142
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 559
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 632
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 3
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-AppointmentAgendarLE.json",
+    "size" : 10669,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 32
+    },
+    {
+      "activity" : "scan",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 23
+    },
+    {
+      "activity" : "validate",
+      "start" : 32,
+      "length" : 255
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 267
+    },
+    {
+      "activity" : "generate2",
+      "start" : 66,
+      "length" : 240
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 165
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 5
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-BundleAgendarLE.json",
+    "size" : 8756,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 103
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 33
+    },
+    {
+      "activity" : "validate",
+      "start" : 32,
+      "length" : 475
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 50,
+      "length" : 460
+    },
+    {
+      "activity" : "generate2",
+      "start" : 66,
+      "length" : 576
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 345
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-BundleAtenderLE.json",
+    "size" : 14284,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 136
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 46
+    },
+    {
+      "activity" : "validate",
+      "start" : 33,
+      "length" : 742
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 51,
+      "length" : 761
+    },
+    {
+      "activity" : "generate2",
+      "start" : 67,
+      "length" : 710
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 528
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 14
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-BundleIniciarLE.json",
+    "size" : 16486,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 116
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 53
+    },
+    {
+      "activity" : "validate",
+      "start" : 34,
+      "length" : 780
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 52,
+      "length" : 881
+    },
+    {
+      "activity" : "generate2",
+      "start" : 67,
+      "length" : 463
+    },
+    {
+      "activity" : "generate2",
+      "start" : 75,
+      "length" : 599
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 16
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-BundlePriorizarLE.json",
+    "size" : 6733,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 50
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 20
+    },
+    {
+      "activity" : "validate",
+      "start" : 34,
+      "length" : 286
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 53,
+      "length" : 374
+    },
+    {
+      "activity" : "generate2",
+      "start" : 68,
+      "length" : 305
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 233
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-BundleReferenciarLE.json",
+    "size" : 14755,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 105
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 47
+    },
+    {
+      "activity" : "validate",
+      "start" : 35,
+      "length" : 642
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 53,
+      "length" : 760
+    },
+    {
+      "activity" : "generate2",
+      "start" : 68,
+      "length" : 308
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 511
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 14
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-BundleRevisarLE.json",
+    "size" : 7619,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 37
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 23
+    },
+    {
+      "activity" : "validate",
+      "start" : 35,
+      "length" : 321
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 54,
+      "length" : 391
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 286
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 267
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 7
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-BundleTerminarLE.json",
+    "size" : 6938,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 32
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 21
+    },
+    {
+      "activity" : "validate",
+      "start" : 36,
+      "length" : 270
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 54,
+      "length" : 340
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 257
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 229
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-CarePlanAtenderLE.json",
+    "size" : 5254,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 19
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 16
+    },
+    {
+      "activity" : "validate",
+      "start" : 36,
+      "length" : 177
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 54,
+      "length" : 225
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 161
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 162
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ConditionDiagnosticoLE.json",
+    "size" : 9119,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 25,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 16
+    },
+    {
+      "activity" : "validate",
+      "start" : 36,
+      "length" : 150
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 236
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 153
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 116
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-Contactado.json",
+    "size" : 4043,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 36,
+      "length" : 2171
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 83
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 74
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 27
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-EncounterAtenderLE.json",
+    "size" : 6952,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 13
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 38,
+      "length" : 240
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 178
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 124
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 94
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 3
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-EncounterIniciarLE.json",
+    "size" : 5165,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 13
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 215
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 191
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 121
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 109
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionBoolAtencionPreferente.json",
+    "size" : 1390,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 14
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 23
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 43
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionBoolRequiereExamen.json",
+    "size" : 1324,
+    "processes" : [{
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 11
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 41
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 7
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionBoolResolutividadAPS.json",
+    "size" : 1340,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 40
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionConsecuenciaAtencionCodigo.json",
+    "size" : 2267,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 40
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 51
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 51
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 19
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionEspecialidadMedicaDestinoCodigo.json",
+    "size" : 2343,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 28
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 51
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 81
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionEstadoInterconsultaCodigoLE.json",
+    "size" : 2258,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 36
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 49
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 46
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 19
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionMediodeContacto.json",
+    "size" : 2198,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 28
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 50
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 69
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 20
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionMotivoCierreInterconsulta.json",
+    "size" : 2385,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 27
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 51
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 131
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 18
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionMotivoNoPertinencia.json",
+    "size" : 1398,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 21
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 46
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 7
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionOrigenInterconsulta.json",
+    "size" : 2326,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 30
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 51
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 51
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionPertinenciaAtencionBox.json",
+    "size" : 1371,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 27
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 8
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionPertinenciaInterconsulta.json",
+    "size" : 4041,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 83
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 84
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 62
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 26
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionSolicitudExamenes.json",
+    "size" : 1453,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 13
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 39
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionStringFundamentoPriorizacion.json",
+    "size" : 1477,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 13
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 41
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 8
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ExtensionSubEspecialidadMedicaDestinoCodigo.json",
+    "size" : 2417,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 69
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 49
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 47
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 18
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-MedicationRequestLE.json",
+    "size" : 3813,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 121
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 132
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 104
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 82
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 85,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 3
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-Mencion.json",
+    "size" : 1437,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 13
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 23
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 35
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-MessageHeaderLE.json",
+    "size" : 5468,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 93
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 125
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 77
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 67
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ObservationAnamnesisLE.json",
+    "size" : 4245,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 117
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 152
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 113
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 99
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 4
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ObservationDiscapacidadLE.json",
+    "size" : 3470,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 103
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 140
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 99
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 85
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ObservationIndiceComorbilidadLE.json",
+    "size" : 7070,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 12
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 140
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 208
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 123
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 106
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ObservationIniciarCuidadorLE.json",
+    "size" : 3524,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 99
+    },
+    {
+      "activity" : "generate1",
+      "start" : 57,
+      "length" : 154
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 93
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 82
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ObservationResultadoExamen.json",
+    "size" : 4895,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 117
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 57,
+      "length" : 169
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 103
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 95
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 3
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-OrganizationLE.json",
+    "size" : 2238,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 72
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 57,
+      "length" : 88
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 73
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 55
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-PaisOrigenMPI.json",
+    "size" : 2125,
+    "processes" : [{
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 3
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 18
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 29
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 57,
+      "length" : 47
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 52
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 18
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-PatientLE.json",
+    "size" : 7833,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 17
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 23
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 256
+    },
+    {
+      "activity" : "generate1",
+      "start" : 57,
+      "length" : 284
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 190
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 180
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-PractitionerAdministrativoLE.json",
+    "size" : 7092,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 23
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 24
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 355
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 57,
+      "length" : 423
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 173
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 255
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 7
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-PractitionerProfesionalLE.json",
+    "size" : 23489,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 37
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 41
+    },
+    {
+      "activity" : "validate",
+      "start" : 41,
+      "length" : 565
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 58,
+      "length" : 754
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 305
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 373
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-PractitionerRoleLE.json",
+    "size" : 3270,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 41,
+      "length" : 97
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 140
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 80
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 83
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 3
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 122,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ProvenanceLE.json",
+    "size" : 784,
+    "processes" : [{
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 41,
+      "length" : 53
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 63
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 50
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 40
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-PueblosAfrodescendiente.json",
+    "size" : 1476,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 25
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 31
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-PueblosOriginarios.json",
+    "size" : 2532,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 32
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 51
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 54
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 18
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-PueblosOriginariosPerteneciente.json",
+    "size" : 1425,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 16
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 34
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-QuestionnaireResponseIniciarLE.json",
+    "size" : 8041,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 16
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 161
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 241
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 114
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 126
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-Religion.json",
+    "size" : 2194,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 28
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 49
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 45
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 18
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ServiceRequestExamenLE.json",
+    "size" : 6393,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 124
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 167
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 93
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 80
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ServiceRequestLE.json",
+    "size" : 19616,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 12
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 188
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 319
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 133
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 115
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-SituacionCalle.json",
+    "size" : 1269,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 13
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 23
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 33
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 7
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-SospechaPatologiaGes.json",
+    "size" : 1302,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 31
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-CodigoExamen.json",
+    "size" : 1166,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 23
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 40
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-PueblosOriginariosVS.json",
+    "size" : 485,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 27
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-TipoDeObservacion.json",
+    "size" : 2794,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 12
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 15
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSConsecuenciaAtencionCodigo.json",
+    "size" : 921,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSDerivadoParaCodigo.json",
+    "size" : 857,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSDestinoReferenciaCodigo.json",
+    "size" : 901,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSEspecialidadBioqca.json",
+    "size" : 925,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSEspecialidadFarma.json",
+    "size" : 937,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 4
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSEspecialidadMed.json",
+    "size" : 849,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 13
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSEspecialidadOdont.json",
+    "size" : 885,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSEstablecimientoDestino.json",
+    "size" : 1058,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSEstadoCivil.json",
+    "size" : 825,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSEstadoInterconsulta.json",
+    "size" : 875,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSIdentificadorPrestador.json",
+    "size" : 1260,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSIndicecomorbilidad.json",
+    "size" : 869,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSMediodeContacto.json",
+    "size" : 857,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSModalidadAtencionCodigo.json",
+    "size" : 901,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSMotivoCierreInterconsulta.json",
+    "size" : 913,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 6
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 122,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSMotivoNoContactabilidad.json",
+    "size" : 901,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSMotivoNoPertinenciaCodigo.json",
+    "size" : 915,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSPertinenciaInterconsulta.json",
+    "size" : 905,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSPractitionerTipoRolLE.json",
+    "size" : 940,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSReligion.json",
+    "size" : 807,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 10
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSServicioRequerido.json",
+    "size" : 2092,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSTerminologiasDiag.json",
+    "size" : 2143,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 26
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSTipoConsulta.json",
+    "size" : 833,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSTipoEventoLE.json",
+    "size" : 855,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSTituloProfesional.json",
+    "size" : 861,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 48,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VSorigenInterconsulta.json",
+    "size" : 875,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-VsEspecialidadDest.json",
+    "size" : 1021,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "input/resources/exp-params.json",
+    "size" : 229,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "input/resources/programas-ges.json",
+    "size" : 25744,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 25,
+      "length" : 9
+    },
+    {
+      "activity" : "load",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3275
+    },
+    {
+      "activity" : "generate1",
+      "start" : 60,
+      "length" : 60
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 21
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 94,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 9603
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 2296
+  },
+  {
+    "name" : "/input/data/svc-prototyping.txt",
+    "size" : 3197
+  },
+  {
+    "name" : "/input/data/features.yml",
+    "size" : 930
+  },
+  {
+    "name" : "/input/pagecontent/eventos_interoperabilidad_CNE.md",
+    "size" : 3933
+  },
+  {
+    "name" : "/input/pagecontent/StructureDefinition-BundleReferenciarLE-intro.md",
+    "size" : 242
+  },
+  {
+    "name" : "/input/pagecontent/CasosDeUso.md",
+    "size" : 1307,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/StructureDefinition-BundleAgendarLE-intro.md",
+    "size" : 349
+  },
+  {
+    "name" : "/input/pagecontent/StructureDefinition-BundleRevisarLE-intro.md",
+    "size" : 413
+  },
+  {
+    "name" : "/input/pagecontent/Eventos.md",
+    "size" : 5526
+  },
+  {
+    "name" : "/input/pagecontent/historias_de_usuario_segun_rol.md",
+    "size" : 7911
+  },
+  {
+    "name" : "/input/pagecontent/Mensajeria.md",
+    "size" : 8374
+  },
+  {
+    "name" : "/input/pagecontent/historial_de_cambios.md",
+    "size" : 26881,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/workflow.md",
+    "size" : 170
+  },
+  {
+    "name" : "/input/pagecontent/artifacts.md",
+    "size" : 1102
+  },
+  {
+    "name" : "/input/pagecontent/Terminologias.md",
+    "size" : 0
+  },
+  {
+    "name" : "/input/pagecontent/rol_de_actores.md",
+    "size" : 5109
+  },
+  {
+    "name" : "/input/pagecontent/Alcance.md",
+    "size" : 366
+  },
+  {
+    "name" : "/input/pagecontent/Transacciones.md",
+    "size" : 14048,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 5494
+  },
+  {
+    "name" : "/input/pagecontent/Objetivos.md",
+    "size" : 435
+  },
+  {
+    "name" : "/input/pagecontent/StructureDefinition-BundleIniciarLE-intro.md",
+    "size" : 241
+  },
+  {
+    "name" : "/input/pagecontent/StructureDefinition-BundleAtenderLE-intro.md",
+    "size" : 345
+  },
+  {
+    "name" : "/input/pagecontent/StructureDefinition-BundlePriorizarLE-intro.md",
+    "size" : 237
+  },
+  {
+    "name" : "/input/pagecontent/StructureDefinition-BundleTerminarLE-intro.md",
+    "size" : 235
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0
+  },
+  {
+    "name" : "/input/images/priorizar-recursos.png",
+    "size" : 51562
+  },
+  {
+    "name" : "/input/images/agendar-recursos.png",
+    "size" : 58068
+  },
+  {
+    "name" : "/input/images/mensaje-respuesta.png",
+    "size" : 97185
+  },
+  {
+    "name" : "/input/images/terminar-recursos.png",
+    "size" : 52380,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/inicio-evento.png",
+    "size" : 125176
+  },
+  {
+    "name" : "/input/images/atender-evento.png",
+    "size" : 104567
+  },
+  {
+    "name" : "/input/images/terminar-evento.png",
+    "size" : 64133
+  },
+  {
+    "name" : "/input/images/revisar-recursos.png",
+    "size" : 51232
+  },
+  {
+    "name" : "/input/images/Index-eventos.png",
+    "size" : 97819
+  },
+  {
+    "name" : "/input/images/inicio-recursos.png",
+    "size" : 127335
+  },
+  {
+    "name" : "/input/images/agendar-evento.png",
+    "size" : 72809
+  },
+  {
+    "name" : "/input/images/referenciada-evento.png",
+    "size" : 76678
+  },
+  {
+    "name" : "/input/images/pageContent-Objetivos.png",
+    "size" : 102400,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 32,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/revisar-evento.png",
+    "size" : 66108
+  },
+  {
+    "name" : "/input/images/mensaje-envio.png",
+    "size" : 90142
+  },
+  {
+    "name" : "/input/images/referenciada-recursos.png",
+    "size" : 59866
+  },
+  {
+    "name" : "/input/images/priorizar-evento.png",
+    "size" : 67970,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/atender-recursos.png",
+    "size" : 88505
+  },
+  {
+    "name" : "/input/images/workflow.png",
+    "size" : 91383
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 57076,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1
+    }]
+  }]
+}

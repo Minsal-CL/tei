@@ -1,0 +1,531 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-problema-ges-tei",
+  "language" : "es",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"es\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es\"><p class=\"res-header-id\"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores vs-problema-ges-tei</b></p><a name=\"vs-problema-ges-tei\"> </a><a name=\"hcvs-problema-ges-tei\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT 21000325107 edition 15-Mar 2026</p><p>This value set contains 90 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b> - Spanish (es)</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1751000325109\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1751000325109\">1751000325109</a></td><td>programa GES (Garantías Explícitas en Salud) para enfermedad renal crónica en etapas 4 y 5</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1771000325100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1771000325100\">1771000325100</a></td><td>programa GES (Garantías Explícitas en Salud) para cardiopatías congénitas operables</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1781000325103\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1781000325103\">1781000325103</a></td><td>programa de Garantías Explícitas en Salud para cáncer cervicouterino en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1791000325101\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1791000325101\">1791000325101</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer de mama en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1801000325102\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1801000325102\">1801000325102</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer en personas menores de 15 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1811000325100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1811000325100\">1811000325100</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer de testículo en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1821000325106\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1821000325106\">1821000325106</a></td><td>programa GES (Garantías Explícitas en Salud) para linfomas en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1831000325108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1831000325108\">1831000325108</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer gástrico</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1841000325104\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1841000325104\">1841000325104</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer de próstata en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1851000325101\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1851000325101\">1851000325101</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer colorrectal en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1861000325103\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1861000325103\">1861000325103</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer epitelial de ovario</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1871000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1871000325105\">1871000325105</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer vesical en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1881000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1881000325107\">1881000325107</a></td><td>programa GES (Garantías Explícitas en Salud) para osteosarcoma en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1891000325109\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1891000325109\">1891000325109</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer de pulmón en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1901000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1901000325105\">1901000325105</a></td><td>programa de Garantías Explícitas en Salud para cáncer de tiroides en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1911000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1911000325107\">1911000325107</a></td><td>programa GES (Garantías Explícitas en Salud) para cáncer renal en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1921000325101\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1921000325101\">1921000325101</a></td><td>programa GES (Garantías Explícitas en Salud) para mieloma múltiple en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1931000325104\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1931000325104\">1931000325104</a></td><td>programa GES (Garantías Explícitas en Salud) para esquizofrenia</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1941000325108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1941000325108\">1941000325108</a></td><td>programa GES (Garantías Explícitas en Salud) para depresión en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1951000325106\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1951000325106\">1951000325106</a></td><td>programa GES (Garantías Explícitas en Salud) para trastorno bipolar en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1961000325109\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1961000325109\">1961000325109</a></td><td>programa GES (Garantías Explícitas en Salud) para infección por VIH/SIDA</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1971000325102\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1971000325102\">1971000325102</a></td><td>programa GES (Garantías Explícitas en Salud) para infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1981000325100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1981000325100\">1981000325100</a></td><td>programa GES (Garantías Explícitas en Salud) para neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-1991000325103\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1991000325103\">1991000325103</a></td><td>programa GES (Garantías Explícitas en Salud) para diabetes mellitus tipo I</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2001000325100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2001000325100\">2001000325100</a></td><td>programa GES (Garantías Explícitas en Salud) para diabetes mellitus tipo II</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2011000325103\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2011000325103\">2011000325103</a></td><td>programa GES (Garantías Explícitas en Salud) para hipotiroidismo en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2021000325109\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2021000325109\">2021000325109</a></td><td>programa GES (Garantías Explícitas en Salud) para hipertensión arterial primaria en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2031000325106\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2031000325106\">2031000325106</a></td><td>programa GES (Garantías Explícitas en Salud) para enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2041000325102\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2041000325102\">2041000325102</a></td><td>programa GES (Garantías Explícitas en Salud) para asma bronquial moderada y grave en menores de 15 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2051000325104\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2051000325104\">2051000325104</a></td><td>programa GES (Garantías Explícitas en Salud) para asma bronquial en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2061000325101\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2061000325101\">2061000325101</a></td><td>programa GES (Garantías Explícitas en Salud) para epilepsia no refractaria en personas desde 1 año y menores de 15 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2071000325108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2071000325108\">2071000325108</a></td><td>programa GES (Garantías Explícitas en Salud) para epilepsia no refractaria en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2081000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2081000325105\">2081000325105</a></td><td>programa GES (Garantías Explícitas en Salud) para enfermedad de Parkinson</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2091000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2091000325107\">2091000325107</a></td><td>programa GES (Garantías Explícitas en Salud) para accidente cerebrovascular isquémico en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2101000325104\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2101000325104\">2101000325104</a></td><td>programa GES (Garantías Explícitas en Salud) para tumores primarios del sistema nervioso central en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2111000325102\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2111000325102\">2111000325102</a></td><td>programa GES (Garantías Explícitas en Salud) para urgencia odontológica ambulatoria</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2121000325108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2121000325108\">2121000325108</a></td><td>programa de Garantías Explícitas en Salud para salud oral integral de personas de 60 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2131000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2131000325105\">2131000325105</a></td><td>programa GES (Garantías Explícitas en Salud) para síndrome de dificultad respiratoria en el recién nacido</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2141000325101\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2141000325101\">2141000325101</a></td><td>programa GES (Garantías Explícitas en Salud) para salud oral integral para niños y niñas de 6 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2151000325103\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2151000325103\">2151000325103</a></td><td>programa GES (Garantías Explícitas en Salud) para prevención de parto prematuro</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2161000325100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2161000325100\">2161000325100</a></td><td>programa GES (Garantías Explícitas en Salud) para analgesia del parto</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2171000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2171000325107\">2171000325107</a></td><td>programa de Garantías Explícitas en Salud para salud oral integral de la persona gestante</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2181000325109\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2181000325109\">2181000325109</a></td><td>programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de cataratas</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2191000325106\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2191000325106\">2191000325106</a></td><td>programa GES (Garantías Explícitas en Salud) para vicios de refracción en personas de 65 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2201000325108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2201000325108\">2201000325108</a></td><td>programa de Garantías Explícitas en Salud para estrabismo en personas menores de 9 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2211000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2211000325105\">2211000325105</a></td><td>programa GES (Garantías Explícitas en Salud) para retinopatía diabética</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2221000325104\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2221000325104\">2221000325104</a></td><td>programa GES (Garantías Explícitas en Salud) para desprendimiento de retina regmatógeno no traumático</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2231000325102\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2231000325102\">2231000325102</a></td><td>programa GES (Garantías Explícitas en Salud) para hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2241000325106\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2241000325106\">2241000325106</a></td><td>programa GES (Garantías Explícitas en Salud) para retinopatía del prematuro</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2251000325109\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2251000325109\">2251000325109</a></td><td>programa GES (Garantías Explícitas en Salud) para hipoacusia neurosensorial bilateral del prematuro</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2261000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2261000325107\">2261000325107</a></td><td>programa de Garantías Explícitas en Salud para tratamiento de hipoacusia moderada, severa y profunda en personas menores de 4 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2271000325100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2271000325100\">2271000325100</a></td><td>programa GES (Garantías Explícitas en Salud) para artritis reumatoidea</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2281000325103\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2281000325103\">2281000325103</a></td><td>programa GES (Garantías Explícitas en Salud) para artritis idiopática juvenil</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2291000325101\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2291000325101\">2291000325101</a></td><td>programa GES (Garantías Explícitas en Salud) para lupus eritematoso sistémico</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2301000325102\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2301000325102\">2301000325102</a></td><td>programa GES (Garantías Explícitas en Salud) para displasia broncopulmonar del prematuro</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2311000325100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2311000325100\">2311000325100</a></td><td>programa GES (Garantías Explícitas en Salud) para tratamiento de erradicación de Helicobacter pylori</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2321000325106\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2321000325106\">2321000325106</a></td><td>programa GES (Garantías Explícitas en Salud) para hepatitis crónica por virus hepatitis B</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2331000325108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2331000325108\">2331000325108</a></td><td>programa GES (Garantías Explícitas en Salud) para hepatitis C</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2361000325103\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2361000325103\">2361000325103</a></td><td>programa GES (Garantías Explícitas en Salud) para tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2371000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2371000325105\">2371000325105</a></td><td>programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de escoliosis en personas menores de 25 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2381000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2381000325107\">2381000325107</a></td><td>programa GES (Garantías Explícitas en Salud) para endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2391000325109\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2391000325109\">2391000325109</a></td><td>programa GES (Garantías Explícitas en Salud) para tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2401000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2401000325107\">2401000325107</a></td><td>programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de hernia del núcleo pulposo lumbar</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2411000325109\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2411000325109\">2411000325109</a></td><td>programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2421000325103\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2421000325103\">2421000325103</a></td><td>programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2431000325101\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2431000325101\">2431000325101</a></td><td>programa GES (Garantías Explícitas en Salud) para displasia luxante de caderas</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2441000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2441000325105\">2441000325105</a></td><td>programa GES (Garantías Explícitas en Salud) para leucemia en personas de 15 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2451000325108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2451000325108\">2451000325108</a></td><td>programa GES (Garantías Explícitas en Salud) para prevención secundaria enfermedad renal crónica terminal</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2461000325106\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2461000325106\">2461000325106</a></td><td>programa de Garantías Explícitas en Salud para colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2471000325104\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2471000325104\">2471000325104</a></td><td>programa GES (Garantías Explícitas en Salud) para rehabilitación SARS-COV-2</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2481000325102\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2481000325102\">2481000325102</a></td><td>programa GES (Garantías Explícitas en Salud) para órtesis (o ayudas técnicas) para personas de 65 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2491000325100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2491000325100\">2491000325100</a></td><td>programa GES (Garantías Explícitas en Salud) para disrafias espinales</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2501000325106\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2501000325106\">2501000325106</a></td><td>programa GES (Garantías Explícitas en Salud) para fisura labiopalatina</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2511000325108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2511000325108\">2511000325108</a></td><td>programa GES (Garantías Explícitas en Salud) para atención integral de salud en agresión sexual aguda</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2521000325102\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2521000325102\">2521000325102</a></td><td>programa GES (Garantías Explícitas en Salud) para politraumatizado grave</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2531000325100\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2531000325100\">2531000325100</a></td><td>programa GES (Garantías Explícitas en Salud) para traumatismo cráneo-encefálico moderado o grave</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2541000325109\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2541000325109\">2541000325109</a></td><td>programa GES (Garantías Explícitas en Salud) para trauma ocular grave</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2551000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2551000325107\">2551000325107</a></td><td>programa GES (Garantías Explícitas en Salud) para gran quemado</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2561000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2561000325105\">2561000325105</a></td><td>programa GES (Garantías Explícitas en Salud) para hemofilia</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2571000325103\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2571000325103\">2571000325103</a></td><td>programa GES (Garantías Explícitas en Salud) para enfermedad de Alzheimer y otras demencias</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2581000325101\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2581000325101\">2581000325101</a></td><td>programa GES (Garantías Explícitas en Salud) para esclerosis múltiple remitente recurrente</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2591000325104\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2591000325104\">2591000325104</a></td><td>programa GES (Garantías Explícitas en Salud) para fibrosis quística</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2601000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2601000325105\">2601000325105</a></td><td>programa de Garantías Explícitas en Salud para hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2611000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2611000325107\">2611000325107</a></td><td>programa GES (Garantías Explícitas en Salud) para trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapaso</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2881000325104\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2881000325104\">2881000325104</a></td><td>programa de Garantías Explícitas en Salud para tratamiento farmacológico tras alta hospitalaria por cirrosis hepática</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2891000325102\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2891000325102\">2891000325102</a></td><td>programa de Garantías Explícitas en Salud para tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo de suicidio</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2901000325101\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2901000325101\">2901000325101</a></td><td>programa de Garantías Explícitas en Salud para cesación del consumo de tabaco en personas mayores de 25 años y más</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2911000325104\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2911000325104\">2911000325104</a></td><td>programa GES (Garantías Explícitas en Salud) para alivio del dolor y cuidados paliativos por cáncer avanzado</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2921000325105\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2921000325105\">2921000325105</a></td><td>programa de Garantías Explícitas en Salud para tratamiento hospitalario de infarto agudo de miocardio</td></tr><tr><td><a name=\"vs-problema-ges-tei-http://snomed.info/sct-2931000325107\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/2931000325107\">2931000325107</a></td><td>programa de Garantías Explícitas en Salud para consumo perjudicial y dependencia de alcohol y drogas en personas menores de 20 años</td></tr></table></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/vs-problema-ges-tei",
+  "version" : "0.2.3",
+  "name" : "ProblemaSaludGESVS",
+  "title" : "Value Set de los Problemas de Salud  GES",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-01-15",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  },
+  {
+    "name" : "Jorge Mansilla",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "jorge.mansilla@minsal.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Set de valores utilizados para los problemas de salud ges",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/21000325107/version/20260315",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "1741000325106"
+      }]
+    }]
+  },
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:c7580218-0993-4936-855d-1be866421811",
+    "timestamp" : "2026-06-22T18:26:55.877Z",
+    "total" : 90,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1751000325109",
+      "display" : "programa GES (Garantías Explícitas en Salud) para enfermedad renal crónica en etapas 4 y 5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1771000325100",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cardiopatías congénitas operables"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1781000325103",
+      "display" : "programa de Garantías Explícitas en Salud para cáncer cervicouterino en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1791000325101",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer de mama en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1801000325102",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer en personas menores de 15 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1811000325100",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer de testículo en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1821000325106",
+      "display" : "programa GES (Garantías Explícitas en Salud) para linfomas en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1831000325108",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer gástrico"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1841000325104",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer de próstata en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1851000325101",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer colorrectal en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1861000325103",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer epitelial de ovario"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1871000325105",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer vesical en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1881000325107",
+      "display" : "programa GES (Garantías Explícitas en Salud) para osteosarcoma en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1891000325109",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer de pulmón en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1901000325105",
+      "display" : "programa de Garantías Explícitas en Salud para cáncer de tiroides en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1911000325107",
+      "display" : "programa GES (Garantías Explícitas en Salud) para cáncer renal en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1921000325101",
+      "display" : "programa GES (Garantías Explícitas en Salud) para mieloma múltiple en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1931000325104",
+      "display" : "programa GES (Garantías Explícitas en Salud) para esquizofrenia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1941000325108",
+      "display" : "programa GES (Garantías Explícitas en Salud) para depresión en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1951000325106",
+      "display" : "programa GES (Garantías Explícitas en Salud) para trastorno bipolar en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1961000325109",
+      "display" : "programa GES (Garantías Explícitas en Salud) para infección por VIH/SIDA"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1971000325102",
+      "display" : "programa GES (Garantías Explícitas en Salud) para infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1981000325100",
+      "display" : "programa GES (Garantías Explícitas en Salud) para neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1991000325103",
+      "display" : "programa GES (Garantías Explícitas en Salud) para diabetes mellitus tipo I"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2001000325100",
+      "display" : "programa GES (Garantías Explícitas en Salud) para diabetes mellitus tipo II"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2011000325103",
+      "display" : "programa GES (Garantías Explícitas en Salud) para hipotiroidismo en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2021000325109",
+      "display" : "programa GES (Garantías Explícitas en Salud) para hipertensión arterial primaria en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2031000325106",
+      "display" : "programa GES (Garantías Explícitas en Salud) para enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2041000325102",
+      "display" : "programa GES (Garantías Explícitas en Salud) para asma bronquial moderada y grave en menores de 15 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2051000325104",
+      "display" : "programa GES (Garantías Explícitas en Salud) para asma bronquial en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2061000325101",
+      "display" : "programa GES (Garantías Explícitas en Salud) para epilepsia no refractaria en personas desde 1 año y menores de 15 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2071000325108",
+      "display" : "programa GES (Garantías Explícitas en Salud) para epilepsia no refractaria en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2081000325105",
+      "display" : "programa GES (Garantías Explícitas en Salud) para enfermedad de Parkinson"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2091000325107",
+      "display" : "programa GES (Garantías Explícitas en Salud) para accidente cerebrovascular isquémico en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2101000325104",
+      "display" : "programa GES (Garantías Explícitas en Salud) para tumores primarios del sistema nervioso central en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2111000325102",
+      "display" : "programa GES (Garantías Explícitas en Salud) para urgencia odontológica ambulatoria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2121000325108",
+      "display" : "programa de Garantías Explícitas en Salud para salud oral integral de personas de 60 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2131000325105",
+      "display" : "programa GES (Garantías Explícitas en Salud) para síndrome de dificultad respiratoria en el recién nacido"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2141000325101",
+      "display" : "programa GES (Garantías Explícitas en Salud) para salud oral integral para niños y niñas de 6 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2151000325103",
+      "display" : "programa GES (Garantías Explícitas en Salud) para prevención de parto prematuro"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2161000325100",
+      "display" : "programa GES (Garantías Explícitas en Salud) para analgesia del parto"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2171000325107",
+      "display" : "programa de Garantías Explícitas en Salud para salud oral integral de la persona gestante"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2181000325109",
+      "display" : "programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de cataratas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2191000325106",
+      "display" : "programa GES (Garantías Explícitas en Salud) para vicios de refracción en personas de 65 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2201000325108",
+      "display" : "programa de Garantías Explícitas en Salud para estrabismo en personas menores de 9 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2211000325105",
+      "display" : "programa GES (Garantías Explícitas en Salud) para retinopatía diabética"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2221000325104",
+      "display" : "programa GES (Garantías Explícitas en Salud) para desprendimiento de retina regmatógeno no traumático"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2231000325102",
+      "display" : "programa GES (Garantías Explícitas en Salud) para hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2241000325106",
+      "display" : "programa GES (Garantías Explícitas en Salud) para retinopatía del prematuro"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2251000325109",
+      "display" : "programa GES (Garantías Explícitas en Salud) para hipoacusia neurosensorial bilateral del prematuro"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2261000325107",
+      "display" : "programa de Garantías Explícitas en Salud para tratamiento de hipoacusia moderada, severa y profunda en personas menores de 4 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2271000325100",
+      "display" : "programa GES (Garantías Explícitas en Salud) para artritis reumatoidea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2281000325103",
+      "display" : "programa GES (Garantías Explícitas en Salud) para artritis idiopática juvenil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2291000325101",
+      "display" : "programa GES (Garantías Explícitas en Salud) para lupus eritematoso sistémico"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2301000325102",
+      "display" : "programa GES (Garantías Explícitas en Salud) para displasia broncopulmonar del prematuro"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2311000325100",
+      "display" : "programa GES (Garantías Explícitas en Salud) para tratamiento de erradicación de Helicobacter pylori"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2321000325106",
+      "display" : "programa GES (Garantías Explícitas en Salud) para hepatitis crónica por virus hepatitis B"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2331000325108",
+      "display" : "programa GES (Garantías Explícitas en Salud) para hepatitis C"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2361000325103",
+      "display" : "programa GES (Garantías Explícitas en Salud) para tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2371000325105",
+      "display" : "programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de escoliosis en personas menores de 25 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2381000325107",
+      "display" : "programa GES (Garantías Explícitas en Salud) para endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2391000325109",
+      "display" : "programa GES (Garantías Explícitas en Salud) para tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2401000325107",
+      "display" : "programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de hernia del núcleo pulposo lumbar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2411000325109",
+      "display" : "programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2421000325103",
+      "display" : "programa GES (Garantías Explícitas en Salud) para tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2431000325101",
+      "display" : "programa GES (Garantías Explícitas en Salud) para displasia luxante de caderas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2441000325105",
+      "display" : "programa GES (Garantías Explícitas en Salud) para leucemia en personas de 15 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2451000325108",
+      "display" : "programa GES (Garantías Explícitas en Salud) para prevención secundaria enfermedad renal crónica terminal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2461000325106",
+      "display" : "programa de Garantías Explícitas en Salud para colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2471000325104",
+      "display" : "programa GES (Garantías Explícitas en Salud) para rehabilitación SARS-COV-2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2481000325102",
+      "display" : "programa GES (Garantías Explícitas en Salud) para órtesis (o ayudas técnicas) para personas de 65 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2491000325100",
+      "display" : "programa GES (Garantías Explícitas en Salud) para disrafias espinales"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2501000325106",
+      "display" : "programa GES (Garantías Explícitas en Salud) para fisura labiopalatina"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2511000325108",
+      "display" : "programa GES (Garantías Explícitas en Salud) para atención integral de salud en agresión sexual aguda"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2521000325102",
+      "display" : "programa GES (Garantías Explícitas en Salud) para politraumatizado grave"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2531000325100",
+      "display" : "programa GES (Garantías Explícitas en Salud) para traumatismo cráneo-encefálico moderado o grave"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2541000325109",
+      "display" : "programa GES (Garantías Explícitas en Salud) para trauma ocular grave"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2551000325107",
+      "display" : "programa GES (Garantías Explícitas en Salud) para gran quemado"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2561000325105",
+      "display" : "programa GES (Garantías Explícitas en Salud) para hemofilia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2571000325103",
+      "display" : "programa GES (Garantías Explícitas en Salud) para enfermedad de Alzheimer y otras demencias"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2581000325101",
+      "display" : "programa GES (Garantías Explícitas en Salud) para esclerosis múltiple remitente recurrente"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2591000325104",
+      "display" : "programa GES (Garantías Explícitas en Salud) para fibrosis quística"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2601000325105",
+      "display" : "programa de Garantías Explícitas en Salud para hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2611000325107",
+      "display" : "programa GES (Garantías Explícitas en Salud) para trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapaso"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2881000325104",
+      "display" : "programa de Garantías Explícitas en Salud para tratamiento farmacológico tras alta hospitalaria por cirrosis hepática"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2891000325102",
+      "display" : "programa de Garantías Explícitas en Salud para tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo de suicidio"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2901000325101",
+      "display" : "programa de Garantías Explícitas en Salud para cesación del consumo de tabaco en personas mayores de 25 años y más"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2911000325104",
+      "display" : "programa GES (Garantías Explícitas en Salud) para alivio del dolor y cuidados paliativos por cáncer avanzado"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2921000325105",
+      "display" : "programa de Garantías Explícitas en Salud para tratamiento hospitalario de infarto agudo de miocardio"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2931000325107",
+      "display" : "programa de Garantías Explícitas en Salud para consumo perjudicial y dependencia de alcohol y drogas en personas menores de 20 años"
+    }]
+  }
+}

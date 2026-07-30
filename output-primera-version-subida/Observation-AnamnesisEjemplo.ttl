@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/tei/Observation/AnamnesisEjemplo> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "AnamnesisEjemplo"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ObservationAnamnesisLE"^^xsd:anyURI ;
+       fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ObservationAnamnesisLE>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observación AnamnesisEjemplo</b></p><a name=\"AnamnesisEjemplo\"> </a><a name=\"hcAnamnesisEjemplo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ObservationAnamnesisLE.html\">Observation Anamnesis LE</a></p></div><p><b>status</b>: Registered</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 84100007}\">Anamnesis</span></p><p><b>subject</b>: <a href=\"Patient-EjemploPatientLE.html\">María Josefina Gonzalez (official) Male, DoB: 1974-12-25 ( Rol Único Nacional: 90000000-6 (use: official, ))</a></p><p><b>encounter</b>: <a href=\"Encounter-AtencionEjemplo.html\">Encounter: extension = true; identifier = 123; status = finished; class = Presencial (Modalidad Atencion Codigo#1); type = Nueva; period = 2024-02-22 08:00:00-0300 --&gt; 2024-02-22 08:30:00-0300</a></p><p><b>effective</b>: 2024-01-24 08:30:00-0300</p><p><b>value</b>: A pesar de la severidad de la condición del paciente, se encuentra estable, por lo que, dar un tratamiento más fuerte podría afectar su condición, lo mejor será iniciar con algo lo suficientemente suave. Hay que mantenerlo vigilado.</p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "registered"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:84100007 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "84100007" ]
+     ] ) ;
+     fhir:text [ fhir:v "Anamnesis" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/Patient/EjemploPatientLE> ;
+     fhir:reference [ fhir:v "Patient/EjemploPatientLE" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/Encounter/AtencionEjemplo> ;
+     fhir:reference [ fhir:v "Encounter/AtencionEjemplo" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2024-01-24T08:30:00-03:00"^^xsd:dateTime
+  ] ; # 
+  fhir:value [
+     a fhir:string ;
+     fhir:v "A pesar de la severidad de la condición del paciente, se encuentra estable, por lo que, dar un tratamiento más fuerte podría afectar su condición, lo mejor será iniciar con algo lo suficientemente suave. Hay que mantenerlo vigilado."
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

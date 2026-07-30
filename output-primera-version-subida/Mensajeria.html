@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Mensajeria - Tiempos de Espera Interoperable v0.2.3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7chile.css" rel="stylesheet" />
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-HLBNC861DJ" async>
+</script>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"9"}
+    h3,h4,h5,h6{--heading-prefix:"9"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+<div id="project-nav">
+    <a id="MINSAL-logo" no-external="true" href="http://minsal.cl">
+        
+        <img height="71" alt="Visitar sitio MINSAL Chile" src="assets/images/minsal-logo.svg" />
+    </a>
+</div>
+<div id="family-nav">
+    <a id="hl7chile-logo" no-external="true" href="http://hl7chile.cl"><img height="71" alt="Visitar HL7 Chile" src="assets/images/hl7chile-logo.svg" /> </a>
+</div>
+<!--
+<div id="hl7-search">
+  <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+</div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Tiempos de Espera Interoperable</span>
+            <br/>
+            <span style="display:inline-block;">0.2.3 - draft
+
+
+
+  <img alt="Chile flag" src="assets/images/chl.svg" height="16" title="Chile"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Especificación de Negocio
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="workflow.html">Workflow</a>
+      </li>
+      <li>
+        <a href="eventos_interoperabilidad_CNE.html">Eventos Interoperabilidad CNE</a>
+      </li>
+      <li>
+        <a href="rol_de_actores.html">Rol de Actores</a>
+      </li>
+      <li>
+        <a href="historias_de_usuario_segun_rol.html">Historias de Usuario según rol</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Especificaciones Técnicas
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Eventos.html">Eventos</a>
+      </li>
+      <li>
+        <a href="Transacciones.html">Transacciones</a>
+      </li>
+      <li>
+        <a href="artifacts.html#structures-resource-profiles">Perfiles</a>
+      </li>
+      <li>
+        <a href="Mensajeria.html">Mensajería</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html#terminology-value-sets">Terminologías</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artefactos</a>
+  </li>
+  <li>
+    <a href="historial_de_cambios.html">Historial de Cambios</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Mensajeria</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Tiempos de Espera Interoperable - Local Development build (v0.2.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interoperabilidad.minsal.cl/fhir/ig/tei/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Mensajeria</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#estructura-de-los-mensajes" id="markdown-toc-estructura-de-los-mensajes">Estructura de los Mensajes</a></li>
+  <li><a href="#mensaje-de-envío" id="markdown-toc-mensaje-de-envío">Mensaje de Envío</a></li>
+  <li><a href="#mensaje-de-respuesta" id="markdown-toc-mensaje-de-respuesta">Mensaje de Respuesta</a></li>
+  <li><a href="#response-code" id="markdown-toc-response-code">Response Code</a></li>
+</ul>
+
+</div>
+
+<p>El mecanismo de intercambio definido para las transacciones es <a href="https://www.hl7.org/fhir/R4/messaging.html">FHIR messaging</a>(Mensajería de FHIR), esto consiste en el intercambio de mensajes entre un emisor y un receptor, emulando en cierta medida la mensajería HL7 v2 (<a href="https://www.hl7.org/fhir/R4/messaging.html#endpoints">Ver diferencias entre Mensajería y REST</a>).</p>
+
+<p>El intercambio de mensajes entre los actores se debe realizar siguiendo las definiciónes de la especificación oficial de FHIR por lo que se supone que soportan la <a href="https://www.hl7.org/fhir/R4/messageheader-operation-process-message.html">operación FHIR <strong>$process-message</strong></a></p>
+
+<h3 id="estructura-de-los-mensajes">Estructura de los Mensajes</h3>
+
+<ul>
+  <li>Es importante considerar que la URL para el envío de un mensaje será: <strong>[base]/$process-message</strong></li>
+  <li>Agrupador de Recursos: Un recurso del tipo <strong>Bundle</strong> del tipo <strong>message</strong>(type=message)</li>
+  <li>Cabecera del mensaje: Un recurso del tipo <strong>MessageHeader</strong> con la identificación del <a href="ValueSet-VSTipoEventoLE.html">tipo evento</a>(ejemplo: eventCoding.code=terminar), una referencia a un autor(author), detalles del sistema emisor(source) y una referencia a un recurso el cual es el foco del mensaje(focus)</li>
+  <li>Otros recursos: Necesariamente los recursos referenciados deben ser incluidos dentro del mismo Bundle como entradas adicionales, por ejemplo en el caso del <strong>Mensaje de Envío</strong> los recursos referenciados en el MessageHeader(autor, focus, etc) y en el caso del <strong>Mensaje de Respuesta</strong> un recurso <a href="https://www.hl7.org/fhir/R4/operationoutcome.html"><strong>OperationOutcome</strong></a> con información de la operación, advertencias o lista de errores(OperationOutcome.issue)</li>
+</ul>
+
+<h3 id="mensaje-de-envío">Mensaje de Envío</h3>
+
+<ul>
+  <li>El recurso del tipo Bundle debe ser del tipo mensaje(type=message)</li>
+  <li>Siempre el primer entry en Bundle.type=message debe ser un MessageHeader.</li>
+  <li>El MessageHeader.focus debe incluir el siempre el ServiceRequest y opcionalmente Appointment(en el caso del evento agendar) o Encounter(en el caso del evento atender)</li>
+  <li>
+    <p>Ejemplo para evento Agendar:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+"resourceType": "Bundle",
+"type": "message",
+"entry": [
+  {
+      "fullUrl" : "http://acme.com/ehr/fhir/MessageHeader/EjemploMessageHeader",
+      "resource" : {
+          "resourceType": "MessageHeader",
+          "eventCoding”: {
+              "system”: "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoEventoLE”,
+              "code": "agendar"
+          },
+          "focus": [
+              {
+                  "reference": "urn:uuid:8ff6c98d-57b5-438c-9d9f-46adc9cb0382"
+              },
+              {
+                  "reference": "urn:uuid:f4dbd333-a73b-4b25-b589-fccf9daafd33"
+              }
+
+          ],
+          … // Otra información del MessageHeader
+      }
+  },
+  {
+      "fullUrl" : "urn:uuid:8ff6c98d-57b5-438c-9d9f-46adc9cb0382",
+      "resource" : {
+          "resourceType": "ServiceRequest"
+          … // Otra información del ServiceRequest
+      }
+
+  },
+  {
+      "fullUrl" : "urn:uuid:8ff6c98d-57b5-438c-9d9f-46adc9cb0382",
+      "resource" : {
+          "resourceType": "Appointment"
+          … // Otra información del Appointment
+      }
+
+  },
+  … // Otros recursos
+]
+}
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="mensaje-de-respuesta">Mensaje de Respuesta</h3>
+
+<h4 id="respuesta-exitosa">Respuesta exitosa</h4>
+
+<ul>
+  <li>El recurso Bundle debe ser del tipo mensaje(type=message)</li>
+  <li>El MessageHeader.focus debe incluir el siempre el ServiceRequest y opcionalmente Appointment(en el caso del evento agendar) o Encounter(en el caso del evento atender)</li>
+  <li>Como mínimo solo los recursos MessageHeader y referenciados en MessageHeader.focus vendrán completos en la respuesta, para los otros recursos solo vendrá el response con el resultado de la operación.</li>
+  <li>Adicionalmente es posible incluir el recurso OperationOutcome con información de la operación referenciado en MessageHeader.response</li>
+  <li>
+    <p>Ejemplo de Respuesta para evento Agendar:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "resourceType": "Bundle",
+    "id": "e192ea7d-3b6f-4120-8c0c-1ccc5e2960d1",
+    "identifier": {
+        "system": "http://demo.com/identifiers",
+        "value": "252dc32d-62c5-4c40-a97a-c48c8ce2f1a7"
+    },
+    "type": "message",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "MessageHeader",
+                "id": "2982",
+                "eventCoding": {
+                    "system": "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoEventoLE",
+                    "code": "agendar"
+                },
+                "author": {
+                    "reference": "PractitionerRole/2983"
+                },
+                "response": {
+                    "identifier": "0c3b644c-f64f-4626-9869-dcc080cfe538",
+                    "code": "ok",
+                    "details": {
+                        "reference": "OperationOutcome/5a2e30e1-38e1-40a3-b26b-f604df954f8a"
+                    }
+                },
+                "focus": [
+                    {
+                        "reference": "Appointment/2988"
+                    },
+                    {
+                        "reference": "ServiceRequest/2989"
+                    }
+                ],
+                ... // Otra información del MessageHeader
+            },
+            "response": {
+                "status": "201 Created",
+                "location": "MessageHeader/2982/_history/1",
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5a2e30e1-38e1-40a3-b26b-f604df954f8a",
+            "resource": {
+                "resourceType": "OperationOutcome",
+                "id": "5a2e30e1-38e1-40a3-b26b-f604df954f8a",
+                "issue": [
+                    {
+                        "severity": "information",
+                        "code": "informational",
+                        "details": {
+                            "text": "Interconsulta agendada exitosamente"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "2989",
+                ... // Otra información del ServiceRequest
+            },
+            "response": {
+                "status": "200 OK",
+                "location": "ServiceRequest/2989/_history/7"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "2988",
+                ... // Otra información del Appointment
+            },
+            "response": {
+                "status": "201 Created",
+                "location": "Appointment/2988/_history/1",
+            }
+        },
+        {
+            "response": {
+                "status": "201 Created",
+                "location": "PractitionerRole/2983/_history/1"
+            }
+        }
+        ... // Otros Recursos
+    ]
+}
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h4 id="respuesta-con-error">Respuesta con error</h4>
+
+<ul>
+  <li>
+    <p>Mensaje de Error, en caso de existir:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {
+    "resourceType": "OperationOutcome",
+    "text": {
+      "status": "generated",
+      "div": "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;h1&gt;Operation Outcome&lt;/h1&gt;&lt;table border=\"0\"&gt;&lt;tr&gt;&lt;td style=\"font-weight: bold;\"&gt;ERROR&lt;/td&gt;&lt;td&gt;[]&lt;/td&gt;&lt;td&gt;&lt;pre&gt;el valor es incorrecto&lt;/pre&gt;&lt;/td&gt;\n\t\t\t&lt;/tr&gt;\n\t\t&lt;/table&gt;\n\t&lt;/div&gt;"
+    },
+    "issue": [ {
+      "severity": "error",
+      "code": "value",
+      "diagnostics": "el valor es incorrecto"
+    } ]
+  }
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="response-code">Response Code</h3>
+
+<ul>
+  <li>Siempre es 200  en caso de que el mensaje sea procesado completamente</li>
+  <li>4XX si el mensaje no pudo ser procesado correctamente y se debe indicar error o errores usando el recurso OperationOutcome</li>
+  <li>5xx errores de servidor no relacionados al mensaje</li>
+</ul>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://interoperabilidad.minsal.cl">Unidad de Interoperabilidad - MINSAL</a>.  Package hl7.fhir.cl.minsal.tei#0.2.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 22, 2026 14:55-0400">2026-07-22</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+             Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Reporte QA</a> 
+<!-- <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interoperabilidad.minsal.cl/fhir/ig/tei"></a> -->
+</a>
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/Minsal-CL/SIGTEv2-IG">Issues</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

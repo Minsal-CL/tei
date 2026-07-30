@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-problema-ges-tei"/>
+  <language value="es"/>
+  <text>
+    <status value="generated"/><div xml:lang="es" xmlns="http://www.w3.org/1999/xhtml" lang="es"><p class="res-header-id"><b>Generated Narrative: SistemaDeCodigos cs-problema-ges-tei</b></p><a name="cs-problema-ges-tei"> </a><a name="hccs-problema-ges-tei"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="cs-problema-ges-tei-1"> </a></td><td>Enfermedad renal crónica etapa 4 y 5</td><td>Enfermedad renal crónica etapa 4 y 5</td></tr><tr><td style="white-space:nowrap">2<a name="cs-problema-ges-tei-2"> </a></td><td>Cardiopatías congénitas operables</td><td>Cardiopatías congénitas operables</td></tr><tr><td style="white-space:nowrap">3<a name="cs-problema-ges-tei-3"> </a></td><td>Cáncer cervicouterino en personas de 15 años y más</td><td>Cáncer cervicouterino en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">4<a name="cs-problema-ges-tei-4"> </a></td><td>Alivio del dolor y cuidados paliativos por cáncer</td><td>Alivio del dolor y cuidados paliativos por cáncer</td></tr><tr><td style="white-space:nowrap">5<a name="cs-problema-ges-tei-5"> </a></td><td>Infarto agudo del miocardio</td><td>Infarto agudo del miocardio</td></tr><tr><td style="white-space:nowrap">6<a name="cs-problema-ges-tei-6"> </a></td><td>Diabetes mellitus tipo 1</td><td>Diabetes mellitus tipo 1</td></tr><tr><td style="white-space:nowrap">7<a name="cs-problema-ges-tei-7"> </a></td><td>Diabetes mellitus tipo 2</td><td>Diabetes mellitus tipo 2</td></tr><tr><td style="white-space:nowrap">8<a name="cs-problema-ges-tei-8"> </a></td><td>Cáncer de mama en personas de 15 años y más</td><td>Cáncer de mama en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">9<a name="cs-problema-ges-tei-9"> </a></td><td>Disrafias espinales</td><td>Disrafias espinales</td></tr><tr><td style="white-space:nowrap">10<a name="cs-problema-ges-tei-10"> </a></td><td>Tratamiento quirúrgico de escoliosis en personas menores de 25 años</td><td>Tratamiento quirúrgico de escoliosis en personas menores de 25 años</td></tr><tr><td style="white-space:nowrap">11<a name="cs-problema-ges-tei-11"> </a></td><td>Tratamiento quirúrgico de cataratas</td><td>Tratamiento quirúrgico de cataratas</td></tr><tr><td style="white-space:nowrap">12<a name="cs-problema-ges-tei-12"> </a></td><td>Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa</td><td>Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa</td></tr><tr><td style="white-space:nowrap">13<a name="cs-problema-ges-tei-13"> </a></td><td>Fisura labiopalatina</td><td>Fisura labiopalatina</td></tr><tr><td style="white-space:nowrap">14<a name="cs-problema-ges-tei-14"> </a></td><td>Cáncer en personas menores de 15 años</td><td>Cáncer en personas menores de 15 años</td></tr><tr><td style="white-space:nowrap">15<a name="cs-problema-ges-tei-15"> </a></td><td>Esquizofrenia</td><td>Esquizofrenia</td></tr><tr><td style="white-space:nowrap">16<a name="cs-problema-ges-tei-16"> </a></td><td>Cáncer de testículo en personas de 15 años y más</td><td>Cáncer de testículo en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">17<a name="cs-problema-ges-tei-17"> </a></td><td>Linfomas en personas de 15 años y más</td><td>Linfomas en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">18<a name="cs-problema-ges-tei-18"> </a></td><td>Síndrome de la inmunodeficiencia adquirida vih/sida</td><td>Síndrome de la inmunodeficiencia adquirida vih/sida</td></tr><tr><td style="white-space:nowrap">19<a name="cs-problema-ges-tei-19"> </a></td><td>Infección respiratoria aguda (ira) de manejo ambulatorio en personas menores de 5 años</td><td>Infección respiratoria aguda (ira) de manejo ambulatorio en personas menores de 5 años</td></tr><tr><td style="white-space:nowrap">20<a name="cs-problema-ges-tei-20"> </a></td><td>Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más</td><td>Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más</td></tr><tr><td style="white-space:nowrap">21<a name="cs-problema-ges-tei-21"> </a></td><td>Hipertensión arterial primaria o esencial en personas de 15 años y más</td><td>Hipertensión arterial primaria o esencial en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">22<a name="cs-problema-ges-tei-22"> </a></td><td>Epilepsia en personas desde 1 año y menores de 15 años</td><td>Epilepsia en personas desde 1 año y menores de 15 años</td></tr><tr><td style="white-space:nowrap">23<a name="cs-problema-ges-tei-23"> </a></td><td>Salud oral integral para niños y niñas de 6 años</td><td>Salud oral integral para niños y niñas de 6 años</td></tr><tr><td style="white-space:nowrap">24<a name="cs-problema-ges-tei-24"> </a></td><td>Prevención de parto prematuro</td><td>Prevención de parto prematuro</td></tr><tr><td style="white-space:nowrap">25<a name="cs-problema-ges-tei-25"> </a></td><td>Trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapasos</td><td>Trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapasos</td></tr><tr><td style="white-space:nowrap">26<a name="cs-problema-ges-tei-26"> </a></td><td>Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años</td><td>Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años</td></tr><tr><td style="white-space:nowrap">27<a name="cs-problema-ges-tei-27"> </a></td><td>Cáncer gástrico</td><td>Cáncer gástrico</td></tr><tr><td style="white-space:nowrap">28<a name="cs-problema-ges-tei-28"> </a></td><td>Cáncer de próstata en personas de 15 años y más</td><td>Cáncer de próstata en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">29<a name="cs-problema-ges-tei-29"> </a></td><td>Vicios de refracción en personas de 65 años y más</td><td>Vicios de refracción en personas de 65 años y más</td></tr><tr><td style="white-space:nowrap">30<a name="cs-problema-ges-tei-30"> </a></td><td>Estrabismo en personas menores de 9 años</td><td>Estrabismo en personas menores de 9 años</td></tr><tr><td style="white-space:nowrap">31<a name="cs-problema-ges-tei-31"> </a></td><td>Retinopatía diabética</td><td>Retinopatía diabética</td></tr><tr><td style="white-space:nowrap">32<a name="cs-problema-ges-tei-32"> </a></td><td>Desprendimiento de retina regmatógeno no traumático</td><td>Desprendimiento de retina regmatógeno no traumático</td></tr><tr><td style="white-space:nowrap">33<a name="cs-problema-ges-tei-33"> </a></td><td>Hemofilia</td><td>Hemofilia</td></tr><tr><td style="white-space:nowrap">34<a name="cs-problema-ges-tei-34"> </a></td><td>Depresión en personas de 15 años y más</td><td>Depresión en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">35<a name="cs-problema-ges-tei-35"> </a></td><td>Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas</td><td>Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas</td></tr><tr><td style="white-space:nowrap">36<a name="cs-problema-ges-tei-36"> </a></td><td>Ayudas técnicas para personas de 65 años y más</td><td>Ayudas técnicas para personas de 65 años y más</td></tr><tr><td style="white-space:nowrap">37<a name="cs-problema-ges-tei-37"> </a></td><td>Ataque cerebrovascular isquémico en personas de 15 años y más</td><td>Ataque cerebrovascular isquémico en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">38<a name="cs-problema-ges-tei-38"> </a></td><td>Enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio</td><td>Enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio</td></tr><tr><td style="white-space:nowrap">39<a name="cs-problema-ges-tei-39"> </a></td><td>Asma bronquial moderada y grave en personas menores de 15 años</td><td>Asma bronquial moderada y grave en personas menores de 15 años</td></tr><tr><td style="white-space:nowrap">40<a name="cs-problema-ges-tei-40"> </a></td><td>Síndrome de dificultad respiratoria en el recién nacido</td><td>Síndrome de dificultad respiratoria en el recién nacido</td></tr><tr><td style="white-space:nowrap">41<a name="cs-problema-ges-tei-41"> </a></td><td>Tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada</td><td>Tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada</td></tr><tr><td style="white-space:nowrap">42<a name="cs-problema-ges-tei-42"> </a></td><td>Hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales</td><td>Hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales</td></tr><tr><td style="white-space:nowrap">43<a name="cs-problema-ges-tei-43"> </a></td><td>Tumores primarios del sistema nervioso central en personas de 15 años y más</td><td>Tumores primarios del sistema nervioso central en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">44<a name="cs-problema-ges-tei-44"> </a></td><td>Tratamiento quirúrgico de hernia del núcleo pulposo lumbar</td><td>Tratamiento quirúrgico de hernia del núcleo pulposo lumbar</td></tr><tr><td style="white-space:nowrap">45<a name="cs-problema-ges-tei-45"> </a></td><td>Leucemia en personas de 15 años y más</td><td>Leucemia en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">46<a name="cs-problema-ges-tei-46"> </a></td><td>Urgencia odontológica ambulatoria</td><td>Urgencia odontológica ambulatoria</td></tr><tr><td style="white-space:nowrap">47<a name="cs-problema-ges-tei-47"> </a></td><td>Salud oral integral de personas de 60 años</td><td>Salud oral integral de personas de 60 años</td></tr><tr><td style="white-space:nowrap">48<a name="cs-problema-ges-tei-48"> </a></td><td>Politraumatizado grave</td><td>Politraumatizado grave</td></tr><tr><td style="white-space:nowrap">49<a name="cs-problema-ges-tei-49"> </a></td><td>Traumatismo cráneo encefálico moderado o grave</td><td>Traumatismo cráneo encefálico moderado o grave</td></tr><tr><td style="white-space:nowrap">50<a name="cs-problema-ges-tei-50"> </a></td><td>Trauma ocular grave</td><td>Trauma ocular grave</td></tr><tr><td style="white-space:nowrap">51<a name="cs-problema-ges-tei-51"> </a></td><td>Fibrosis quística</td><td>Fibrosis quística</td></tr><tr><td style="white-space:nowrap">52<a name="cs-problema-ges-tei-52"> </a></td><td>Artritis reumatoidea</td><td>Artritis reumatoidea</td></tr><tr><td style="white-space:nowrap">53<a name="cs-problema-ges-tei-53"> </a></td><td>Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años</td><td>Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años</td></tr><tr><td style="white-space:nowrap">54<a name="cs-problema-ges-tei-54"> </a></td><td>Analgesia del parto</td><td>Analgesia del parto</td></tr><tr><td style="white-space:nowrap">55<a name="cs-problema-ges-tei-55"> </a></td><td>Gran quemado</td><td>Gran quemado</td></tr><tr><td style="white-space:nowrap">56<a name="cs-problema-ges-tei-56"> </a></td><td>Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono</td><td>Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono</td></tr><tr><td style="white-space:nowrap">57<a name="cs-problema-ges-tei-57"> </a></td><td>Retinopatía del prematuro</td><td>Retinopatía del prematuro</td></tr><tr><td style="white-space:nowrap">58<a name="cs-problema-ges-tei-58"> </a></td><td>Displasia broncopulmonar del prematuro</td><td>Displasia broncopulmonar del prematuro</td></tr><tr><td style="white-space:nowrap">59<a name="cs-problema-ges-tei-59"> </a></td><td>Hipoacusia neurosensorial bilateral del prematuro</td><td>Hipoacusia neurosensorial bilateral del prematuro</td></tr><tr><td style="white-space:nowrap">60<a name="cs-problema-ges-tei-60"> </a></td><td>Epilepsia en personas de 15 años y más</td><td>Epilepsia en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">61<a name="cs-problema-ges-tei-61"> </a></td><td>Asma bronquial en personas de 15 años y más</td><td>Asma bronquial en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">62<a name="cs-problema-ges-tei-62"> </a></td><td>Enfermedad de parkinson</td><td>Enfermedad de parkinson</td></tr><tr><td style="white-space:nowrap">63<a name="cs-problema-ges-tei-63"> </a></td><td>Artritis idiopática juvenil</td><td>Artritis idiopática juvenil</td></tr><tr><td style="white-space:nowrap">64<a name="cs-problema-ges-tei-64"> </a></td><td>Prevención secundaria enfermedad renal crónica terminal</td><td>Prevención secundaria enfermedad renal crónica terminal</td></tr><tr><td style="white-space:nowrap">65<a name="cs-problema-ges-tei-65"> </a></td><td>Displasia luxante de caderas</td><td>Displasia luxante de caderas</td></tr><tr><td style="white-space:nowrap">66<a name="cs-problema-ges-tei-66"> </a></td><td>Salud oral integral de la persona gestante</td><td>Salud oral integral de la persona gestante</td></tr><tr><td style="white-space:nowrap">67<a name="cs-problema-ges-tei-67"> </a></td><td>Esclerosis múltiple remitente recurrente</td><td>Esclerosis múltiple remitente recurrente</td></tr><tr><td style="white-space:nowrap">68<a name="cs-problema-ges-tei-68"> </a></td><td>Hepatitis crónica por virus hepatitis b</td><td>Hepatitis crónica por virus hepatitis b</td></tr><tr><td style="white-space:nowrap">69<a name="cs-problema-ges-tei-69"> </a></td><td>Hepatitis crónica por virus hepatitis c</td><td>Hepatitis crónica por virus hepatitis c</td></tr><tr><td style="white-space:nowrap">70<a name="cs-problema-ges-tei-70"> </a></td><td>Cáncer colorrectal en personas de 15 años y más</td><td>Cáncer colorrectal en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">71<a name="cs-problema-ges-tei-71"> </a></td><td>Cáncer de ovario epitelial</td><td>Cáncer de ovario epitelial</td></tr><tr><td style="white-space:nowrap">72<a name="cs-problema-ges-tei-72"> </a></td><td>Cáncer vesical en personas de 15 años y más</td><td>Cáncer vesical en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">73<a name="cs-problema-ges-tei-73"> </a></td><td>Osteosarcoma en personas de 15 años y más</td><td>Osteosarcoma en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">74<a name="cs-problema-ges-tei-74"> </a></td><td>Tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más</td><td>Tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">75<a name="cs-problema-ges-tei-75"> </a></td><td>Trastorno bipolar en personas de 15 años y más</td><td>Trastorno bipolar en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">76<a name="cs-problema-ges-tei-76"> </a></td><td>Hipotiroidismo en personas de 15 años y más</td><td>Hipotiroidismo en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">77<a name="cs-problema-ges-tei-77"> </a></td><td>Hipoacusia moderada, severa y profunda en personas menores de 4 años</td><td>Hipoacusia moderada, severa y profunda en personas menores de 4 años</td></tr><tr><td style="white-space:nowrap">78<a name="cs-problema-ges-tei-78"> </a></td><td>Lupus eritematoso sistémico</td><td>Lupus eritematoso sistémico</td></tr><tr><td style="white-space:nowrap">79<a name="cs-problema-ges-tei-79"> </a></td><td>Tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más</td><td>Tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">80<a name="cs-problema-ges-tei-80"> </a></td><td>Tratamiento de erradicación del helicobacter pylori</td><td>Tratamiento de erradicación del helicobacter pylori</td></tr><tr><td style="white-space:nowrap">81<a name="cs-problema-ges-tei-81"> </a></td><td>Cáncer de pulmón en personas de 15 años y más</td><td>Cáncer de pulmón en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">82<a name="cs-problema-ges-tei-82"> </a></td><td>Cáncer de tiroides en personas de 15 años y más</td><td>Cáncer de tiroides en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">83<a name="cs-problema-ges-tei-83"> </a></td><td>Cáncer renal en personas de 15 años y más</td><td>Cáncer renal en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">84<a name="cs-problema-ges-tei-84"> </a></td><td>Mieloma múltiple en personas de 15 años y más</td><td>Mieloma múltiple en personas de 15 años y más</td></tr><tr><td style="white-space:nowrap">85<a name="cs-problema-ges-tei-85"> </a></td><td>Enfermedad de alzheimer y otras demencias</td><td>Enfermedad de alzheimer y otras demencias</td></tr><tr><td style="white-space:nowrap">86<a name="cs-problema-ges-tei-86"> </a></td><td>Atención integral de salud en agresión sexual aguda</td><td>Atención integral de salud en agresión sexual aguda</td></tr><tr><td style="white-space:nowrap">87<a name="cs-problema-ges-tei-87"> </a></td><td>Rehabilitación sars cov-2</td><td>Rehabilitación sars cov-2</td></tr><tr><td style="white-space:nowrap">88<a name="cs-problema-ges-tei-88"> </a></td><td>Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática</td><td>Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática</td></tr><tr><td style="white-space:nowrap">89<a name="cs-problema-ges-tei-89"> </a></td><td>Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida</td><td>Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida</td></tr><tr><td style="white-space:nowrap">90<a name="cs-problema-ges-tei-90"> </a></td><td>Cesación del consumo de tabaco en personas de 25 años y más</td><td>Cesación del consumo de tabaco en personas de 25 años y más</td></tr></table></div>
+  </text>
+  <url value="https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei"/>
+  <version value="0.2.3"/>
+  <name value="ProblemaSaludGESCS"/>
+  <title value="Sitema de Codificación para los Problemas de Salud GES"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-22T14:55:14-04:00"/>
+  <publisher value="Unidad de Interoperabilidad - MINSAL"/>
+  <contact>
+    <name value="Unidad de Interoperabilidad - MINSAL"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://interoperabilidad.minsal.cl"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Jorge Mansilla"/>
+    <telecom>
+      <system value="email"/>
+      <value value="jorge.mansilla@minsal.cl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Sistema de codificación de los problemas de salud GES"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="90"/>
+  <concept>
+    <code value="1"/>
+    <display value="Enfermedad renal crónica etapa 4 y 5"/>
+    <definition value="Enfermedad renal crónica etapa 4 y 5"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Cardiopatías congénitas operables"/>
+    <definition value="Cardiopatías congénitas operables"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Cáncer cervicouterino en personas de 15 años y más"/>
+    <definition value="Cáncer cervicouterino en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Alivio del dolor y cuidados paliativos por cáncer"/>
+    <definition value="Alivio del dolor y cuidados paliativos por cáncer"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Infarto agudo del miocardio"/>
+    <definition value="Infarto agudo del miocardio"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Diabetes mellitus tipo 1"/>
+    <definition value="Diabetes mellitus tipo 1"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Diabetes mellitus tipo 2"/>
+    <definition value="Diabetes mellitus tipo 2"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Cáncer de mama en personas de 15 años y más"/>
+    <definition value="Cáncer de mama en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Disrafias espinales"/>
+    <definition value="Disrafias espinales"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Tratamiento quirúrgico de escoliosis en personas menores de 25 años"/>
+    <definition value="Tratamiento quirúrgico de escoliosis en personas menores de 25 años"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Tratamiento quirúrgico de cataratas"/>
+    <definition value="Tratamiento quirúrgico de cataratas"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa"/>
+    <definition value="Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa"/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="Fisura labiopalatina"/>
+    <definition value="Fisura labiopalatina"/>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <display value="Cáncer en personas menores de 15 años"/>
+    <definition value="Cáncer en personas menores de 15 años"/>
+  </concept>
+  <concept>
+    <code value="15"/>
+    <display value="Esquizofrenia"/>
+    <definition value="Esquizofrenia"/>
+  </concept>
+  <concept>
+    <code value="16"/>
+    <display value="Cáncer de testículo en personas de 15 años y más"/>
+    <definition value="Cáncer de testículo en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="17"/>
+    <display value="Linfomas en personas de 15 años y más"/>
+    <definition value="Linfomas en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="18"/>
+    <display value="Síndrome de la inmunodeficiencia adquirida vih/sida"/>
+    <definition value="Síndrome de la inmunodeficiencia adquirida vih/sida"/>
+  </concept>
+  <concept>
+    <code value="19"/>
+    <display value="Infección respiratoria aguda (ira) de manejo ambulatorio en personas menores de 5 años"/>
+    <definition value="Infección respiratoria aguda (ira) de manejo ambulatorio en personas menores de 5 años"/>
+  </concept>
+  <concept>
+    <code value="20"/>
+    <display value="Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más"/>
+    <definition value="Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más"/>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <display value="Hipertensión arterial primaria o esencial en personas de 15 años y más"/>
+    <definition value="Hipertensión arterial primaria o esencial en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="22"/>
+    <display value="Epilepsia en personas desde 1 año y menores de 15 años"/>
+    <definition value="Epilepsia en personas desde 1 año y menores de 15 años"/>
+  </concept>
+  <concept>
+    <code value="23"/>
+    <display value="Salud oral integral para niños y niñas de 6 años"/>
+    <definition value="Salud oral integral para niños y niñas de 6 años"/>
+  </concept>
+  <concept>
+    <code value="24"/>
+    <display value="Prevención de parto prematuro"/>
+    <definition value="Prevención de parto prematuro"/>
+  </concept>
+  <concept>
+    <code value="25"/>
+    <display value="Trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapasos"/>
+    <definition value="Trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapasos"/>
+  </concept>
+  <concept>
+    <code value="26"/>
+    <display value="Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años"/>
+    <definition value="Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años"/>
+  </concept>
+  <concept>
+    <code value="27"/>
+    <display value="Cáncer gástrico"/>
+    <definition value="Cáncer gástrico"/>
+  </concept>
+  <concept>
+    <code value="28"/>
+    <display value="Cáncer de próstata en personas de 15 años y más"/>
+    <definition value="Cáncer de próstata en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="29"/>
+    <display value="Vicios de refracción en personas de 65 años y más"/>
+    <definition value="Vicios de refracción en personas de 65 años y más"/>
+  </concept>
+  <concept>
+    <code value="30"/>
+    <display value="Estrabismo en personas menores de 9 años"/>
+    <definition value="Estrabismo en personas menores de 9 años"/>
+  </concept>
+  <concept>
+    <code value="31"/>
+    <display value="Retinopatía diabética"/>
+    <definition value="Retinopatía diabética"/>
+  </concept>
+  <concept>
+    <code value="32"/>
+    <display value="Desprendimiento de retina regmatógeno no traumático"/>
+    <definition value="Desprendimiento de retina regmatógeno no traumático"/>
+  </concept>
+  <concept>
+    <code value="33"/>
+    <display value="Hemofilia"/>
+    <definition value="Hemofilia"/>
+  </concept>
+  <concept>
+    <code value="34"/>
+    <display value="Depresión en personas de 15 años y más"/>
+    <definition value="Depresión en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="35"/>
+    <display value="Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas"/>
+    <definition value="Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas"/>
+  </concept>
+  <concept>
+    <code value="36"/>
+    <display value="Ayudas técnicas para personas de 65 años y más"/>
+    <definition value="Ayudas técnicas para personas de 65 años y más"/>
+  </concept>
+  <concept>
+    <code value="37"/>
+    <display value="Ataque cerebrovascular isquémico en personas de 15 años y más"/>
+    <definition value="Ataque cerebrovascular isquémico en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="38"/>
+    <display value="Enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio"/>
+    <definition value="Enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio"/>
+  </concept>
+  <concept>
+    <code value="39"/>
+    <display value="Asma bronquial moderada y grave en personas menores de 15 años"/>
+    <definition value="Asma bronquial moderada y grave en personas menores de 15 años"/>
+  </concept>
+  <concept>
+    <code value="40"/>
+    <display value="Síndrome de dificultad respiratoria en el recién nacido"/>
+    <definition value="Síndrome de dificultad respiratoria en el recién nacido"/>
+  </concept>
+  <concept>
+    <code value="41"/>
+    <display value="Tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada"/>
+    <definition value="Tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada"/>
+  </concept>
+  <concept>
+    <code value="42"/>
+    <display value="Hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales"/>
+    <definition value="Hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales"/>
+  </concept>
+  <concept>
+    <code value="43"/>
+    <display value="Tumores primarios del sistema nervioso central en personas de 15 años y más"/>
+    <definition value="Tumores primarios del sistema nervioso central en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="44"/>
+    <display value="Tratamiento quirúrgico de hernia del núcleo pulposo lumbar"/>
+    <definition value="Tratamiento quirúrgico de hernia del núcleo pulposo lumbar"/>
+  </concept>
+  <concept>
+    <code value="45"/>
+    <display value="Leucemia en personas de 15 años y más"/>
+    <definition value="Leucemia en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="46"/>
+    <display value="Urgencia odontológica ambulatoria"/>
+    <definition value="Urgencia odontológica ambulatoria"/>
+  </concept>
+  <concept>
+    <code value="47"/>
+    <display value="Salud oral integral de personas de 60 años"/>
+    <definition value="Salud oral integral de personas de 60 años"/>
+  </concept>
+  <concept>
+    <code value="48"/>
+    <display value="Politraumatizado grave"/>
+    <definition value="Politraumatizado grave"/>
+  </concept>
+  <concept>
+    <code value="49"/>
+    <display value="Traumatismo cráneo encefálico moderado o grave"/>
+    <definition value="Traumatismo cráneo encefálico moderado o grave"/>
+  </concept>
+  <concept>
+    <code value="50"/>
+    <display value="Trauma ocular grave"/>
+    <definition value="Trauma ocular grave"/>
+  </concept>
+  <concept>
+    <code value="51"/>
+    <display value="Fibrosis quística"/>
+    <definition value="Fibrosis quística"/>
+  </concept>
+  <concept>
+    <code value="52"/>
+    <display value="Artritis reumatoidea"/>
+    <definition value="Artritis reumatoidea"/>
+  </concept>
+  <concept>
+    <code value="53"/>
+    <display value="Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años"/>
+    <definition value="Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años"/>
+  </concept>
+  <concept>
+    <code value="54"/>
+    <display value="Analgesia del parto"/>
+    <definition value="Analgesia del parto"/>
+  </concept>
+  <concept>
+    <code value="55"/>
+    <display value="Gran quemado"/>
+    <definition value="Gran quemado"/>
+  </concept>
+  <concept>
+    <code value="56"/>
+    <display value="Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono"/>
+    <definition value="Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono"/>
+  </concept>
+  <concept>
+    <code value="57"/>
+    <display value="Retinopatía del prematuro"/>
+    <definition value="Retinopatía del prematuro"/>
+  </concept>
+  <concept>
+    <code value="58"/>
+    <display value="Displasia broncopulmonar del prematuro"/>
+    <definition value="Displasia broncopulmonar del prematuro"/>
+  </concept>
+  <concept>
+    <code value="59"/>
+    <display value="Hipoacusia neurosensorial bilateral del prematuro"/>
+    <definition value="Hipoacusia neurosensorial bilateral del prematuro"/>
+  </concept>
+  <concept>
+    <code value="60"/>
+    <display value="Epilepsia en personas de 15 años y más"/>
+    <definition value="Epilepsia en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="61"/>
+    <display value="Asma bronquial en personas de 15 años y más"/>
+    <definition value="Asma bronquial en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="62"/>
+    <display value="Enfermedad de parkinson"/>
+    <definition value="Enfermedad de parkinson"/>
+  </concept>
+  <concept>
+    <code value="63"/>
+    <display value="Artritis idiopática juvenil"/>
+    <definition value="Artritis idiopática juvenil"/>
+  </concept>
+  <concept>
+    <code value="64"/>
+    <display value="Prevención secundaria enfermedad renal crónica terminal"/>
+    <definition value="Prevención secundaria enfermedad renal crónica terminal"/>
+  </concept>
+  <concept>
+    <code value="65"/>
+    <display value="Displasia luxante de caderas"/>
+    <definition value="Displasia luxante de caderas"/>
+  </concept>
+  <concept>
+    <code value="66"/>
+    <display value="Salud oral integral de la persona gestante"/>
+    <definition value="Salud oral integral de la persona gestante"/>
+  </concept>
+  <concept>
+    <code value="67"/>
+    <display value="Esclerosis múltiple remitente recurrente"/>
+    <definition value="Esclerosis múltiple remitente recurrente"/>
+  </concept>
+  <concept>
+    <code value="68"/>
+    <display value="Hepatitis crónica por virus hepatitis b"/>
+    <definition value="Hepatitis crónica por virus hepatitis b"/>
+  </concept>
+  <concept>
+    <code value="69"/>
+    <display value="Hepatitis crónica por virus hepatitis c"/>
+    <definition value="Hepatitis crónica por virus hepatitis c"/>
+  </concept>
+  <concept>
+    <code value="70"/>
+    <display value="Cáncer colorrectal en personas de 15 años y más"/>
+    <definition value="Cáncer colorrectal en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="71"/>
+    <display value="Cáncer de ovario epitelial"/>
+    <definition value="Cáncer de ovario epitelial"/>
+  </concept>
+  <concept>
+    <code value="72"/>
+    <display value="Cáncer vesical en personas de 15 años y más"/>
+    <definition value="Cáncer vesical en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="73"/>
+    <display value="Osteosarcoma en personas de 15 años y más"/>
+    <definition value="Osteosarcoma en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="74"/>
+    <display value="Tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más"/>
+    <definition value="Tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="75"/>
+    <display value="Trastorno bipolar en personas de 15 años y más"/>
+    <definition value="Trastorno bipolar en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="76"/>
+    <display value="Hipotiroidismo en personas de 15 años y más"/>
+    <definition value="Hipotiroidismo en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="77"/>
+    <display value="Hipoacusia moderada, severa y profunda en personas menores de 4 años"/>
+    <definition value="Hipoacusia moderada, severa y profunda en personas menores de 4 años"/>
+  </concept>
+  <concept>
+    <code value="78"/>
+    <display value="Lupus eritematoso sistémico"/>
+    <definition value="Lupus eritematoso sistémico"/>
+  </concept>
+  <concept>
+    <code value="79"/>
+    <display value="Tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más"/>
+    <definition value="Tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="80"/>
+    <display value="Tratamiento de erradicación del helicobacter pylori"/>
+    <definition value="Tratamiento de erradicación del helicobacter pylori"/>
+  </concept>
+  <concept>
+    <code value="81"/>
+    <display value="Cáncer de pulmón en personas de 15 años y más"/>
+    <definition value="Cáncer de pulmón en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="82"/>
+    <display value="Cáncer de tiroides en personas de 15 años y más"/>
+    <definition value="Cáncer de tiroides en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="83"/>
+    <display value="Cáncer renal en personas de 15 años y más"/>
+    <definition value="Cáncer renal en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="84"/>
+    <display value="Mieloma múltiple en personas de 15 años y más"/>
+    <definition value="Mieloma múltiple en personas de 15 años y más"/>
+  </concept>
+  <concept>
+    <code value="85"/>
+    <display value="Enfermedad de alzheimer y otras demencias"/>
+    <definition value="Enfermedad de alzheimer y otras demencias"/>
+  </concept>
+  <concept>
+    <code value="86"/>
+    <display value="Atención integral de salud en agresión sexual aguda"/>
+    <definition value="Atención integral de salud en agresión sexual aguda"/>
+  </concept>
+  <concept>
+    <code value="87"/>
+    <display value="Rehabilitación sars cov-2"/>
+    <definition value="Rehabilitación sars cov-2"/>
+  </concept>
+  <concept>
+    <code value="88"/>
+    <display value="Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática"/>
+    <definition value="Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática"/>
+  </concept>
+  <concept>
+    <code value="89"/>
+    <display value="Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida"/>
+    <definition value="Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida"/>
+  </concept>
+  <concept>
+    <code value="90"/>
+    <display value="Cesación del consumo de tabaco en personas de 25 años y más"/>
+    <definition value="Cesación del consumo de tabaco en personas de 25 años y más"/>
+  </concept>
+</CodeSystem>

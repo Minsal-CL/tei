@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/tei/MessageHeader/MesssageHeaderAtenderEjemplo> a fhir:MessageHeader ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "MesssageHeaderAtenderEjemplo"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2024-02-22T08:30:00-03:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/MessageHeaderLE"^^xsd:anyURI ;
+       fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/MessageHeaderLE>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CabeceraMensaje MesssageHeaderAtenderEjemplo</b></p><a name=\"MesssageHeaderAtenderEjemplo\"> </a><a name=\"hcMesssageHeaderAtenderEjemplo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2024-02-22 08:30:00-0300</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-MessageHeaderLE.html\">MessageHeader LE</a></p></div><p><b>event</b>: <a href=\"CodeSystem-CSTipoEventoLE.html#CSTipoEventoLE-atender\">Tipo de Evento: atender</a> (Atender)</p><p><b>author</b>: <a href=\"PractitionerRole-PractitionerRoleAtendedor.html\">PractitionerRole Atendedor</a></p><h3>Sources</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Software</b></td><td><b>Endpoint</b></td></tr><tr><td style=\"display: none\">*</td><td>SISMaule</td><td>llp:10.11.12.13:5432</td></tr></table><p><b>focus</b>: </p><ul><li><a href=\"ServiceRequest-EjemploSolicitudInterconsultaFinalizada.html\">ServiceRequest Patient referral to specialist</a></li><li><a href=\"Encounter-AtencionEjemplo.html\">Encounter: extension = true; identifier = 123; status = finished; class = Presencial (Modalidad Atencion Codigo#1); type = Nueva; period = 2024-02-22 08:00:00-0300 --&gt; 2024-02-22 08:30:00-0300</a></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:event [
+     a fhir:Coding ;
+     fhir:system [ fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoEventoLE"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "atender" ] ;
+     fhir:display [ fhir:v "Atender" ]
+  ] ; # 
+  fhir:author [
+     fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/PractitionerRole/PractitionerRoleAtendedor> ;
+     fhir:reference [ fhir:v "PractitionerRole/PractitionerRoleAtendedor" ]
+  ] ; # 
+  fhir:source [
+     fhir:software [ fhir:v "SISMaule" ] ;
+     fhir:endpoint [ fhir:v "llp:10.11.12.13:5432"^^xsd:anyURI ]
+  ] ; # 
+  fhir:focus ( [
+     fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/ServiceRequest/EjemploSolicitudInterconsultaFinalizada> ;
+     fhir:reference [ fhir:v "ServiceRequest/EjemploSolicitudInterconsultaFinalizada" ]
+  ] [
+     fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/Encounter/AtencionEjemplo> ;
+     fhir:reference [ fhir:v "Encounter/AtencionEjemplo" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

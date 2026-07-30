@@ -1,0 +1,783 @@
+[{
+  "id" : "CSConsecuenciaAtencionCodigo",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSConsecuenciaAtencionCodigo",
+  "version" : "0.2.3",
+  "name" : "CSConsecuenciaAtencionCodigo"
+},
+{
+  "id" : "CSDerivadoParaCodigo",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDerivadoParaCodigo",
+  "version" : "0.2.3",
+  "name" : "CSDerivadoParaCodigo"
+},
+{
+  "id" : "CSDestinoReferenciaCodigo",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDestinoReferenciaCodigo",
+  "version" : "0.2.3",
+  "name" : "CSDestinoReferenciaCodigo"
+},
+{
+  "id" : "CSEspecialidadBioqca",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadBioqca",
+  "version" : "0.2.3",
+  "name" : "CSEspecialidadBioqca"
+},
+{
+  "id" : "CSEspecialidadFarma",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadFarma",
+  "version" : "0.2.3",
+  "name" : "CSEspecialidadFarma"
+},
+{
+  "id" : "CSEspecialidadMed",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadMed",
+  "version" : "0.2.3",
+  "name" : "CSEspecialidadMed"
+},
+{
+  "id" : "CSEspecialidadOdont",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadOdont",
+  "version" : "0.2.3",
+  "name" : "CSEspecialidadOdont"
+},
+{
+  "id" : "CSEstablecimientoDestino",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEstablecimientoDestino",
+  "version" : "0.2.3",
+  "name" : "CSEstablecimientoDestino"
+},
+{
+  "id" : "CSEstadoCivil",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEstadoCivil",
+  "version" : "0.2.3",
+  "name" : "CSEstadoCivil"
+},
+{
+  "id" : "CSEstadoInterconsulta",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEstadoInterconsulta",
+  "version" : "0.2.3",
+  "name" : "CSEstadoInterconsulta"
+},
+{
+  "id" : "CSIndicecomorbilidad",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSIndicecomorbilidad",
+  "version" : "0.2.3",
+  "name" : "CSIndicecomorbilidad"
+},
+{
+  "id" : "CSMediodeContacto",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMediodeContacto",
+  "version" : "0.2.3",
+  "name" : "CSMediodeContacto"
+},
+{
+  "id" : "CSModalidadAtencionCodigo",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSModalidadAtencionCodigo",
+  "version" : "0.2.3",
+  "name" : "CSModalidadAtencionCodigo"
+},
+{
+  "id" : "CSMotivoCierreInterconsulta",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMotivoCierreInterconsulta",
+  "version" : "0.2.3",
+  "name" : "CSMotivoCierreInterconsulta"
+},
+{
+  "id" : "CSMotivoNoContactabilidad",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMotivoNoContactabilidad",
+  "version" : "0.2.3",
+  "name" : "CSMotivoNoContactabilidad"
+},
+{
+  "id" : "CSMotivoNoPertinenciaCodigo",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMotivoNoPertinenciaCodigo",
+  "version" : "0.2.3",
+  "name" : "CSMotivoNoPertinenciaCodigo"
+},
+{
+  "id" : "CSPertinenciaInterconsulta",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSPertinenciaInterconsulta",
+  "version" : "0.2.3",
+  "name" : "CSPertinenciaInterconsulta"
+},
+{
+  "id" : "CSPractitionerTipoRolLE",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSPractitionerTipoRolLE",
+  "version" : "0.2.3",
+  "name" : "CSPractitionerTipoRolLE"
+},
+{
+  "id" : "CSReligion",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSReligion",
+  "version" : "0.2.3",
+  "name" : "CSReligion"
+},
+{
+  "id" : "CSTipoConsulta",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoConsulta",
+  "version" : "0.2.3",
+  "name" : "CSTipoConsulta"
+},
+{
+  "id" : "CSTipoEventoLE",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoEventoLE",
+  "version" : "0.2.3",
+  "name" : "CSTipoEventoLE"
+},
+{
+  "id" : "CSTipoObservacionMinsal",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoObservacionMinsal",
+  "version" : "0.2.3",
+  "name" : "CSTipoObservacionMinsal"
+},
+{
+  "id" : "CSTituloProfesional",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional",
+  "version" : "0.2.3",
+  "name" : "CSTituloProfesional"
+},
+{
+  "id" : "CSorigenInterconsulta",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSorigenInterconsulta",
+  "version" : "0.2.3",
+  "name" : "CSorigenInterconsulta"
+},
+{
+  "id" : "PueblosOriginariosCS",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/PueblosOriginariosCS",
+  "version" : "0.2.3",
+  "name" : "PueblosOriginariosCS"
+},
+{
+  "id" : "cs-problema-ges-tei",
+  "type" : "CodeSystem",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei",
+  "version" : "0.2.3",
+  "name" : "ProblemaSaludGESCS"
+},
+{
+  "id" : "hl7.fhir.cl.minsal.tei",
+  "type" : "ImplementationGuide",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ImplementationGuide/hl7.fhir.cl.minsal.tei",
+  "version" : "0.2.3",
+  "name" : "TiemposdeEsperaInteroperable"
+},
+{
+  "id" : "MotivoDerivacion",
+  "type" : "Questionnaire",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/Questionnaire/MotivoDerivacion",
+  "version" : "0.2.3"
+},
+{
+  "id" : "AllergyIntoleranceIniciarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/AllergyIntoleranceIniciarLE",
+  "version" : "0.2.3",
+  "name" : "AllergyIntoleranceIniciarLE"
+},
+{
+  "id" : "AppointmentAgendarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/AppointmentAgendarLE",
+  "version" : "0.2.3",
+  "name" : "AppointmentAgendarLE"
+},
+{
+  "id" : "BundleAgendarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/BundleAgendarLE",
+  "version" : "0.2.3",
+  "name" : "BundleAgendarLE"
+},
+{
+  "id" : "BundleAtenderLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/BundleAtenderLE",
+  "version" : "0.2.3",
+  "name" : "BundleAtenderLE"
+},
+{
+  "id" : "BundleIniciarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/BundleIniciarLE",
+  "version" : "0.2.3",
+  "name" : "BundleIniciarLE"
+},
+{
+  "id" : "BundlePriorizarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/BundlePriorizarLE",
+  "version" : "0.2.3",
+  "name" : "BundlePriorizarLE"
+},
+{
+  "id" : "BundleReferenciarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/BundleReferenciarLE",
+  "version" : "0.2.3",
+  "name" : "BundleReferenciarLE"
+},
+{
+  "id" : "BundleRevisarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/BundleRevisarLE",
+  "version" : "0.2.3",
+  "name" : "BundleRevisarLE"
+},
+{
+  "id" : "BundleTerminarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/BundleTerminarLE",
+  "version" : "0.2.3",
+  "name" : "BundleTerminarLE"
+},
+{
+  "id" : "CarePlanAtenderLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/CarePlanAtenderLE",
+  "version" : "0.2.3",
+  "name" : "CarePlanAtenderLE"
+},
+{
+  "id" : "ConditionDiagnosticoLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ConditionDiagnosticoLE",
+  "version" : "0.2.3",
+  "name" : "ConditionDiagnosticoLE"
+},
+{
+  "id" : "Contactado",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/Contactado",
+  "version" : "0.2.3",
+  "name" : "ExtensionContactadoLE"
+},
+{
+  "id" : "EncounterAtenderLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/EncounterAtenderLE",
+  "version" : "0.2.3",
+  "name" : "EncounterAtenderLE"
+},
+{
+  "id" : "EncounterIniciarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/EncounterIniciarLE",
+  "version" : "0.2.3",
+  "name" : "EncounterIniciarLE"
+},
+{
+  "id" : "ExtensionBoolAtencionPreferente",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionBoolAtencionPreferente",
+  "version" : "0.2.3",
+  "name" : "ExtensionBoolAtencionPreferente"
+},
+{
+  "id" : "ExtensionBoolRequiereExamen",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionBoolRequiereExamen",
+  "version" : "0.2.3",
+  "name" : "ExtensionBoolRequiereExamen"
+},
+{
+  "id" : "ExtensionBoolResolutividadAPS",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionBoolResolutividadAPS",
+  "version" : "0.2.3",
+  "name" : "ExtensionBoolResolutividadAPS"
+},
+{
+  "id" : "ExtensionConsecuenciaAtencionCodigo",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionConsecuenciaAtencionCodigo",
+  "version" : "0.2.3",
+  "name" : "ExtensionConsecuenciaAtencionCodigo"
+},
+{
+  "id" : "ExtensionEspecialidadMedicaDestinoCodigo",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionEspecialidadMedicaDestinoCodigo",
+  "version" : "0.2.3",
+  "name" : "ExtensionEspecialidadMedicaDestinoCodigo"
+},
+{
+  "id" : "ExtensionEstadoInterconsultaCodigoLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionEstadoInterconsultaCodigoLE",
+  "version" : "0.2.3",
+  "name" : "ExtensionEstadoInterconsultaCodigoLE"
+},
+{
+  "id" : "ExtensionMediodeContacto",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionMediodeContacto",
+  "version" : "0.2.3",
+  "name" : "ExtensionMediodeContacto"
+},
+{
+  "id" : "ExtensionMotivoCierreInterconsulta",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionMotivoCierreInterconsulta",
+  "version" : "0.2.3",
+  "name" : "ExtensionMotivoCierreInterconsulta"
+},
+{
+  "id" : "ExtensionMotivoNoPertinencia",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionMotivoNoPertinencia",
+  "version" : "0.2.3",
+  "name" : "ExtensionMotivoNoPertinencia"
+},
+{
+  "id" : "ExtensionOrigenInterconsulta",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionOrigenInterconsulta",
+  "version" : "0.2.3",
+  "name" : "ExtensionOrigenInterconsulta"
+},
+{
+  "id" : "ExtensionPertinenciaAtencionBox",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionPertinenciaAtencionBox",
+  "version" : "0.2.3",
+  "name" : "ExtensionPertinenciaAtencionBox"
+},
+{
+  "id" : "ExtensionPertinenciaInterconsulta",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionPertinenciaInterconsulta",
+  "version" : "0.2.3",
+  "name" : "ExtensionPertinenciaInterconsulta"
+},
+{
+  "id" : "ExtensionSolicitudExamenes",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionSolicitudExamenes",
+  "version" : "0.2.3",
+  "name" : "ExtensionSolicitudExamenes"
+},
+{
+  "id" : "ExtensionStringFundamentoPriorizacion",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionStringFundamentoPriorizacion",
+  "version" : "0.2.3",
+  "name" : "ExtensionStringFundamentoPriorizacion"
+},
+{
+  "id" : "ExtensionSubEspecialidadMedicaDestinoCodigo",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionSubEspecialidadMedicaDestinoCodigo",
+  "version" : "0.2.3",
+  "name" : "ExtensionSubEspecialidadMedicaDestinoCodigo"
+},
+{
+  "id" : "MedicationRequestLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/MedicationRequestLE",
+  "version" : "0.2.3",
+  "name" : "MedicationRequestLE"
+},
+{
+  "id" : "Mencion",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/Mencion",
+  "version" : "0.2.3",
+  "name" : "Mencion"
+},
+{
+  "id" : "MessageHeaderLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/MessageHeaderLE",
+  "version" : "0.2.3",
+  "name" : "MessageHeaderLE"
+},
+{
+  "id" : "ObservationAnamnesisLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ObservationAnamnesisLE",
+  "version" : "0.2.3",
+  "name" : "ObservationAnamnesisLE"
+},
+{
+  "id" : "ObservationDiscapacidadLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ObservationDiscapacidadLE",
+  "version" : "0.2.3",
+  "name" : "ObservationDiscapacidadLE"
+},
+{
+  "id" : "ObservationIndiceComorbilidadLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ObservationIndiceComorbilidadLE",
+  "version" : "0.2.3",
+  "name" : "ObservationIndiceComorbilidadLE"
+},
+{
+  "id" : "ObservationIniciarCuidadorLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ObservationIniciarCuidadorLE",
+  "version" : "0.2.3",
+  "name" : "ObservationIniciarCuidadorLE"
+},
+{
+  "id" : "ObservationResultadoExamen",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ObservationResultadoExamen",
+  "version" : "0.2.3",
+  "name" : "ObservationResultadoExamen"
+},
+{
+  "id" : "OrganizationLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/OrganizationLE",
+  "version" : "0.2.3",
+  "name" : "OrganizationLE"
+},
+{
+  "id" : "PaisOrigenMPI",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PaisOrigenMPI",
+  "version" : "0.2.3",
+  "name" : "PaisOrigenMPI"
+},
+{
+  "id" : "PatientLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PatientLE",
+  "version" : "0.2.3",
+  "name" : "PatientLE"
+},
+{
+  "id" : "PractitionerAdministrativoLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PractitionerAdministrativoLE",
+  "version" : "0.2.3",
+  "name" : "PractitionerAdministrativoLE"
+},
+{
+  "id" : "PractitionerProfesionalLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PractitionerProfesionalLE",
+  "version" : "0.2.3",
+  "name" : "PractitionerProfesionalLE"
+},
+{
+  "id" : "PractitionerRoleLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PractitionerRoleLE",
+  "version" : "0.2.3",
+  "name" : "PractitionerRoleLE"
+},
+{
+  "id" : "ProvenanceLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ProvenanceLE",
+  "version" : "0.2.3",
+  "name" : "ProvenanceLE"
+},
+{
+  "id" : "PueblosAfrodescendiente",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PueblosAfrodescendiente",
+  "version" : "0.2.3",
+  "name" : "PueblosAfrodescendiente"
+},
+{
+  "id" : "PueblosOriginarios",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PueblosOriginarios",
+  "version" : "0.2.3",
+  "name" : "PueblosOriginarios"
+},
+{
+  "id" : "PueblosOriginariosPerteneciente",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PueblosOriginariosPerteneciente",
+  "version" : "0.2.3",
+  "name" : "PueblosOriginariosPerteneciente"
+},
+{
+  "id" : "QuestionnaireResponseIniciarLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/QuestionnaireResponseIniciarLE",
+  "version" : "0.2.3",
+  "name" : "QuestionnaireResponseIniciarLE"
+},
+{
+  "id" : "Religion",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/Religion",
+  "version" : "0.2.3",
+  "name" : "Religion"
+},
+{
+  "id" : "ServiceRequestExamenLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ServiceRequestExamenLE",
+  "version" : "0.2.3",
+  "name" : "ServiceRequestExamenLE"
+},
+{
+  "id" : "ServiceRequestLE",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ServiceRequestLE",
+  "version" : "0.2.3",
+  "name" : "ServiceRequestLE"
+},
+{
+  "id" : "SituacionCalle",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/SituacionCalle",
+  "version" : "0.2.3",
+  "name" : "SituacionCalle"
+},
+{
+  "id" : "SospechaPatologiaGes",
+  "type" : "StructureDefinition",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/SospechaPatologiaGes",
+  "version" : "0.2.3",
+  "name" : "SospechaPatologiaGes"
+},
+{
+  "id" : "CodigoExamen",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/CodigoExamen",
+  "version" : "0.2.3",
+  "name" : "CodigoExamen"
+},
+{
+  "id" : "PueblosOriginariosVS",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/PueblosOriginariosVS",
+  "version" : "0.2.3",
+  "name" : "PueblosOriginariosVS"
+},
+{
+  "id" : "TipoDeObservacion",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/TipoDeObservacion",
+  "version" : "0.2.3",
+  "name" : "TipoDeObservacion"
+},
+{
+  "id" : "VSConsecuenciaAtencionCodigo",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSConsecuenciaAtencionCodigo",
+  "version" : "0.2.3",
+  "name" : "VSConsecuenciaAtencionCodigo"
+},
+{
+  "id" : "VSDerivadoParaCodigo",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSDerivadoParaCodigo",
+  "version" : "0.2.3",
+  "name" : "VSDerivadoParaCodigo"
+},
+{
+  "id" : "VSDestinoReferenciaCodigo",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSDestinoReferenciaCodigo",
+  "version" : "0.2.3",
+  "name" : "VSDestinoReferenciaCodigo"
+},
+{
+  "id" : "VSEspecialidadBioqca",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEspecialidadBioqca",
+  "version" : "0.2.3",
+  "name" : "VSEspecialidadBioqca"
+},
+{
+  "id" : "VSEspecialidadFarma",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEspecialidadFarma",
+  "version" : "0.2.3",
+  "name" : "VSEspecialidadFarma"
+},
+{
+  "id" : "VSEspecialidadMed",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEspecialidadMed",
+  "version" : "0.2.3",
+  "name" : "VSEspecialidadMed"
+},
+{
+  "id" : "VSEspecialidadOdont",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEspecialidadOdont",
+  "version" : "0.2.3",
+  "name" : "VSEspecialidadOdont"
+},
+{
+  "id" : "VSEstablecimientoDestino",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEstablecimientoDestino",
+  "version" : "0.2.3",
+  "name" : "VSEstablecimientoDestino"
+},
+{
+  "id" : "VSEstadoCivil",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEstadoCivil",
+  "version" : "0.2.3",
+  "name" : "VSEstadoCivil"
+},
+{
+  "id" : "VSEstadoInterconsulta",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEstadoInterconsulta",
+  "version" : "0.2.3",
+  "name" : "VSEstadoInterconsulta"
+},
+{
+  "id" : "VSIdentificadorPrestador",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSIdentificadorPrestador",
+  "version" : "0.2.3",
+  "name" : "VSIdentificadorPrestador"
+},
+{
+  "id" : "VSIndicecomorbilidad",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSIndicecomorbilidad",
+  "version" : "0.2.3",
+  "name" : "VSIndicecomorbilidad"
+},
+{
+  "id" : "VSMediodeContacto",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSMediodeContacto",
+  "version" : "0.2.3",
+  "name" : "VSMediodeContacto"
+},
+{
+  "id" : "VSModalidadAtencionCodigo",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSModalidadAtencionCodigo",
+  "version" : "0.2.3",
+  "name" : "VSModalidadAtencionCodigo"
+},
+{
+  "id" : "VSMotivoCierreInterconsulta",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSMotivoCierreInterconsulta",
+  "version" : "0.2.3",
+  "name" : "VSMotivoCierreInterconsulta"
+},
+{
+  "id" : "VSMotivoNoContactabilidad",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSMotivoNoContactabilidad",
+  "version" : "0.2.3",
+  "name" : "VSMotivoNoContactabilidad"
+},
+{
+  "id" : "VSMotivoNoPertinenciaCodigo",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSMotivoNoPertinenciaCodigo",
+  "version" : "0.2.3",
+  "name" : "VSMotivoNoPertinenciaCodigo"
+},
+{
+  "id" : "VSPertinenciaInterconsulta",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSPertinenciaInterconsulta",
+  "version" : "0.2.3",
+  "name" : "VSPertinenciaInterconsulta"
+},
+{
+  "id" : "VSPractitionerTipoRolLE",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSPractitionerTipoRolLE",
+  "version" : "0.2.3",
+  "name" : "VSPractitionerTipoRolLE"
+},
+{
+  "id" : "VSReligion",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSReligion",
+  "version" : "0.2.3",
+  "name" : "VSReligion"
+},
+{
+  "id" : "VSServicioRequerido",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSServicioRequerido",
+  "version" : "0.2.3",
+  "name" : "VSServicioRequerido"
+},
+{
+  "id" : "VSTerminologiasDiag",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSTerminologiasDiag",
+  "version" : "0.2.3",
+  "name" : "VSTerminologiasDiag"
+},
+{
+  "id" : "VSTipoConsulta",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSTipoConsulta",
+  "version" : "0.2.3",
+  "name" : "VSTipoConsulta"
+},
+{
+  "id" : "VSTipoEventoLE",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSTipoEventoLE",
+  "version" : "0.2.3",
+  "name" : "VSTipoEventoLE"
+},
+{
+  "id" : "VSTituloProfesional",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSTituloProfesional",
+  "version" : "0.2.3",
+  "name" : "VSTituloProfesional"
+},
+{
+  "id" : "VSorigenInterconsulta",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSorigenInterconsulta",
+  "version" : "0.2.3",
+  "name" : "VSorigenInterconsulta"
+},
+{
+  "id" : "VsEspecialidadDest",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VsEspecialidadDest",
+  "version" : "0.2.3",
+  "name" : "VsEspecialidadDest"
+},
+{
+  "id" : "vs-problema-ges-tei",
+  "type" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/vs-problema-ges-tei",
+  "version" : "0.2.3",
+  "name" : "ProblemaSaludGESVS"
+}]

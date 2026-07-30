@@ -1,0 +1,413 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cs-problema-ges-tei"] ; # 
+  fhir:language [ fhir:v "es"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"es\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es\"><p class=\"res-header-id\"><b>Generated Narrative: SistemaDeCodigos cs-problema-ges-tei</b></p><a name=\"cs-problema-ges-tei\"> </a><a name=\"hccs-problema-ges-tei\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: es</p></div><p>This case-sensitive code system <code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"cs-problema-ges-tei-1\"> </a></td><td>Enfermedad renal crónica etapa 4 y 5</td><td>Enfermedad renal crónica etapa 4 y 5</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"cs-problema-ges-tei-2\"> </a></td><td>Cardiopatías congénitas operables</td><td>Cardiopatías congénitas operables</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"cs-problema-ges-tei-3\"> </a></td><td>Cáncer cervicouterino en personas de 15 años y más</td><td>Cáncer cervicouterino en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"cs-problema-ges-tei-4\"> </a></td><td>Alivio del dolor y cuidados paliativos por cáncer</td><td>Alivio del dolor y cuidados paliativos por cáncer</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"cs-problema-ges-tei-5\"> </a></td><td>Infarto agudo del miocardio</td><td>Infarto agudo del miocardio</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"cs-problema-ges-tei-6\"> </a></td><td>Diabetes mellitus tipo 1</td><td>Diabetes mellitus tipo 1</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"cs-problema-ges-tei-7\"> </a></td><td>Diabetes mellitus tipo 2</td><td>Diabetes mellitus tipo 2</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"cs-problema-ges-tei-8\"> </a></td><td>Cáncer de mama en personas de 15 años y más</td><td>Cáncer de mama en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"cs-problema-ges-tei-9\"> </a></td><td>Disrafias espinales</td><td>Disrafias espinales</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"cs-problema-ges-tei-10\"> </a></td><td>Tratamiento quirúrgico de escoliosis en personas menores de 25 años</td><td>Tratamiento quirúrgico de escoliosis en personas menores de 25 años</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"cs-problema-ges-tei-11\"> </a></td><td>Tratamiento quirúrgico de cataratas</td><td>Tratamiento quirúrgico de cataratas</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"cs-problema-ges-tei-12\"> </a></td><td>Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa</td><td>Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"cs-problema-ges-tei-13\"> </a></td><td>Fisura labiopalatina</td><td>Fisura labiopalatina</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"cs-problema-ges-tei-14\"> </a></td><td>Cáncer en personas menores de 15 años</td><td>Cáncer en personas menores de 15 años</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"cs-problema-ges-tei-15\"> </a></td><td>Esquizofrenia</td><td>Esquizofrenia</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"cs-problema-ges-tei-16\"> </a></td><td>Cáncer de testículo en personas de 15 años y más</td><td>Cáncer de testículo en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"cs-problema-ges-tei-17\"> </a></td><td>Linfomas en personas de 15 años y más</td><td>Linfomas en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"cs-problema-ges-tei-18\"> </a></td><td>Síndrome de la inmunodeficiencia adquirida vih/sida</td><td>Síndrome de la inmunodeficiencia adquirida vih/sida</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"cs-problema-ges-tei-19\"> </a></td><td>Infección respiratoria aguda (ira) de manejo ambulatorio en personas menores de 5 años</td><td>Infección respiratoria aguda (ira) de manejo ambulatorio en personas menores de 5 años</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"cs-problema-ges-tei-20\"> </a></td><td>Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más</td><td>Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"cs-problema-ges-tei-21\"> </a></td><td>Hipertensión arterial primaria o esencial en personas de 15 años y más</td><td>Hipertensión arterial primaria o esencial en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"cs-problema-ges-tei-22\"> </a></td><td>Epilepsia en personas desde 1 año y menores de 15 años</td><td>Epilepsia en personas desde 1 año y menores de 15 años</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"cs-problema-ges-tei-23\"> </a></td><td>Salud oral integral para niños y niñas de 6 años</td><td>Salud oral integral para niños y niñas de 6 años</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"cs-problema-ges-tei-24\"> </a></td><td>Prevención de parto prematuro</td><td>Prevención de parto prematuro</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"cs-problema-ges-tei-25\"> </a></td><td>Trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapasos</td><td>Trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapasos</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"cs-problema-ges-tei-26\"> </a></td><td>Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años</td><td>Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"cs-problema-ges-tei-27\"> </a></td><td>Cáncer gástrico</td><td>Cáncer gástrico</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"cs-problema-ges-tei-28\"> </a></td><td>Cáncer de próstata en personas de 15 años y más</td><td>Cáncer de próstata en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"cs-problema-ges-tei-29\"> </a></td><td>Vicios de refracción en personas de 65 años y más</td><td>Vicios de refracción en personas de 65 años y más</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"cs-problema-ges-tei-30\"> </a></td><td>Estrabismo en personas menores de 9 años</td><td>Estrabismo en personas menores de 9 años</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"cs-problema-ges-tei-31\"> </a></td><td>Retinopatía diabética</td><td>Retinopatía diabética</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"cs-problema-ges-tei-32\"> </a></td><td>Desprendimiento de retina regmatógeno no traumático</td><td>Desprendimiento de retina regmatógeno no traumático</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"cs-problema-ges-tei-33\"> </a></td><td>Hemofilia</td><td>Hemofilia</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"cs-problema-ges-tei-34\"> </a></td><td>Depresión en personas de 15 años y más</td><td>Depresión en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"cs-problema-ges-tei-35\"> </a></td><td>Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas</td><td>Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"cs-problema-ges-tei-36\"> </a></td><td>Ayudas técnicas para personas de 65 años y más</td><td>Ayudas técnicas para personas de 65 años y más</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"cs-problema-ges-tei-37\"> </a></td><td>Ataque cerebrovascular isquémico en personas de 15 años y más</td><td>Ataque cerebrovascular isquémico en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"cs-problema-ges-tei-38\"> </a></td><td>Enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio</td><td>Enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"cs-problema-ges-tei-39\"> </a></td><td>Asma bronquial moderada y grave en personas menores de 15 años</td><td>Asma bronquial moderada y grave en personas menores de 15 años</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"cs-problema-ges-tei-40\"> </a></td><td>Síndrome de dificultad respiratoria en el recién nacido</td><td>Síndrome de dificultad respiratoria en el recién nacido</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"cs-problema-ges-tei-41\"> </a></td><td>Tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada</td><td>Tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"cs-problema-ges-tei-42\"> </a></td><td>Hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales</td><td>Hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"cs-problema-ges-tei-43\"> </a></td><td>Tumores primarios del sistema nervioso central en personas de 15 años y más</td><td>Tumores primarios del sistema nervioso central en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"cs-problema-ges-tei-44\"> </a></td><td>Tratamiento quirúrgico de hernia del núcleo pulposo lumbar</td><td>Tratamiento quirúrgico de hernia del núcleo pulposo lumbar</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"cs-problema-ges-tei-45\"> </a></td><td>Leucemia en personas de 15 años y más</td><td>Leucemia en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"cs-problema-ges-tei-46\"> </a></td><td>Urgencia odontológica ambulatoria</td><td>Urgencia odontológica ambulatoria</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"cs-problema-ges-tei-47\"> </a></td><td>Salud oral integral de personas de 60 años</td><td>Salud oral integral de personas de 60 años</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"cs-problema-ges-tei-48\"> </a></td><td>Politraumatizado grave</td><td>Politraumatizado grave</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"cs-problema-ges-tei-49\"> </a></td><td>Traumatismo cráneo encefálico moderado o grave</td><td>Traumatismo cráneo encefálico moderado o grave</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"cs-problema-ges-tei-50\"> </a></td><td>Trauma ocular grave</td><td>Trauma ocular grave</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"cs-problema-ges-tei-51\"> </a></td><td>Fibrosis quística</td><td>Fibrosis quística</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"cs-problema-ges-tei-52\"> </a></td><td>Artritis reumatoidea</td><td>Artritis reumatoidea</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"cs-problema-ges-tei-53\"> </a></td><td>Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años</td><td>Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"cs-problema-ges-tei-54\"> </a></td><td>Analgesia del parto</td><td>Analgesia del parto</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"cs-problema-ges-tei-55\"> </a></td><td>Gran quemado</td><td>Gran quemado</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"cs-problema-ges-tei-56\"> </a></td><td>Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono</td><td>Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"cs-problema-ges-tei-57\"> </a></td><td>Retinopatía del prematuro</td><td>Retinopatía del prematuro</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"cs-problema-ges-tei-58\"> </a></td><td>Displasia broncopulmonar del prematuro</td><td>Displasia broncopulmonar del prematuro</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"cs-problema-ges-tei-59\"> </a></td><td>Hipoacusia neurosensorial bilateral del prematuro</td><td>Hipoacusia neurosensorial bilateral del prematuro</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"cs-problema-ges-tei-60\"> </a></td><td>Epilepsia en personas de 15 años y más</td><td>Epilepsia en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"cs-problema-ges-tei-61\"> </a></td><td>Asma bronquial en personas de 15 años y más</td><td>Asma bronquial en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"cs-problema-ges-tei-62\"> </a></td><td>Enfermedad de parkinson</td><td>Enfermedad de parkinson</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"cs-problema-ges-tei-63\"> </a></td><td>Artritis idiopática juvenil</td><td>Artritis idiopática juvenil</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"cs-problema-ges-tei-64\"> </a></td><td>Prevención secundaria enfermedad renal crónica terminal</td><td>Prevención secundaria enfermedad renal crónica terminal</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"cs-problema-ges-tei-65\"> </a></td><td>Displasia luxante de caderas</td><td>Displasia luxante de caderas</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"cs-problema-ges-tei-66\"> </a></td><td>Salud oral integral de la persona gestante</td><td>Salud oral integral de la persona gestante</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"cs-problema-ges-tei-67\"> </a></td><td>Esclerosis múltiple remitente recurrente</td><td>Esclerosis múltiple remitente recurrente</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"cs-problema-ges-tei-68\"> </a></td><td>Hepatitis crónica por virus hepatitis b</td><td>Hepatitis crónica por virus hepatitis b</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"cs-problema-ges-tei-69\"> </a></td><td>Hepatitis crónica por virus hepatitis c</td><td>Hepatitis crónica por virus hepatitis c</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"cs-problema-ges-tei-70\"> </a></td><td>Cáncer colorrectal en personas de 15 años y más</td><td>Cáncer colorrectal en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"cs-problema-ges-tei-71\"> </a></td><td>Cáncer de ovario epitelial</td><td>Cáncer de ovario epitelial</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"cs-problema-ges-tei-72\"> </a></td><td>Cáncer vesical en personas de 15 años y más</td><td>Cáncer vesical en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"cs-problema-ges-tei-73\"> </a></td><td>Osteosarcoma en personas de 15 años y más</td><td>Osteosarcoma en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"cs-problema-ges-tei-74\"> </a></td><td>Tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más</td><td>Tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"cs-problema-ges-tei-75\"> </a></td><td>Trastorno bipolar en personas de 15 años y más</td><td>Trastorno bipolar en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"cs-problema-ges-tei-76\"> </a></td><td>Hipotiroidismo en personas de 15 años y más</td><td>Hipotiroidismo en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"cs-problema-ges-tei-77\"> </a></td><td>Hipoacusia moderada, severa y profunda en personas menores de 4 años</td><td>Hipoacusia moderada, severa y profunda en personas menores de 4 años</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"cs-problema-ges-tei-78\"> </a></td><td>Lupus eritematoso sistémico</td><td>Lupus eritematoso sistémico</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"cs-problema-ges-tei-79\"> </a></td><td>Tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más</td><td>Tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"cs-problema-ges-tei-80\"> </a></td><td>Tratamiento de erradicación del helicobacter pylori</td><td>Tratamiento de erradicación del helicobacter pylori</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"cs-problema-ges-tei-81\"> </a></td><td>Cáncer de pulmón en personas de 15 años y más</td><td>Cáncer de pulmón en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"cs-problema-ges-tei-82\"> </a></td><td>Cáncer de tiroides en personas de 15 años y más</td><td>Cáncer de tiroides en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"cs-problema-ges-tei-83\"> </a></td><td>Cáncer renal en personas de 15 años y más</td><td>Cáncer renal en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"cs-problema-ges-tei-84\"> </a></td><td>Mieloma múltiple en personas de 15 años y más</td><td>Mieloma múltiple en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"cs-problema-ges-tei-85\"> </a></td><td>Enfermedad de alzheimer y otras demencias</td><td>Enfermedad de alzheimer y otras demencias</td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"cs-problema-ges-tei-86\"> </a></td><td>Atención integral de salud en agresión sexual aguda</td><td>Atención integral de salud en agresión sexual aguda</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"cs-problema-ges-tei-87\"> </a></td><td>Rehabilitación sars cov-2</td><td>Rehabilitación sars cov-2</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"cs-problema-ges-tei-88\"> </a></td><td>Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática</td><td>Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"cs-problema-ges-tei-89\"> </a></td><td>Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida</td><td>Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"cs-problema-ges-tei-90\"> </a></td><td>Cesación del consumo de tabaco en personas de 25 años y más</td><td>Cesación del consumo de tabaco en personas de 25 años y más</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/cs-problema-ges-tei"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.2.3"] ; # 
+  fhir:name [ fhir:v "ProblemaSaludGESCS"] ; # 
+  fhir:title [ fhir:v "Sitema de Codificación para los Problemas de Salud GES"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-07-22T14:55:14-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Unidad de Interoperabilidad - MINSAL"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unidad de Interoperabilidad - MINSAL" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://interoperabilidad.minsal.cl" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Jorge Mansilla" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "jorge.mansilla@minsal.cl" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Sistema de codificación de los problemas de salud GES"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "90"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Enfermedad renal crónica etapa 4 y 5" ] ;
+     fhir:definition [ fhir:v "Enfermedad renal crónica etapa 4 y 5" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Cardiopatías congénitas operables" ] ;
+     fhir:definition [ fhir:v "Cardiopatías congénitas operables" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Cáncer cervicouterino en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Cáncer cervicouterino en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Alivio del dolor y cuidados paliativos por cáncer" ] ;
+     fhir:definition [ fhir:v "Alivio del dolor y cuidados paliativos por cáncer" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Infarto agudo del miocardio" ] ;
+     fhir:definition [ fhir:v "Infarto agudo del miocardio" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Diabetes mellitus tipo 1" ] ;
+     fhir:definition [ fhir:v "Diabetes mellitus tipo 1" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Diabetes mellitus tipo 2" ] ;
+     fhir:definition [ fhir:v "Diabetes mellitus tipo 2" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Cáncer de mama en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Cáncer de mama en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Disrafias espinales" ] ;
+     fhir:definition [ fhir:v "Disrafias espinales" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Tratamiento quirúrgico de escoliosis en personas menores de 25 años" ] ;
+     fhir:definition [ fhir:v "Tratamiento quirúrgico de escoliosis en personas menores de 25 años" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Tratamiento quirúrgico de cataratas" ] ;
+     fhir:definition [ fhir:v "Tratamiento quirúrgico de cataratas" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa" ] ;
+     fhir:definition [ fhir:v "Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Fisura labiopalatina" ] ;
+     fhir:definition [ fhir:v "Fisura labiopalatina" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Cáncer en personas menores de 15 años" ] ;
+     fhir:definition [ fhir:v "Cáncer en personas menores de 15 años" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Esquizofrenia" ] ;
+     fhir:definition [ fhir:v "Esquizofrenia" ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Cáncer de testículo en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Cáncer de testículo en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Linfomas en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Linfomas en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Síndrome de la inmunodeficiencia adquirida vih/sida" ] ;
+     fhir:definition [ fhir:v "Síndrome de la inmunodeficiencia adquirida vih/sida" ]
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Infección respiratoria aguda (ira) de manejo ambulatorio en personas menores de 5 años" ] ;
+     fhir:definition [ fhir:v "Infección respiratoria aguda (ira) de manejo ambulatorio en personas menores de 5 años" ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más" ] ;
+     fhir:definition [ fhir:v "Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Hipertensión arterial primaria o esencial en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Hipertensión arterial primaria o esencial en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Epilepsia en personas desde 1 año y menores de 15 años" ] ;
+     fhir:definition [ fhir:v "Epilepsia en personas desde 1 año y menores de 15 años" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "Salud oral integral para niños y niñas de 6 años" ] ;
+     fhir:definition [ fhir:v "Salud oral integral para niños y niñas de 6 años" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "Prevención de parto prematuro" ] ;
+     fhir:definition [ fhir:v "Prevención de parto prematuro" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "Trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapasos" ] ;
+     fhir:definition [ fhir:v "Trastornos de generación del impulso y conducción en personas de 15 años y más, que requieren marcapasos" ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años" ] ;
+     fhir:definition [ fhir:v "Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años" ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "Cáncer gástrico" ] ;
+     fhir:definition [ fhir:v "Cáncer gástrico" ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "Cáncer de próstata en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Cáncer de próstata en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "Vicios de refracción en personas de 65 años y más" ] ;
+     fhir:definition [ fhir:v "Vicios de refracción en personas de 65 años y más" ]
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "Estrabismo en personas menores de 9 años" ] ;
+     fhir:definition [ fhir:v "Estrabismo en personas menores de 9 años" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "Retinopatía diabética" ] ;
+     fhir:definition [ fhir:v "Retinopatía diabética" ]
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "Desprendimiento de retina regmatógeno no traumático" ] ;
+     fhir:definition [ fhir:v "Desprendimiento de retina regmatógeno no traumático" ]
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "Hemofilia" ] ;
+     fhir:definition [ fhir:v "Hemofilia" ]
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "Depresión en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Depresión en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas" ] ;
+     fhir:definition [ fhir:v "Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas" ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "Ayudas técnicas para personas de 65 años y más" ] ;
+     fhir:definition [ fhir:v "Ayudas técnicas para personas de 65 años y más" ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Ataque cerebrovascular isquémico en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Ataque cerebrovascular isquémico en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "Enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio" ] ;
+     fhir:definition [ fhir:v "Enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio" ]
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "Asma bronquial moderada y grave en personas menores de 15 años" ] ;
+     fhir:definition [ fhir:v "Asma bronquial moderada y grave en personas menores de 15 años" ]
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "Síndrome de dificultad respiratoria en el recién nacido" ] ;
+     fhir:definition [ fhir:v "Síndrome de dificultad respiratoria en el recién nacido" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "Tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada" ] ;
+     fhir:definition [ fhir:v "Tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada" ]
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "Hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales" ] ;
+     fhir:definition [ fhir:v "Hemorragia subaracnoidea secundaria a ruptura de uno o más aneurismas cerebrales" ]
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "Tumores primarios del sistema nervioso central en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Tumores primarios del sistema nervioso central en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "Tratamiento quirúrgico de hernia del núcleo pulposo lumbar" ] ;
+     fhir:definition [ fhir:v "Tratamiento quirúrgico de hernia del núcleo pulposo lumbar" ]
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "Leucemia en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Leucemia en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:display [ fhir:v "Urgencia odontológica ambulatoria" ] ;
+     fhir:definition [ fhir:v "Urgencia odontológica ambulatoria" ]
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:display [ fhir:v "Salud oral integral de personas de 60 años" ] ;
+     fhir:definition [ fhir:v "Salud oral integral de personas de 60 años" ]
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:display [ fhir:v "Politraumatizado grave" ] ;
+     fhir:definition [ fhir:v "Politraumatizado grave" ]
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "Traumatismo cráneo encefálico moderado o grave" ] ;
+     fhir:definition [ fhir:v "Traumatismo cráneo encefálico moderado o grave" ]
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:display [ fhir:v "Trauma ocular grave" ] ;
+     fhir:definition [ fhir:v "Trauma ocular grave" ]
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "Fibrosis quística" ] ;
+     fhir:definition [ fhir:v "Fibrosis quística" ]
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:display [ fhir:v "Artritis reumatoidea" ] ;
+     fhir:definition [ fhir:v "Artritis reumatoidea" ]
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:display [ fhir:v "Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años" ] ;
+     fhir:definition [ fhir:v "Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años" ]
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:display [ fhir:v "Analgesia del parto" ] ;
+     fhir:definition [ fhir:v "Analgesia del parto" ]
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "Gran quemado" ] ;
+     fhir:definition [ fhir:v "Gran quemado" ]
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono" ] ;
+     fhir:definition [ fhir:v "Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono" ]
+  ] [
+     fhir:code [ fhir:v "57" ] ;
+     fhir:display [ fhir:v "Retinopatía del prematuro" ] ;
+     fhir:definition [ fhir:v "Retinopatía del prematuro" ]
+  ] [
+     fhir:code [ fhir:v "58" ] ;
+     fhir:display [ fhir:v "Displasia broncopulmonar del prematuro" ] ;
+     fhir:definition [ fhir:v "Displasia broncopulmonar del prematuro" ]
+  ] [
+     fhir:code [ fhir:v "59" ] ;
+     fhir:display [ fhir:v "Hipoacusia neurosensorial bilateral del prematuro" ] ;
+     fhir:definition [ fhir:v "Hipoacusia neurosensorial bilateral del prematuro" ]
+  ] [
+     fhir:code [ fhir:v "60" ] ;
+     fhir:display [ fhir:v "Epilepsia en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Epilepsia en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "Asma bronquial en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Asma bronquial en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "62" ] ;
+     fhir:display [ fhir:v "Enfermedad de parkinson" ] ;
+     fhir:definition [ fhir:v "Enfermedad de parkinson" ]
+  ] [
+     fhir:code [ fhir:v "63" ] ;
+     fhir:display [ fhir:v "Artritis idiopática juvenil" ] ;
+     fhir:definition [ fhir:v "Artritis idiopática juvenil" ]
+  ] [
+     fhir:code [ fhir:v "64" ] ;
+     fhir:display [ fhir:v "Prevención secundaria enfermedad renal crónica terminal" ] ;
+     fhir:definition [ fhir:v "Prevención secundaria enfermedad renal crónica terminal" ]
+  ] [
+     fhir:code [ fhir:v "65" ] ;
+     fhir:display [ fhir:v "Displasia luxante de caderas" ] ;
+     fhir:definition [ fhir:v "Displasia luxante de caderas" ]
+  ] [
+     fhir:code [ fhir:v "66" ] ;
+     fhir:display [ fhir:v "Salud oral integral de la persona gestante" ] ;
+     fhir:definition [ fhir:v "Salud oral integral de la persona gestante" ]
+  ] [
+     fhir:code [ fhir:v "67" ] ;
+     fhir:display [ fhir:v "Esclerosis múltiple remitente recurrente" ] ;
+     fhir:definition [ fhir:v "Esclerosis múltiple remitente recurrente" ]
+  ] [
+     fhir:code [ fhir:v "68" ] ;
+     fhir:display [ fhir:v "Hepatitis crónica por virus hepatitis b" ] ;
+     fhir:definition [ fhir:v "Hepatitis crónica por virus hepatitis b" ]
+  ] [
+     fhir:code [ fhir:v "69" ] ;
+     fhir:display [ fhir:v "Hepatitis crónica por virus hepatitis c" ] ;
+     fhir:definition [ fhir:v "Hepatitis crónica por virus hepatitis c" ]
+  ] [
+     fhir:code [ fhir:v "70" ] ;
+     fhir:display [ fhir:v "Cáncer colorrectal en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Cáncer colorrectal en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "71" ] ;
+     fhir:display [ fhir:v "Cáncer de ovario epitelial" ] ;
+     fhir:definition [ fhir:v "Cáncer de ovario epitelial" ]
+  ] [
+     fhir:code [ fhir:v "72" ] ;
+     fhir:display [ fhir:v "Cáncer vesical en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Cáncer vesical en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "73" ] ;
+     fhir:display [ fhir:v "Osteosarcoma en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Osteosarcoma en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "74" ] ;
+     fhir:display [ fhir:v "Tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Tratamiento quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "75" ] ;
+     fhir:display [ fhir:v "Trastorno bipolar en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Trastorno bipolar en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "76" ] ;
+     fhir:display [ fhir:v "Hipotiroidismo en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Hipotiroidismo en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "77" ] ;
+     fhir:display [ fhir:v "Hipoacusia moderada, severa y profunda en personas menores de 4 años" ] ;
+     fhir:definition [ fhir:v "Hipoacusia moderada, severa y profunda en personas menores de 4 años" ]
+  ] [
+     fhir:code [ fhir:v "78" ] ;
+     fhir:display [ fhir:v "Lupus eritematoso sistémico" ] ;
+     fhir:definition [ fhir:v "Lupus eritematoso sistémico" ]
+  ] [
+     fhir:code [ fhir:v "79" ] ;
+     fhir:display [ fhir:v "Tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Tratamiento quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "80" ] ;
+     fhir:display [ fhir:v "Tratamiento de erradicación del helicobacter pylori" ] ;
+     fhir:definition [ fhir:v "Tratamiento de erradicación del helicobacter pylori" ]
+  ] [
+     fhir:code [ fhir:v "81" ] ;
+     fhir:display [ fhir:v "Cáncer de pulmón en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Cáncer de pulmón en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "82" ] ;
+     fhir:display [ fhir:v "Cáncer de tiroides en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Cáncer de tiroides en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "83" ] ;
+     fhir:display [ fhir:v "Cáncer renal en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Cáncer renal en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "84" ] ;
+     fhir:display [ fhir:v "Mieloma múltiple en personas de 15 años y más" ] ;
+     fhir:definition [ fhir:v "Mieloma múltiple en personas de 15 años y más" ]
+  ] [
+     fhir:code [ fhir:v "85" ] ;
+     fhir:display [ fhir:v "Enfermedad de alzheimer y otras demencias" ] ;
+     fhir:definition [ fhir:v "Enfermedad de alzheimer y otras demencias" ]
+  ] [
+     fhir:code [ fhir:v "86" ] ;
+     fhir:display [ fhir:v "Atención integral de salud en agresión sexual aguda" ] ;
+     fhir:definition [ fhir:v "Atención integral de salud en agresión sexual aguda" ]
+  ] [
+     fhir:code [ fhir:v "87" ] ;
+     fhir:display [ fhir:v "Rehabilitación sars cov-2" ] ;
+     fhir:definition [ fhir:v "Rehabilitación sars cov-2" ]
+  ] [
+     fhir:code [ fhir:v "88" ] ;
+     fhir:display [ fhir:v "Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática" ] ;
+     fhir:definition [ fhir:v "Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática" ]
+  ] [
+     fhir:code [ fhir:v "89" ] ;
+     fhir:display [ fhir:v "Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida" ] ;
+     fhir:definition [ fhir:v "Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida" ]
+  ] [
+     fhir:code [ fhir:v "90" ] ;
+     fhir:display [ fhir:v "Cesación del consumo de tabaco en personas de 25 años y más" ] ;
+     fhir:definition [ fhir:v "Cesación del consumo de tabaco en personas de 25 años y más" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

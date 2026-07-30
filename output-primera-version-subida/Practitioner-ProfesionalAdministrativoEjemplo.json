@@ -1,0 +1,64 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "ProfesionalAdministrativoEjemplo",
+  "meta" : {
+    "profile" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PractitionerAdministrativoLE"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practicante / Profesional ProfesionalAdministrativoEjemplo</b></p><a name=\"ProfesionalAdministrativoEjemplo\"> </a><a name=\"hcProfesionalAdministrativoEjemplo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PractitionerAdministrativoLE.html\">Prestador Administrativo LE</a></p></div><p><b>identifier</b>: RUN/90000000-6\u00a0(use:\u00a0official,\u00a0)</p><p><b>active</b>: true</p><p><b>name</b>: Caludio Parra (Official)</p><p><b>address</b>: null (work)</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1980-01-01</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+            "code" : "152",
+            "display" : "Chile"
+          }]
+        }
+      }],
+      "coding" : [{
+        "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+        "code" : "01",
+        "display" : "RUN"
+      }]
+    },
+    "value" : "90000000-6",
+    "assigner" : {
+      "display" : "Republica de Chile"
+    }
+  }],
+  "active" : true,
+  "name" : [{
+    "use" : "official",
+    "family" : "Parra",
+    "_family" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+        "valueString" : "Sandoval"
+      }]
+    },
+    "given" : ["Caludio"]
+  }],
+  "address" : [{
+    "use" : "work",
+    "_state" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodRegionCL",
+            "code" : "13",
+            "display" : "Metropolitana de Santiago"
+          }]
+        }
+      }]
+    }
+  }],
+  "gender" : "male",
+  "birthDate" : "1980-01-01"
+}

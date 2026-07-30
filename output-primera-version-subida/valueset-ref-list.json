@@ -1,0 +1,492 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-code",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "AllergyIntoleranceSubstance/Product,ConditionAndNegationCodes",
+    "title" : "AllergyIntolerance Substance/Product, Condition and Negation Codes",
+    "description" : "This value set includes concept codes for specific substances/pharmaceutical products, allergy or intolerance conditions, and negation/exclusion codes to specify the absence of specific types of allergies or intolerances.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.137"],
+    "sources" : ["2.16.840.1.113883.4.642.3.137"],
+    "uses" : {
+    },
+    "StructureDefinition-AllergyIntoleranceIniciarLE.html" : "AllergyIntolerance Iniciar LE"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+    "oids" : ["2.16.840.1.113883.4.642.3.164"],
+    "sources" : ["2.16.840.1.113883.4.642.3.164"],
+    "uses" : {
+    },
+    "StructureDefinition-ConditionDiagnosticoLE.html" : "Condition Diagnostico LE"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Condition/DiagnosisSeverity",
+    "title" : "Condition/Diagnosis Severity",
+    "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.168"],
+    "sources" : ["2.16.840.1.113883.4.642.3.168"],
+    "uses" : {
+    },
+    "StructureDefinition-ConditionDiagnosticoLE.html" : "Condition Diagnostico LE"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.166"],
+    "sources" : ["2.16.840.1.113883.4.642.3.166"],
+    "uses" : {
+    },
+    "StructureDefinition-ConditionDiagnosticoLE.html" : "Condition Diagnostico LE"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.403"],
+    "sources" : ["2.16.840.1.113883.4.642.3.403"],
+    "uses" : {
+    },
+    "StructureDefinition-ObservationIndiceComorbilidadLE.html" : "Indice Comorbilidad LE"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "systems" : ["http://hl7.org/fhir/observation-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.400"],
+    "sources" : ["2.16.840.1.113883.4.642.3.400"],
+    "uses" : {
+    },
+    "StructureDefinition-ObservationIndiceComorbilidadLE.html" : "Indice Comorbilidad LE",
+    "StructureDefinition-ObservationDiscapacidadLE.html" : "Discapacidad LE"
+  },
+  {
+    "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais",
+    "version" : "1.9.2",
+    "status" : "active",
+    "name" : "CodPaises",
+    "title" : "Códigos de Países",
+    "description" : "Codigos definidos para la identificación de países segun norma ISO3166-N",
+    "systems" : ["https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais"],
+    "uses" : {
+    },
+    "StructureDefinition-PaisOrigenMPI.html" : "País de origen del paciente"
+  },
+  {
+    "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTipoIdentificador",
+    "version" : "1.9.2",
+    "status" : "active",
+    "name" : "VSTipoIdentificador",
+    "title" : "Tipo Identificador",
+    "description" : "Tipo Identificador",
+    "systems" : ["https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador"],
+    "uses" : {
+    },
+    "StructureDefinition-PatientLE.html" : "Patient LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/CodigoExamen",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "CodigoExamen",
+    "title" : "Códigos de Examenes",
+    "description" : "Codigos de Examenes",
+    "systems" : ["http://loinc.org"],
+    "uses" : {
+    },
+    "StructureDefinition-ServiceRequestExamenLE.html" : "Solicitud de Examen LE",
+    "StructureDefinition-ObservationResultadoExamen.html" : "Observation Resultado Examen"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/PueblosOriginariosVS",
+    "version" : "0.2.3",
+    "status" : "draft",
+    "name" : "PueblosOriginariosVS",
+    "title" : "Pueblos Originarios de Chile",
+    "description" : "Pueblos Originarios de Chile",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/PueblosOriginariosCS"],
+    "uses" : {
+    },
+    "StructureDefinition-PueblosOriginarios.html" : "Pueblos Originarios"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/TipoDeObservacion",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "TipoDeObservacion",
+    "title" : "Tipo de Observación",
+    "description" : "Estas son algunas de las observaciones que se pueden realizar en un encuentro, que permiten dar antecedentes a la interconsulta.",
+    "systems" : ["http://loinc.org",
+    "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoObservacionMinsal",
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-ObservationAnamnesisLE.html" : "Observation Anamnesis LE",
+    "StructureDefinition-ObservationIniciarCuidadorLE.html" : "Cuidador LE",
+    "StructureDefinition-ObservationIndiceComorbilidadLE.html" : "Indice Comorbilidad LE",
+    "StructureDefinition-ObservationDiscapacidadLE.html" : "Discapacidad LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSConsecuenciaAtencionCodigo",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSConsecuenciaAtencionCodigo",
+    "title" : "Consecuencia Atención Codigo",
+    "description" : "Consecuencia Atención Codigo",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSConsecuenciaAtencionCodigo"],
+    "uses" : {
+    },
+    "StructureDefinition-ExtensionConsecuenciaAtencionCodigo.html" : "Consecuencia Atención Codigo"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSDerivadoParaCodigo",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSDerivadoParaCodigo",
+    "title" : "Derivado Para",
+    "description" : "Derivado Para",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDerivadoParaCodigo"],
+    "uses" : {
+    },
+    "StructureDefinition-ServiceRequestLE.html" : "ServiceRequest LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSDestinoReferenciaCodigo",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSDestinoReferenciaCodigo",
+    "title" : "Destino Referencia Codigo",
+    "description" : "Destino Referencia Codigo",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSDestinoReferenciaCodigo"],
+    "uses" : {
+    },
+    "StructureDefinition-ServiceRequestLE.html" : "ServiceRequest LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEspecialidadBioqca",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSEspecialidadBioqca",
+    "title" : "Especialidades y Subespecialidades Bioquímicas",
+    "description" : "Especialidades y Subespecialidades Bioquímicas",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadBioqca"],
+    "uses" : {
+    },
+    "StructureDefinition-PractitionerProfesionalLE.html" : "Prestador Profesional LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEspecialidadFarma",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSEspecialidadFarma",
+    "title" : "Especialidades Farmaceúticas o Química Farmaceúticas",
+    "description" : "Especialidades Farmaceúticas o Química Farmaceúticas",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadFarma"],
+    "uses" : {
+    },
+    "StructureDefinition-PractitionerProfesionalLE.html" : "Prestador Profesional LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEspecialidadMed",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSEspecialidadMed",
+    "title" : "EspecialidadMed",
+    "description" : "EspecialidadMed",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadMed"],
+    "uses" : {
+    },
+    "StructureDefinition-PractitionerProfesionalLE.html" : "Prestador Profesional LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEspecialidadOdont",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSEspecialidadOdont",
+    "title" : "Especialidades Odontológicas",
+    "description" : "Especialidades Odontológicas",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadOdont"],
+    "uses" : {
+    },
+    "StructureDefinition-PractitionerProfesionalLE.html" : "Prestador Profesional LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEstablecimientoDestino",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSEstablecimientoDestino",
+    "title" : "Establecimiento Destino Codigo",
+    "description" : "Establecimiento Destino Codigo ejemplos hechos en base a este documento con los [Códigos DEIS del establecimientos](https://datos.gob.cl/dataset/establecimientos-de-salud-vigentes)",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEstablecimientoDestino"],
+    "uses" : {
+    },
+    "StructureDefinition-OrganizationLE.html" : "Organization LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEstadoCivil",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSEstadoCivil",
+    "title" : "EstadoCivil",
+    "description" : "EstadoCivil",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEstadoCivil"],
+    "uses" : {
+    },
+    "StructureDefinition-PatientLE.html" : "Patient LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSEstadoInterconsulta",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSEstadoInterconsulta",
+    "title" : "Estado Interconsulta",
+    "description" : "Estado Interconsulta",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEstadoInterconsulta"],
+    "uses" : {
+    },
+    "StructureDefinition-ExtensionEstadoInterconsultaCodigoLE.html" : "Estado Interconsulta Codigo"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSIdentificadorPrestador",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSIdentificadorPrestador",
+    "title" : "IdentificadorPrestador",
+    "description" : "IdentificadorPrestador",
+    "systems" : ["https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador"],
+    "uses" : {
+    },
+    "StructureDefinition-PractitionerProfesionalLE.html" : "Prestador Profesional LE",
+    "StructureDefinition-PractitionerAdministrativoLE.html" : "Prestador Administrativo LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSIndicecomorbilidad",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSIndicecomorbilidad",
+    "title" : "Indice Comorbilidad",
+    "description" : "Indice Comorbilidad",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSIndicecomorbilidad"],
+    "uses" : {
+    },
+    "StructureDefinition-ObservationIndiceComorbilidadLE.html" : "Indice Comorbilidad LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSMediodeContacto",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSMediodeContacto",
+    "title" : "Medio Notificación",
+    "description" : "Medio Notificación",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMediodeContacto"],
+    "uses" : {
+    },
+    "StructureDefinition-ExtensionMediodeContacto.html" : "Medio de Contacto"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSModalidadAtencionCodigo",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSModalidadAtencionCodigo",
+    "title" : "Modalidad Atencion Codigo",
+    "description" : "Modalidad Atencion Codigo",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSModalidadAtencionCodigo"],
+    "uses" : {
+    },
+    "StructureDefinition-EncounterAtenderLE.html" : "Encounter Atender LE",
+    "StructureDefinition-EncounterIniciarLE.html" : "Encounter Iniciar LE",
+    "StructureDefinition-ServiceRequestLE.html" : "ServiceRequest LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSMotivoCierreInterconsulta",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSMotivoCierreInterconsulta",
+    "title" : "Motivo Cierre Interconsulta",
+    "description" : "Motivo Cierre Interconsulta",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMotivoCierreInterconsulta"],
+    "uses" : {
+    },
+    "StructureDefinition-ExtensionMotivoCierreInterconsulta.html" : "Motivo Cierre Interconsulta"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSMotivoNoContactabilidad",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSMotivoNoContactabilidad",
+    "title" : "Motivo No Contactabilidad",
+    "description" : "Motivo No Contactabilidad",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMotivoNoContactabilidad"],
+    "uses" : {
+    },
+    "StructureDefinition-Contactado.html" : "Extension ContactadoLE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSMotivoNoPertinenciaCodigo",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSMotivoNoPertinenciaCodigo",
+    "title" : "Motivo No Pertinencia Codigo",
+    "description" : "Motivo No Pertinencia Codigo",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMotivoNoPertinenciaCodigo"]
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSPertinenciaInterconsulta",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSPertinenciaInterconsulta",
+    "title" : "Pertinencia Interconsulta",
+    "description" : "Pertinencia Interconsulta",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSPertinenciaInterconsulta"],
+    "uses" : {
+    },
+    "StructureDefinition-ExtensionPertinenciaInterconsulta.html" : "Pertinencia Interconsulta"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSPractitionerTipoRolLE",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSPractitionerTipoRolLE",
+    "title" : "Rol de profesionales",
+    "description" : "Rol de profesionales(Practitioner) en algún evento, durante la intercosulta.",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSPractitionerTipoRolLE"],
+    "uses" : {
+    },
+    "StructureDefinition-PractitionerRoleLE.html" : "PractitionerRole LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSReligion",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSReligion",
+    "title" : "Religion",
+    "description" : "Religion",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSReligion"],
+    "uses" : {
+    },
+    "StructureDefinition-Religion.html" : "Religión"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSServicioRequerido",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSServicioRequerido",
+    "title" : "Servicio Requerido",
+    "description" : "Servicio Requerido",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-ServiceRequestLE.html" : "ServiceRequest LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSTerminologiasDiag",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSTerminologiasDiag",
+    "title" : "TerminologiasDiag",
+    "description" : "TerminologiasDiag",
+    "systems" : ["http://hl7.org/fhir/sid/icd-10", "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-ConditionDiagnosticoLE.html" : "Condition Diagnostico LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSTipoConsulta",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSTipoConsulta",
+    "title" : "Tipo Consulta",
+    "description" : "Tipo Consulta",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoConsulta"],
+    "uses" : {
+    },
+    "StructureDefinition-EncounterAtenderLE.html" : "Encounter Atender LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSTipoEventoLE",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSTipoEventoLE",
+    "title" : "Tipo de Evento",
+    "description" : "Tipo de evento en la interconsulta",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTipoEventoLE"],
+    "uses" : {
+    },
+    "StructureDefinition-MessageHeaderLE.html" : "MessageHeader LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSTituloProfesional",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSTituloProfesional",
+    "title" : "TituloProfesional",
+    "description" : "TituloProfesional",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional"],
+    "uses" : {
+    },
+    "StructureDefinition-PractitionerProfesionalLE.html" : "Prestador Profesional LE"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VSorigenInterconsulta",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VSorigenInterconsulta",
+    "title" : "Origen Interconsulta",
+    "description" : "Origen Interconsulta",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSorigenInterconsulta"],
+    "uses" : {
+    },
+    "StructureDefinition-ExtensionOrigenInterconsulta.html" : "Origen Interconsulta"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/VsEspecialidadDest",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "VsEspecialidadDest",
+    "title" : "Especialidad de Destino",
+    "description" : "Son todas las especialidades de destino de una interconsulta",
+    "systems" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadMed",
+    "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadOdont"],
+    "uses" : {
+    },
+    "StructureDefinition-ExtensionEspecialidadMedicaDestinoCodigo.html" : "Especialidad Médica Destino Código",
+    "StructureDefinition-ExtensionSubEspecialidadMedicaDestinoCodigo.html" : "SubEspecialidad Médica Destino Código"
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/vs-problema-ges-tei",
+    "version" : "0.2.3",
+    "status" : "active",
+    "name" : "ProblemaSaludGESVS",
+    "title" : "Value Set de los Problemas de Salud  GES",
+    "description" : "Set de valores utilizados para los problemas de salud ges",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-QuestionnaireResponseIniciarLE.html" : "QuestionnaireResponse Iniciar Motivo de la Derivación LE",
+    "Questionnaire-MotivoDerivacion.html" : "Motivo de Derivación"
+  }]
+}

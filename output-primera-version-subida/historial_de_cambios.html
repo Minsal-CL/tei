@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Historial De Cambios - Tiempos de Espera Interoperable v0.2.3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7chile.css" rel="stylesheet" />
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-HLBNC861DJ" async>
+</script>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"10"}
+    h3,h4,h5,h6{--heading-prefix:"10"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+<div id="project-nav">
+    <a id="MINSAL-logo" no-external="true" href="http://minsal.cl">
+        
+        <img height="71" alt="Visitar sitio MINSAL Chile" src="assets/images/minsal-logo.svg" />
+    </a>
+</div>
+<div id="family-nav">
+    <a id="hl7chile-logo" no-external="true" href="http://hl7chile.cl"><img height="71" alt="Visitar HL7 Chile" src="assets/images/hl7chile-logo.svg" /> </a>
+</div>
+<!--
+<div id="hl7-search">
+  <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+</div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Tiempos de Espera Interoperable</span>
+            <br/>
+            <span style="display:inline-block;">0.2.3 - draft
+
+
+
+  <img alt="Chile flag" src="assets/images/chl.svg" height="16" title="Chile"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Especificación de Negocio
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="workflow.html">Workflow</a>
+      </li>
+      <li>
+        <a href="eventos_interoperabilidad_CNE.html">Eventos Interoperabilidad CNE</a>
+      </li>
+      <li>
+        <a href="rol_de_actores.html">Rol de Actores</a>
+      </li>
+      <li>
+        <a href="historias_de_usuario_segun_rol.html">Historias de Usuario según rol</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Especificaciones Técnicas
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Eventos.html">Eventos</a>
+      </li>
+      <li>
+        <a href="Transacciones.html">Transacciones</a>
+      </li>
+      <li>
+        <a href="artifacts.html#structures-resource-profiles">Perfiles</a>
+      </li>
+      <li>
+        <a href="Mensajeria.html">Mensajería</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html#terminology-value-sets">Terminologías</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artefactos</a>
+  </li>
+  <li>
+    <a href="historial_de_cambios.html">Historial de Cambios</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Historial De Cambios</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Tiempos de Espera Interoperable - Local Development build (v0.2.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interoperabilidad.minsal.cl/fhir/ig/tei/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Historial De Cambios</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#versión-023" id="markdown-toc-versión-023">Versión 0.2.3</a></li>
+  <li><a href="#versión-022" id="markdown-toc-versión-022">Versión 0.2.2</a></li>
+  <li><a href="#versión-021" id="markdown-toc-versión-021">Versión 0.2.1</a></li>
+  <li><a href="#versión-020" id="markdown-toc-versión-020">Versión 0.2.0</a></li>
+  <li><a href="#cambios-de-versión-015-a-versión-016" id="markdown-toc-cambios-de-versión-015-a-versión-016">Cambios de versión 0.1.5 a versión 0.1.6</a></li>
+</ul>
+
+</div>
+<h3 id="versión-023">Versión 0.2.3</h3>
+
+<h4 id="questionnaireresponseiniciarle">QuestionnaireResponseIniciarLE</h4>
+<ul>
+  <li>Se agrega la pregunta GarantiaExplicitaenSalud-GES
+    <ul>
+      <li>Se agregan las sub-preguntas bajo "GarantiaExplicitaenSalud-GES"
+        <ul>
+          <li>ProblemadeSaludGES -&gt; Tipo 'Coding' (Binding: Value Set de los Problemas de Salud GES)</li>
+          <li>SubProblemadeSaludGES	-&gt; 'string'</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="valueset">ValueSet</h4>
+<ul>
+  <li>Se agrega ValueSet <a href="ValueSet-vs-problema-ges-tei.html">Problemas de Salud GES</a></li>
+</ul>
+
+<h3 id="versión-022">Versión 0.2.2</h3>
+
+<h4 id="servicerequest-le">ServiceRequest LE</h4>
+<ul>
+  <li>Se incluye la extension para marcar si la IC corresponde a GES.</li>
+</ul>
+
+<h4 id="bundle-referenciar-le">Bundle Referenciar LE</h4>
+<ul>
+  <li>Se incorporan en el Bundle Referenciar los entries necesarios, provenientes del Bundle Iniciar, asociados a los <code class="language-plaintext highlighter-rouge">supportingInfo</code> del recurso <code class="language-plaintext highlighter-rouge">ServiceRequest</code>, con el objetivo de permitir actualizaciones de la IC.</li>
+</ul>
+
+<h3 id="versión-021">Versión 0.2.1</h3>
+
+<h4 id="cambios-generales">Cambios Generales</h4>
+
+<ul>
+  <li>Se obliga el uso de un id(Temporal) para todos los perfiles, a excepción del messageHeader y los Bundles.</li>
+  <li>Se incluyen los fullUrl de todos los Bundle.</li>
+  <li>En todos los Perfiles Bundle:
+    <ul>
+      <li>Los timestamp de 0..1 -&gt; 1..1</li>
+      <li>Los entry.resource 0..1 -&gt; 1..1</li>
+    </ul>
+  </li>
+  <li>En todos los perfiles bundles se elimina el uso de la tabla de datos y sus consideraciones</li>
+  <li>En las extensiones se ajustan los contextos para el uso en los servidores</li>
+  <li>Se habilitaron Ejemplos de todos los perfiles</li>
+</ul>
+
+<h4 id="perfiles">Perfiles</h4>
+
+<h5 id="observationresultadoexamen">ObservationResultadoExamen</h5>
+
+<ul>
+  <li>Se cambia Id de ExamenesAnteriores A ObservationResultadoExamen</li>
+  <li>Se incluye el valor encounter 1..1</li>
+  <li>Se Actualiza el titulo y la descripción</li>
+  <li>Effective[x] a EffectiveDateTime 1..1 MS</li>
+  <li>Se elimino obligatoriedad del code.text y el requerido de exámenes</li>
+</ul>
+
+<h5 id="observationindicecomorbilidadle">ObservationIndiceComorbilidadLE</h5>
+
+<ul>
+  <li>encounter pasa a MS y se referencia a los perfiles <a href="StructureDefinition-EncounterIniciarLE.html">EncounterIniciarLE</a> y <a href="StructureDefinition-EncounterAtenderLE.html">EncounterAtenderLE</a></li>
+  <li>Se corrije el uso del code y el biding <a href="ValueSet-TipoDeObservacion.html">TipoDeObservacion</a> para determinar el tipo de observación</li>
+  <li>Se agrega el dato value[x] forzado a valueCodebleConcept, la cardinalidad a 1..1 y se realiza un biding al <a href="ValueSet-VSIndicecomorbilidad.html">VSIndicecomorbilidad</a></li>
+</ul>
+
+<h5 id="observationiniciarcuidadorle">ObservationIniciarCuidadorLE</h5>
+
+<ul>
+  <li>encounter pasa a MS y se referencia a los perfiles <a href="StructureDefinition-EncounterIniciarLE.html">EncounterIniciarLE</a> y <a href="StructureDefinition-EncounterAtenderLE.html">EncounterAtenderLE</a></li>
+  <li>se depreca extension ExtBoolEsCuidador</li>
+  <li>se incluye el ValueBoolean a 1..1</li>
+</ul>
+
+<h5 id="observationdiscapacidadle">ObservationDiscapacidadLE</h5>
+
+<ul>
+  <li>encounter pasa a MS y se referencia a los perfiles <a href="StructureDefinition-EncounterIniciarLE.html">EncounterIniciarLE</a> y <a href="StructureDefinition-EncounterAtenderLE.html">EncounterAtenderLE</a></li>
+  <li>se depreca extension ExtBoolPresentaDiscapacidad</li>
+  <li>se incluye el ValueBoolean a 1..1</li>
+  <li>Se incluye el biding <a href="ValueSet-TipoDeObservacion.html">TipoDeObservacion</a> para determinar el tipo de observación.</li>
+</ul>
+
+<h5 id="observationatender---observationanamnesisle">ObservationAtender -&gt; ObservationAnamnesisLE</h5>
+
+<ul>
+  <li>se incluye el code = http://snomed.info/sct#84100007</li>
+  <li>se incluye el code.text = "Anamnesis"</li>
+  <li>se incluye biding a <a href="ValueSet-TipoDeObservacion.html">TipoDeObservacion</a></li>
+</ul>
+
+<h5 id="servicerequestle">ServiceRequestLE</h5>
+
+<ul>
+  <li>Se actualizan las extensiones de
+    <ul>
+      <li>MotivoCierreInterconsulta -&gt; ExtensionMotivoCierreInterconsulta</li>
+      <li>ExtensionBoolRequiereExamen -&gt; ExtensionBoolRequiereExamen</li>
+      <li>BoolAtencionPreferente -&gt; ExtensionBoolAtencionPreferente</li>
+      <li>BoolResolutividadAPS -&gt; ExtensionBoolResolutividadAPS</li>
+      <li>OrigenInterconsulta -&gt; ExtensionOrigenInterconsulta</li>
+      <li>StringFundamentoPriorizacion -&gt; ExtensionStringFundamentoPriorizacion</li>
+      <li>EstadoInterconsultaCodigoLE -&gt; ExtensionEstadoInterconsultaCodigoLE</li>
+      <li>EspecialidadMedicaDestinoCodigo -&gt; ExtensionEspecialidadMedicaDestinoCodigo</li>
+      <li>SubEspecialidadMedicaDestinoCodigo -&gt; ExtensionSubEspecialidadMedicaDestinoCodigo</li>
+      <li>PertinenciaInterconsulta -&gt; ExtensionPertinenciaInterconsulta</li>
+    </ul>
+  </li>
+  <li>Se agrega la extension CorrespondeGES</li>
+  <li>Se actualiza referencia de ExamenesAnteriores A ObservationResultadoExamen</li>
+  <li>Se mueve ObservationResultadoExamen de ReasonReference a SupportInfo</li>
+  <li>supportingInfo[Discapacidad] 1..1 -&gt; 0..1</li>
+  <li>performer 1..1 -&gt; 0..1</li>
+  <li>requester 1..1 -&gt; 0..1</li>
+  <li>authoredOn 1..1 -&gt; 0..1</li>
+  <li>code 1..1 -&gt; 0..1</li>
+</ul>
+
+<h5 id="servicerequestexamenle">ServiceRequestExamenLE</h5>
+
+<ul>
+  <li>Se modifica la descripción del identifier</li>
+  <li>authoredOn 0..1 -&gt; 1..1</li>
+  <li>ocurrenceDateTime 1..1 -&gt; 0..1</li>
+</ul>
+
+<h5 id="conditiondiagnosticole">ConditionDiagnosticoLE</h5>
+
+<ul>
+  <li>Se cambia cardinalidad clinicalStatus 1..1 a 0..1</li>
+  <li>Se cambia cardinalidad de verificationStatus 1..1 a 0..1</li>
+  <li>Se cambia cardinalidad de code.coding 1..1 a 1..*</li>
+</ul>
+
+<h5 id="careplanatenderle">CarePlanAtenderLE</h5>
+
+<ul>
+  <li>se modifica la cardinalidad de <strong>activity[referenciaReceta]</strong> de 0..1 -&gt; 0.._ y <strong>activity[referenciaServiceRequestExamenLE]</strong> 0..1 -&gt; 0.._</li>
+  <li>se modifica descripción del description</li>
+  <li>se pasa MS el encounter y se solicita que sean <strong>EncounterAtenderLE</strong></li>
+</ul>
+
+<h5 id="patientle">PatientLE</h5>
+
+<ul>
+  <li>Identifier 1..*</li>
+  <li>Identifier.type.coding 1..1</li>
+  <li>telecom.system 1..1</li>
+  <li>telecom.value 1..1</li>
+</ul>
+
+<h5 id="practitioneradministrativole">PractitionerAdministrativoLE</h5>
+
+<ul>
+  <li>Se cambian las descripciones del Identifier</li>
+  <li>Cambia cardinalidad de name.family 0..1 -&gt; 1..1</li>
+  <li>Cambia cardinalidad de name.given 0.._ -&gt; 1.._</li>
+  <li>Cambia cardinalidad de telecom.system 0..1 -&gt; 1..1</li>
+  <li>Cambia cardinalidad de telecom.value 0..1 -&gt; 1..1</li>
+  <li>Se corrige type.coding.code 1 -&gt; 01</li>
+</ul>
+
+<h5 id="practitionerprofesionalle">PractitionerProfesionalLE</h5>
+
+<ul>
+  <li>Cambia cardinalidad de name.family 0..1 -&gt; 1..1</li>
+  <li>Cambia cardinalidad de name.given 0.._ -&gt; 1.._</li>
+  <li>Cambia cardinalidad de telecom.system 0..1 -&gt; 1..1</li>
+  <li>Cambia cardinalidad de telecom.value 0..1 -&gt; 1..1</li>
+  <li>Se corrige type.coding.code 1 -&gt; 01</li>
+</ul>
+
+<h5 id="appointmentagendarle">AppointmentAgendarLE</h5>
+
+<ul>
+  <li>end 0..1 -&gt; 1..1</li>
+</ul>
+
+<h5 id="messageheaderle">MessageHeaderLE</h5>
+
+<ul>
+  <li>Se cambia la descripción del author</li>
+  <li>Se cambia descripción focus[ServiceRequestLE], focus[AppointmentAgendarLE] y focus[EncounterAtenderLE]</li>
+</ul>
+
+<h5 id="encounteriniciarle">EncounterIniciarLE</h5>
+
+<ul>
+  <li>Se cambia obligatoriedad y must support del identifier.type</li>
+</ul>
+
+<h5 id="encounteratenderle">EncounterAtenderLE</h5>
+
+<ul>
+  <li>Se cambia obligatoriedad y must support del identifier.type</li>
+  <li>Se cambia la cardinalidad de diagnosis 1..1 -&gt; 1..*</li>
+</ul>
+
+<h5 id="allergyintoleranceiniciarle">AllergyIntoleranceIniciarLE</h5>
+
+<ul>
+  <li>Se agrega Must Support a clinicalStatus y verificationStatus</li>
+</ul>
+
+<h5 id="medicationrequestle">MedicationRequestLE</h5>
+
+<ul>
+  <li>Se crea el perfil</li>
+</ul>
+
+<h4 id="bundles">Bundles</h4>
+
+<h5 id="bundleiniciarle">BundleIniciarLE</h5>
+
+<ul>
+  <li>Se actualiza recurso de ExamenesAnteriores A ObservationResultadoExamen</li>
+  <li>se actualiza entry de 8..17 a 9..*</li>
+  <li>se actualiza entry[ObservationResultadoExamen] 0..1 a 0..*</li>
+  <li>se actualiza entry[observationDiscapacidad] 1..1 a 0..1</li>
+  <li>edición de short observation</li>
+  <li>se actualiza entry[allergyintolerance] 0..1 a 0..*</li>
+  <li>se crea entry[SolicitudExamen] 0..*</li>
+</ul>
+
+<h5 id="bundleatenderle">BundleAtenderLE</h5>
+
+<ul>
+  <li>Se modifica la cardinalidad de entry de 0.._ -&gt; 7.._</li>
+  <li>Se cambia ObservationAtender LE por ObservationResultadoExamen</li>
+  <li>Se incluye la solicitud de medicamento y la solicitud de exámenes.</li>
+  <li>Se incluye la condición del encuentro</li>
+</ul>
+
+<h5 id="bundlerevisarle">BundleRevisarLE</h5>
+
+<ul>
+  <li>Se modifica la cardinalidad de entry de 7.._ -&gt; 5.._</li>
+  <li>Se modifica la cardinalidad de entry[servicerequestexamen] de 0..1 -&gt; 0..*</li>
+  <li>Se modifica la cardinalidad de entry[practitionerRole] de 1..1 -&gt; 1..2</li>
+  <li>Se modifica la cardinalidad de entry[organization] de 1..1 -&gt; 1..2</li>
+</ul>
+
+<h5 id="bundlepriorizarle">BundlePriorizarLE</h5>
+
+<ul>
+  <li>Se modifica la cardinalidad de entry de 5..5 -&gt; 5..7</li>
+  <li>Se modifica la cardinalidad de entry[practitionerRole] de 1..1 -&gt; 1..2</li>
+  <li>Se modifica la cardinalidad de entry[organization] de 1..1 -&gt; 1..2</li>
+</ul>
+
+<h4 id="extensiones">Extensiones</h4>
+
+<h5 id="renombradas">Renombradas</h5>
+
+<ul>
+  <li>La extensión <strong>ContactadoLE</strong> paso a llamarse <strong>ExtensionContactadoLE</strong></li>
+  <li>La extension <strong>ExtBoolPertinenciaAtencionBox</strong> paso a llamarse <strong>ExtensionPertinenciaAtencionBox</strong></li>
+  <li>La extensión <strong>ExtBoolSolicitudExamenes</strong> paso a llamarse <strong>ExtensionSolicitudExamenes</strong></li>
+  <li>La extensión <strong>ExtStringMotivoNoPertinencia</strong> paso a llamarse <strong>ExtensionMotivoNoPertinencia</strong></li>
+</ul>
+
+<h5 id="actualizadas">Actualizadas</h5>
+
+<ul>
+  <li>Extension <a href="StructureDefinition-ExtensionEspecialidadMedicaDestinoCodigo.html">ExtensionEspecialidadMedicaDestinoCodigo</a> y <a href="StructureDefinition-ExtensionSubEspecialidadMedicaDestinoCodigo.html">ExtensionSubEspecialidadMedicaDestinoCodigo</a>
+    <ul>
+      <li>Se cambia el binding de ValueSet de Especialidad Medica a Especialidad de Destino</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="nuevas">Nuevas</h5>
+
+<ul>
+  <li>Se crea la extension SospechaPatologiaGes</li>
+  <li>Se agrega la extension CorrespondeGES</li>
+</ul>
+
+<h4 id="valuesets">ValueSets</h4>
+
+<h5 id="nuevos">Nuevos</h5>
+
+<ul>
+  <li><a href="ValueSet-TipoDeObservacion.html">TipoDeObservacion</a></li>
+  <li><a href="ValueSet-VsEspecialidadDest.html">VsEspecialidadDest</a></li>
+</ul>
+
+<h5 id="eliminados">Eliminados</h5>
+
+<ul>
+  <li>Códigos para sexo biológico en Chile</li>
+  <li>Documento Acreditacion Cuidador</li>
+  <li>Identidad de Genero</li>
+  <li>Isapres</li>
+  <li>PrevisionCodigo</li>
+  <li>Sospecha Patologia</li>
+  <li>VSTipoCodDiagnostica</li>
+  <li>VSHipotesisDiagnosticaCodigo</li>
+</ul>
+
+<h5 id="modificados">Modificados</h5>
+
+<ul>
+  <li>ValueSet <a href="ValueSet-VSTerminologiasDiag.html">TerminologiasDiag</a>
+    <ul>
+      <li>se filtra a hallazgos clínicos</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="codesystems">CodeSystems</h4>
+
+<h5 id="eliminados-1">Eliminados</h5>
+
+<ul>
+  <li>Códigos para Sexo de Nacimiento de Paciente</li>
+  <li>Documento Acreditacion Cuidador</li>
+  <li>Identidad de Genero</li>
+  <li>Isapres</li>
+  <li>PrevisionCodigo</li>
+  <li>Tipo Codificación Diagnostica</li>
+  <li>Sospecha Patologia</li>
+  <li>CSHipotesisDiagnosticaCodigo</li>
+</ul>
+
+<h5 id="nuevos-1">Nuevos</h5>
+
+<ul>
+  <li><a href="CodeSystem-CSTipoObservacionMinsal.html">CSTipoObservacionMinsal</a></li>
+</ul>
+
+<h4 id="deprecaciones">Deprecaciones</h4>
+
+<ul>
+  <li>Perfil <strong>Condición GES</strong> se depreca y se elimina cualquier referencia a él.</li>
+  <li>Se depreca el recurso <strong>Coverage</strong></li>
+  <li>Se depreca ConceptMap CMHipotesisDiagnosticaCodigoAConditionVerificationStatus</li>
+</ul>
+
+<h3 id="versión-020">Versión 0.2.0</h3>
+
+<ul>
+  <li>
+    <p>Perfil <a href="StructureDefinition-PatientLE.html">PatientLE</a></p>
+
+    <ul>
+      <li>Se elimina elemento "IdentidadDeGenero" repetido, dejando solo el que viene referenciado desde la <strong>Guia CLCore</strong></li>
+      <li>Extension "País de origen del paciente", el binding se modifica para dejarlo linkeado al elemento "valueCodeableConcept".</li>
+      <li>Extension "Religión", el binding se modifica para dejarlo linkeado al elemento "valueCodeableConcept".</li>
+      <li>Extension "Pueblos Originarios", el binding se modifica para dejarlo linkeado al elemento "valueCodeableConcept".</li>
+      <li>Se elimina la extension "LugarDeNacimiento"</li>
+      <li>El elemento "deceased[x]" se deja abierto para que se pueda registrar una fecha de fallecimiento o un booleano sobre si el paciente esta fallecido o no</li>
+      <li>El elemento identifier.type.extension[paisEmisionDocumento] se le cambia la cardinalidad de 0..1 -&gt; 1..1</li>
+      <li>Se cambia cardinalidad birthDate 0..1 -&gt; 1..1</li>
+      <li>Se cambia cardinalidad de extension nacionalidad 0..1 -&gt; 1..1</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-BundleAtenderLE.html">BundleAtenderLE</a></p>
+
+    <ul>
+      <li>Se agrega entry AllergyIntolerance aceptando solo AllergyIntoleranceIniciarLE en el campo resource</li>
+      <li>Se elimina slice "questionnaireResponse"</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-EncounterAtenderLE.html">EncounterAtenderLE</a></p>
+
+    <ul>
+      <li>Se agrega extensión ConsecuenciaAtencionCodigo</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-EncounterIniciarLE.html">EncounterIniciarLE</a></p>
+
+    <ul>
+      <li>Se agrega extensión ConsecuenciaAtencionCodigo</li>
+      <li>Se fija valor ConsecuenciaAtencionCodigo.valueCodeableConcept.coding.code &lt;- 3</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-ServiceRequestExamenLE.html">ServiceRequestExamenLE</a></p>
+
+    <ul>
+      <li>Se fija valor identifier.type.coding.code -&gt; 02</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-ServiceRequestLE.html">ServiceRequestLE</a></p>
+
+    <ul>
+      <li>Se elimina la extension "CorrespondeGES"</li>
+      <li>Se elimina la extension "RequiereExamen"</li>
+      <li>requester se modifica cardinalidad 0..1 -&gt; 1..1</li>
+      <li>requester se agrega MustSupport</li>
+      <li>requester debe referenciar solo a "PractitionerRoleLE"</li>
+      <li>authoredOn se modifica cardinalidad 0..1 -&gt; 1..1</li>
+      <li>intent se cambia la descripcion "Tipo de Servicio solicitado" -&gt; "Tipo de solicitud"</li>
+      <li>code se modifica cardinalidad 0..1 -&gt; 1..1</li>
+      <li>Se elemina extension "Alergia"</li>
+      <li>Se cambia cardinalidad supportingInfo[TipoAlergia] 0..1 -&gt; 0..*</li>
+      <li>Se cambia cardinalidad supportingInfo[motivoDerivacion] 0..1 -&gt; 1..1</li>
+      <li>Se elimina extensión ConsecuenciaAtencionCodigo</li>
+      <li>Se modifica el nombre del slice supportingInfo:DiagnosticoSospecha -&gt; supportingInfo:DiagnosticoInicio</li>
+      <li>Se elimina extension MotivoNoPertinenciaCodigo de doNotPerform</li>
+    </ul>
+  </li>
+  <li>Perfil <a href="StructureDefinition-AllergyIntoleranceIniciarLE.html">AllergyIntoleranceIniciarLE</a>
+    <ul>
+      <li>code.coding modifica cardinalidad 0..1 -&gt; 1..1</li>
+      <li>code.coding.code modifica cardinalidad 0..1 -&gt; 1..1</li>
+      <li>Se fija binding http://hl7.org/fhir/ValueSet/allergyintolerance-code para code</li>
+    </ul>
+  </li>
+  <li>Perfil <a href="StructureDefinition-BundleRevisarLE.html">BundleRevisarLE</a>
+    <ul>
+      <li>Se modifica la cardinalidad de entry[practitionerRole] 2..2 -&gt; 1..1</li>
+      <li>Se modifica la cardinalidad de entry[organization] 2..2 -&gt; 1..1</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-ObservationResultadoExamen.html">ExamenesAnteriores</a></p>
+
+    <ul>
+      <li>Se cambia cardinalidad subject 0..1 -&gt; 1..1</li>
+      <li>Se cambia cardinalidad code.text 1..1 -&gt; 0..1</li>
+      <li>Se fija la referencia de subject solo a PatientLE</li>
+      <li>Se fija el valor "laboratory" de category.coding.code</li>
+      <li>Se fija cardinalidad coding 1..1</li>
+      <li>Se fija cardinalidad code 1..1</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-PractitionerAdministrativoLE.html">PractitionerAdministrativoLE</a></p>
+
+    <ul>
+      <li>Se elimina la extension Nacionalidad</li>
+      <li>Se cambia cardinalidad birthDate 1..1 -&gt; 0..1</li>
+      <li>Se elimina el slice identifier:run</li>
+      <li>Se fija cardinalidad de identifier 1..1</li>
+      <li>Se deja solo el slice qualification[TituloProfesional]</li>
+      <li>Se remueve el valor obligatorio para type.coding.system</li>
+      <li>Se fija la referencia de beneficiary -&gt; "PatientLE"-</li>
+      <li>Se cambia el nombre del perfil de CoverageIniciarLE -&gt; CoverageLE</li>
+      <li>Se cambia cardinalidad de identifier[run].coding -&gt; 1..1</li>
+      <li>Se cambia cardinalidad de identifier[run].type.coding -&gt; 1..1</li>
+      <li>Se cambia cardinalidad de identifier[run]value -&gt; 1..1</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-ObservationIndiceComorbilidadLE.html">ObservationIniciarIndiceComorbilidadLE</a></p>
+
+    <ul>
+      <li>Se fija el valor "final" para el elemento status</li>
+      <li>Se cambia cardinalidad category.text 1..1 -&gt; 0..1</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-AppointmentAgendarLE.html">AppointmentAgendarLE</a></p>
+
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Se elimina el valor fijado en participant[patientLE].status = #accepted, quedando libre para el set de valores accepted</td>
+              <td>declined</td>
+              <td>tentative</td>
+              <td>needs-action</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Se cambia cardinalidad extension ExtensionContactadoLE 0..1 -&gt; 1..1</li>
+      <li>Se cambia cardinalidad create 0..1 -&gt; 1..1</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <strong>CoverageLE</strong></p>
+
+    <ul>
+      <li>Se cambia cardinalidad type 1..1 -&gt; 0..1</li>
+      <li>Se remueve el valor obligatorio para type.coding.system</li>
+      <li>Se fija la referencia de beneficiary -&gt; "PatientLE"</li>
+      <li>Se cambia el nombre del perfil de CoverageIniciarLE -&gt; CoverageLE</li>
+      <li>Se cambia el bindig del type a VSPrevisionCodigo</li>
+      <li>Se cambia el bindig del class.type a VSInstitucionAseguradora</li>
+      <li>Se agrega PatientLE como referencia a payor</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-EncounterAtenderLE.html">EncounterAtenderLE</a></p>
+
+    <ul>
+      <li>Se cambia cardinalidad type 1..1 -&gt; 0..1</li>
+      <li>Se fija la referencia de participant.individual -&gt; PractitionerRoleLE</li>
+      <li>Se elimina el slice reasonReference[ObservationAtenderLE]</li>
+      <li>Se fija la referencia de reasonReference a "QuestionnaireResponseAtenderLE"</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-QuestionnaireResponseIniciarLE.html">QuestionnaireResponseIniciarLE</a></p>
+
+    <ul>
+      <li>Se cambia cardinalidad item 0..1 -&gt; 1..1</li>
+      <li>Se cambia cardinalidad item.linkId 0..1 -&gt; 1..1</li>
+      <li>Se fija referencia subject only Reference(PatientLE)</li>
+      <li>Se fija referencia encounter only Reference(EncounterIniciarLE)</li>
+      <li>Se fija referencia author only Reference(PractitionerProfesionalLE)</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-ObservationIniciarCuidadorLE.html">ObservationIniciarCuidadorLE</a></p>
+
+    <ul>
+      <li>Se agrega la extension EsCuidador</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-EncounterIniciarLE.html">EncounterIniciarLE</a></p>
+
+    <ul>
+      <li>Se cambia cardinalidad diagnosis 1..1 -&gt; 1..*</li>
+      <li>Se fija la referencia de participant.individual solo a PractitionerRoleLE</li>
+    </ul>
+  </li>
+  <li>
+    <p>Perfil <a href="StructureDefinition-ConditionDiagnosticoLE.html">ConditionDiagnosticoLE</a></p>
+
+    <ul>
+      <li>Se fija la referencia de encounter a EncounterIniciarLE</li>
+      <li>Se cambia la descripcion del elemento category.text</li>
+      <li>Se cambia la descripcion del elemento code.text</li>
+      <li>Se cambia la cardinalidad de severity.coding.system 1..1 -&gt; 0..1</li>
+      <li>Se cambia la cardinalidad de code.coding.display 1..1 -&gt; 0..1</li>
+      <li>Se agrega binding en code VSTerminologiasDiag</li>
+    </ul>
+  </li>
+  <li>Perfil <a href="StructureDefinition-CarePlanAtenderLE.html">CarePlanAtenderLE</a>
+    <ul>
+      <li>Se modifica el nombre de la extension solicitudExamen -&gt; Requiere-Examen</li>
+      <li>Se cambia la cardinalidad de activity 0..* -&gt; 0..2</li>
+      <li>Se cambia la cardinalidad de activity[referenciaReceta].reference 0..1 -&gt; 1..1</li>
+      <li>Se cambia la cardinalidad de activity[referenciaServiceRequestExamenLE].reference 0..1 -&gt; 1..1</li>
+    </ul>
+  </li>
+  <li>
+    <p>Se cambia el nombre del perfil ConditionDiagnosticoLE -&gt; ConditionDiagnosticoLE</p>
+
+    <ul>
+      <li>Se modifica el nombre de la extension solicitudExamen -&gt; Requiere-Examen</li>
+    </ul>
+  </li>
+  <li>valueSet cambia nombre -&gt; VSorigenInterconsulta</li>
+  <li>codeSystem cambia nombre CSinterconsulta -&gt; CSorigenInterconsulta</li>
+  <li>Extension cambia nombre Interconsulta -&gt; OrigenInterconsulta</li>
+  <li>Extension OrigenInterconsulta.valueCodeableConcept cambia binding a VSorigenInterconsulta</li>
+  <li>Se crea la extensión ExtBoolEsCuidador</li>
+  <li>
+    <p>Se elimina el perfil DocumentReferenceIniciarLE y todas sus referencias</p>
+  </li>
+  <li>
+    <p><a href="StructureDefinition-ObservationDiscapacidadLE.html">ObservationDiscapacidadLE</a></p>
+
+    <ul>
+      <li>Se cambia cardinalidad subjecto 0..1 -&gt; 1..1</li>
+      <li>EspOdo -&gt; EspecialidadOdontologica</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="StructureDefinition-PractitionerProfesionalLE.html">PractitionerProfesionalLE</a></p>
+
+    <ul>
+      <li>Se cambia el nombre de los siguientes slices de qualification:
+        <ul>
+          <li>EspOdo -&gt; EspecialidadOdontologica</li>
+          <li>EspBioQ -&gt; EspecialidadBioQuimica</li>
+          <li>EspFarma -&gt; EspecialidadFarmacologica</li>
+        </ul>
+      </li>
+      <li>Se cambia cardinalidad identifier[rnpi] 1..1 -&gt; 0..1</li>
+      <li>Se elimina identifier[pasaporte]</li>
+      <li>Se elimina identifier[otro]</li>
+      <li>Se modifica la cardinalidad de identifier[run].use 0..1 -&gt; 1..1 y MS</li>
+      <li>Se fija el valor de identifier[run].use = #official</li>
+      <li>Se eleminia la extension SexoBiologico</li>
+      <li>Se cambia binding para identifier.[run] &lt;- VSIdentificadorPrestador</li>
+      <li>Se cambia binding para identifier.[rnpi] &lt;- VSIdentificadorPrestador</li>
+      <li>Se cambia cardinalidad qualification[TituloProfesional] 1..1 -&gt; 1..*</li>
+      <li>Se fija el valor de address.use = #work</li>
+      <li>Se cambia cardinalidad address.use 0..1 -&gt; 1..1</li>
+      <li>Se cambia el binding de qualification[EspecialidadMedica].code -&gt; VSEspecialidadMed</li>
+      <li>Se cambia la cardinalidad de qualification[TituloProfesional].identifier 0..1 -&gt; 1..1</li>
+      <li>Se cambia la cardinalidad de qualification[EspecialidadMedica].identifier 0..1 -&gt; 1..1</li>
+      <li>Se cambia la cardinalidad de qualification[Subespecialidad].identifier 0..1 -&gt; 1..1</li>
+      <li>Se cambia la cardinalidad de qualification[EspecialidadOdontologica].identifier 0..1 -&gt; 1..1</li>
+      <li>Se cambia la cardinalidad de qualification[EspecialidadBioQuimica].identifier 0..1 -&gt; 1..1</li>
+      <li>Se cambia la cardinalidad de qualification[EspecialidadFarmacologica].identifier 0..1 -&gt; 1..1</li>
+    </ul>
+  </li>
+  <li>Se elimina VSEspecialidades</li>
+  <li>Se cambia el nombre el perfil ConditionInicioDiagnosticoLE -&gt; ConditionDiagnosticoLE</li>
+  <li>Se elimina el recurso CondicionAtenderDiagnosticoConfirmacionLE</li>
+  <li>Se cambia nombre de VSSospechaPatologiaGes -&gt; VSProblemaGES</li>
+  <li>Se cambia nombre de CSSospechaPatologiaGes -&gt; CSProblemaGES</li>
+  <li>Se cambia nombre de CSIdInterconsulta -&gt; CSTipoIdentificadorSR</li>
+  <li>Se cambia nombre de VSIdInterconsulta -&gt; VSTipoIdentificadorSR</li>
+  <li>Se modifican valores de CSTipoIdentificadorSR</li>
+  <li>Se cambia nombre de CSMedioNotificacion -&gt; CSMediodeContacto</li>
+  <li>Se cambia nombre de VSMedioNotificacion -&gt; VSMediodeContacto</li>
+  <li>Se modifican valores de CSMediodeContacto</li>
+  <li>Se modifican valores de CSMotivoNoContactabilidad</li>
+  <li>Se cambia cardinalidad en elemento de extension * extension[ExtensionContactadoLE].extension[Contactado].value[x] 0..1 -&gt; 1..1</li>
+  <li>Se eleminia la extension DocAcreditacionCuidadorCodigoLE</li>
+  <li>Se crea VSIsapres</li>
+  <li>Se crea CSIsapres</li>
+  <li>Se crea VSTerminologiasDiag</li>
+  <li>Se cambia nombde de perfil ObservationIniciarLE -&gt; ExamenesAnteriores</li>
+  <li>Se elimina VSTipoIdentificadorSR</li>
+  <li>
+    <p>Se elimina CSTipoIdentificadorSR</p>
+  </li>
+  <li>Modificaciones de la "CLcore"
+    <ul>
+      <li>Se cambió el nombre de la extension identifier.type.extension[paises] -&gt; identifier.type.extension[paisEmisionDocumento]</li>
+      <li>Extension "Codigo de Identificación de países", el binding se modifica para dejarlo linkeado al elemento "valueCodeableConcept.</li>
+      <li><strong>PrestadorCL</strong>
+        <ul>
+          <li>Se cambia el nombre de los siguientes slices de qualification:
+            <ul>
+              <li>Cert -&gt; TituloProfesional</li>
+              <li>Esp -&gt; EspecialidadMedica</li>
+              <li>SubEsp -&gt; Subespecialidad</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Para el perfil PrestadorCL se fija en todos los slices del identifier[run</td>
+          <td>rnpi</td>
+          <td>pasaporte</td>
+          <td>otro].type from VSTipoIdentificador</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Se incluyeron los ejemplos</p>
+
+    <ul>
+      <li>Cambio cardinalidad <strong>contact.name.given</strong> 0..1 -&gt; 0..*</li>
+    </ul>
+  </li>
+  <li>El elemento <strong>addresss</strong> debe cumplir con <strong>ClAddress</strong> para las direcciones de los perfiles <strong>OrganiztionCL</strong> y <strong>LocalizacionCL</strong></li>
+  <li>Cambio en el <strong>Ejemplo Organización Prestadora de Salud</strong> para cumplir con el perfil <strong>OrganiztionCL</strong></li>
+  <li>Cambio en el <strong>Ejemplo Localización Farmacia</strong> para cumplir con el perfil <strong>LocalizacionCL</strong></li>
+  <li>
+    <p>Se incluyo el context en las siguientes extensiones:</p>
+
+    <ul>
+      <li><strong>Códigos para Comunas en Chile</strong></li>
+      <li><strong>Códigos para Provincias en Chile</strong></li>
+      <li><strong>Códigos para Regiones en Chile</strong></li>
+      <li><strong>Identificación del Contacto de un Paciente</strong></li>
+      <li><strong>Especialidad del médico principal</strong></li>
+      <li><strong>Contacto de los participantes secundarios del encuentro</strong></li>
+    </ul>
+  </li>
+  <li>Se depreca perfil QuestionnaireResponseAntederLE</li>
+</ul>
+
+<h3 id="cambios-de-versión-015-a-versión-016">Cambios de versión 0.1.5 a versión 0.1.6</h3>
+
+<ul>
+  <li>
+    <p><strong>Cambios generales:</strong></p>
+
+    <ul>
+      <li>Todos los Bundles ahora cuentan con secciones de consideraciones generales y específicas, además de su conjunto mínimo de datos.</li>
+      <li>Los atributos de todos los recursos cuentan con descripciones en español, esto solo para los que aparezcan en las "Diferential Tables"</li>
+      <li>Todos lo referente a eventos (Iniciar, Agendar, Atender…) ahora cuentan con su verbo escrito en inifitivo.</li>
+      <li>Ahora todas las referencias que tengan que ver con el paciente son <strong>OBLIGATORIAS</strong>, por lo que sus cardinalidades son 1..1 en todos los recursos que se encuentre una de estas</li>
+      <li>
+        <p>Cada uno de los títulos dentro de la sección de “Especificación de Negocio” pasa a ser parte de un menú desplegable, además, en los eventos que corresponda se menciona (con el link) a la Norma Técnica N° 118 y se corrigen algunas secciones del texto.</p>
+      </li>
+      <li>
+        <p><strong>Para la sección "Especificaciones Técnicas":</strong></p>
+
+        <ul>
+          <li>La pestaña de “Eventos” ahora cuenta con las mismas descripciones que la sección “Eventos Interoperabilidad CNE de APS a Secundario” de la sección de Negocio. Además, se corrigen algunas secciones del texto.</li>
+          <li>La pestaña de “Transacciones” tiene un leve arreglo a unos links que no redireccionaban correctamente.</li>
+          <li>La pestaña de “Mensajería” tiene un cambio mayor, y es que se borraron los antiguos diagramas para colocar descripciones sobre los mensajes de envío, respuesta y los response code.</li>
+        </ul>
+      </li>
+      <li><strong>Recursos nuevos/actualizados:</strong>
+        <ul>
+          <li>El recurso PractitionerLE ahora se dividió en dos: PractitionerProfesionalLE y PractitionerAdministrativoLE</li>
+          <li>El recurso PacienteMPI ahora se llama PatientLE.</li>
+          <li>Se agrega un recurso nuevo: ObservationInicioDiscapacidadLE.</li>
+          <li>El título del recurso Patología GES (número) ahora es Condition GES LE.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Cambios en los recursos:</strong></p>
+
+    <ul>
+      <li>
+        <p><strong>Para el BundleIniciarLE:</strong></p>
+
+        <ul>
+          <li>La cadinalidad ahora pasa de 8..17 a 9..17, ya que ahora existe un recurso extra que representa la discapacidad (ObservationDiscapacidadLE).</li>
+          <li>Referencia al recurso paciente pasa de PacienteMinsalMPI a PatientLE.</li>
+          <li>Referencia al recurso practitioner pasa de PractitionerLE a PractitionerProfesionalLE.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el recurso MessageHeaderLE:</strong></p>
+
+        <ul>
+          <li>La cardinalidad de "focus" cambia a 1..2 y en este mismo atributo se crean slices para restringir el uso de los recursos de referencia.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el recurso ServiceRequestLE:</strong></p>
+
+        <ul>
+          <li>El elemento "EstadoInterconsultaCódigo" cambia su cardinalidad a 1..1</li>
+          <li>Slice en supportingInfo cambia cardinalidad a 1..N, dónde al menos se debe agregar el recurso ObservationInicioDiscapacidadLE.</li>
+          <li>La extensión "DestinoAtencionCodigo" ahora se llama "ConsecuenciaAtencionCodigo"</li>
+          <li>Ahora el identifier.type.coding cuenta con un binding que redirecciona correctamente.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el recurso EncounterIniciarLE:</strong></p>
+
+        <ul>
+          <li>Se cambia realidad de "diagnosis" de 0..N a 1..1.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el recurso PatientLE:</strong></p>
+
+        <ul>
+          <li>Cambia su nombre de PacienteMPI a PatientLE</li>
+          <li>Cambia cardinalidad de las extensiones de 5..N a 4..N</li>
+          <li>La extensión "SexoBiologico" se elimina</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el recurso ObservationIniciarCuidadorLE:</strong></p>
+
+        <ul>
+          <li>Se elimina la extensión PresentaDiscapacidad.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el recurso OrganizationLE:</strong></p>
+
+        <ul>
+          <li>Se corrigen las descripciones del identifier.system</li>
+          <li>Se agrega un binding de ejemplo para el identifier.system</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el recurso PractitionerRoleLE:</strong></p>
+
+        <ul>
+          <li>La cardinalidad de organization cambia de 0..1 a 1..1</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el BundleReferenciarLE:</strong></p>
+
+        <ul>
+          <li>La referencia al recurso Practitioner cambia de PractitionerLE a PractitionerProfesionalLE</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el BundleRevisarLE:</strong></p>
+
+        <ul>
+          <li>Ahora el número de entry's pasa de 5..6 a 7..8</li>
+          <li>La cardinalidad del elemento practitionerRole pasa de 1..1 a 2..2</li>
+          <li>La cardinalidad del elemento organization pasa de 1..1 a 2..2</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el BundlePriorizarLE:</strong></p>
+
+        <ul>
+          <li>Ahora el número de entry's pasa de 6..6 a 5..5, ya que se eliminó la referencia al paciente.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el BundleAgendarLE:</strong></p>
+
+        <ul>
+          <li>Para el entry:practitioner de cardinalidad 2..2 se transforma en 2 entry’s de cardinalidad 1..1, de nombres entry:practitionerAdministrativo y entry:practitionerProfesional.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el BundleAtenderLE:</strong></p>
+
+        <ul>
+          <li>Cambia cardinalidad de entry’s de 11..N a 8..N.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el Recurso EncounterAtenderLE:</strong></p>
+
+        <ul>
+          <li>Se agregan las extensiones PertinenciaAtencionBox y MotivoNoPertinencia</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Para el recurso CarePlanAtenderLE:</strong></p>
+        <ul>
+          <li>Los Elementos "status" e "intent" ahora son requeridos con valores fijos.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Cambios en CodeSystem/ValueSets y extensiones:</strong></p>
+
+    <ul>
+      <li>El CS de Pertinencia Interconsulta, se pasa de 2 valores (Pertinente Incompleta|No Pertinente) a 3 valores (Pertinente|Pertinente Incompleta|No Pertinente).</li>
+      <li>El CS de Pueblo Originarios ahora cuenta con los valores numerados según la norma 231 y se le arreglan valores con faltas ortográficas.</li>
+      <li>El VS de Servicio Requerido ahora cuenta solo con un valor, que hace referencia a la derivación del paciente (http://snomed.info/sct#103696004 "derivación del paciente a un especialista (procedimiento)").</li>
+      <li>El CS/VS "Rol de médicos" ahora se llama "Rol de profesionales".</li>
+      <li>Se presentan cambios en las descripciones de CSPractitionerTipoRolLE, VSServicioRequerido y el nombre de CS/VSDestinoAtencionCodigo pasa a CS/VSConsecuenciaAtencionCodigo</li>
+      <li>Sobre las extensiones, se agrega una llamada “Mencion” que hace referencia a la mención profesional, ésta se agregó junto al nuevo Prestador Profesional y Administrativo, provenientes del HPD.</li>
+      <li>El CS Establecimiento Destino Atencion ahora cuenta con los displays correctos (establecimientos al principio).</li>
+      <li>Se crea un CS/VS de ejemplo llamado TipoIdentificadorSR, esto con el fin de hacer posible la redirección de un binding en el recurso ServiceRequest (identifier.type.coding)</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://interoperabilidad.minsal.cl">Unidad de Interoperabilidad - MINSAL</a>.  Package hl7.fhir.cl.minsal.tei#0.2.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 22, 2026 14:55-0400">2026-07-22</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+             Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Reporte QA</a> 
+<!-- <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interoperabilidad.minsal.cl/fhir/ig/tei"></a> -->
+</a>
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/Minsal-CL/SIGTEv2-IG">Issues</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

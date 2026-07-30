@@ -1,0 +1,150 @@
+{
+  "resourceType" : "Patient",
+  "id" : "EjemploPatientLE",
+  "meta" : {
+    "profile" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PatientLE"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Paciente EjemploPatientLE</b></p><a name=\"EjemploPatientLE\"> </a><a name=\"hcEjemploPatientLE\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PatientLE.html\">Patient LE</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">María Josefina Gonzalez (official) Male, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td>true</td><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td colspan=\"3\">false</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: (562) 5555 6473(Work)</li><li>Calle Arrabal Conchita Tejeda Nº 24, Esc. 432(home)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Esta extensión incluye códigos de países\"><a href=\"https://hl7chile.cl/fhir/ig/clcore/1.9.2/StructureDefinition-CodigoPaises.html\">Código de Países</a></td><td colspan=\"3\"><span title=\"Codes:{https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais 152}\">Chile</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Pueblos Originarios Perteneciente\"><a href=\"StructureDefinition-PueblosOriginariosPerteneciente.html\">Pueblos Originarios Perteneciente</a></td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Almacenar si el paciente pertenece a algun pueblo originario\"><a href=\"StructureDefinition-PueblosOriginarios.html\">Pueblos Originarios</a></td><td colspan=\"3\"><span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/PueblosOriginariosCS 07}\">Diaguita</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Identidad De Género\"><a href=\"https://hl7chile.cl/fhir/ig/clcore/1.9.2/StructureDefinition-IdentidadDeGenero.html\">Identidad De Género</a></td><td colspan=\"3\"><span title=\"Codes:{https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentidaddeGenero 2}\">Femenina</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Pueblos Afrodescendiente\"><a href=\"StructureDefinition-PueblosAfrodescendiente.html\">Pueblos Afrodescendiente</a></td><td colspan=\"3\">false</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"País de origen del paciente\"><a href=\"StructureDefinition-PaisOrigenMPI.html\">País de origen del paciente</a></td><td colspan=\"3\"><span title=\"Codes:{https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais 152}\">Chile</span></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdentidadDeGenero",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentidaddeGenero",
+        "code" : "2",
+        "display" : "Femenina"
+      }]
+    }
+  },
+  {
+    "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+        "code" : "152",
+        "display" : "Chile"
+      }]
+    }
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PaisOrigenMPI",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+        "code" : "152",
+        "display" : "Chile"
+      }]
+    }
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PueblosOriginariosPerteneciente",
+    "valueBoolean" : true
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PueblosAfrodescendiente",
+    "valueBoolean" : false
+  },
+  {
+    "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PueblosOriginarios",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/PueblosOriginariosCS",
+        "code" : "07",
+        "display" : "Diaguita"
+      }]
+    }
+  }],
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+            "code" : "152",
+            "display" : "Chile"
+          }]
+        }
+      }],
+      "coding" : [{
+        "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+        "code" : "01",
+        "display" : "RUN"
+      }],
+      "text" : "Rol Único Nacional"
+    },
+    "value" : "90000000-6",
+    "assigner" : {
+      "display" : "Republica de Chile"
+    }
+  }],
+  "active" : true,
+  "name" : [{
+    "use" : "official",
+    "family" : "Gonzalez",
+    "_family" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+        "valueString" : "Morales"
+      }]
+    },
+    "given" : ["María",
+    "Josefina"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "(562) 5555 6473",
+    "use" : "work",
+    "rank" : 1
+  }],
+  "gender" : "male",
+  "birthDate" : "1974-12-25",
+  "deceasedBoolean" : false,
+  "address" : [{
+    "use" : "home",
+    "text" : "Calle Arrabal Conchita Tejeda Nº 24, Esc. 432",
+    "line" : ["Calle Arrabal Conchita Tejeda"],
+    "city" : "Huara",
+    "_city" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodComunasCL",
+            "code" : "01404",
+            "display" : "Huara"
+          }]
+        }
+      }]
+    },
+    "district" : "Provincia del Tamarugal",
+    "_district" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvinciasCl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL",
+            "code" : "014",
+            "display" : "Tamarugal"
+          }]
+        }
+      }]
+    },
+    "state" : "Región de Tarapacá",
+    "_state" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodRegionCL",
+            "code" : "01",
+            "display" : "Tarapacá"
+          }]
+        }
+      }]
+    }
+  }]
+}

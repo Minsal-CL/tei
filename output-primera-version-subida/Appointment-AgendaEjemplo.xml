@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Appointment xmlns="http://hl7.org/fhir">
+  <id value="AgendaEjemplo"/>
+  <meta>
+    <profile value="https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/AppointmentAgendarLE"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Cita AgendaEjemplo</b></p><a name="AgendaEjemplo"> </a><a name="hcAgendaEjemplo"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-AppointmentAgendarLE.html">Appointment Agendar LE</a></p></div><p><b>Medio de Contacto</b>: <span title="Codes:{https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMediodeContacto 3}">Llamada</span></p><blockquote><p><b>Extension ContactadoLE</b></p><ul><li>Contactado: true</li></ul></blockquote><p><b>identifier</b>: 123</p><p><b>status</b>: Booked</p><p><b>start</b>: 2024-02-22 08:00:00-0300</p><p><b>end</b>: 2024-02-22 08:30:00-0300</p><p><b>created</b>: 2024-02-20 16:00:00-0300</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href="PractitionerRole-PractitionerRoleAtendedor.html">PractitionerRole Atendedor</a></p><p><b>status</b>: Accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href="Patient-EjemploPatientLE.html">María Josefina Gonzalez (official) Male, DoB: 1974-12-25 ( Rol Único Nacional: 90000000-6 (use: official, ))</a></p><p><b>status</b>: Accepted</p></blockquote></div>
+  </text>
+  <extension url="https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ExtensionMediodeContacto">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSMediodeContacto"/>
+        <code value="3"/>
+        <display value="Llamada"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/Contactado">
+    <extension url="Contactado">
+      <valueBoolean value="true"/>
+    </extension>
+  </extension>
+  <identifier>
+    <value value="123"/>
+  </identifier>
+  <status value="booked"/>
+  <start value="2024-02-22T08:00:00-03:00"/>
+  <end value="2024-02-22T08:30:00-03:00"/>
+  <created value="2024-02-20T16:00:00-03:00"/>
+  <participant>
+    <actor>
+      <reference value="PractitionerRole/PractitionerRoleAtendedor"/>
+      <type value="PractitionerRole"/>
+    </actor>
+    <status value="accepted"/>
+  </participant>
+  <participant>
+    <actor>
+      <reference value="Patient/EjemploPatientLE"/>
+      <type value="Patient"/>
+    </actor>
+    <status value="accepted"/>
+  </participant>
+</Appointment>

@@ -1,0 +1,44 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "PueblosOriginariosVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConjuntoValores / ConjuntoDeValores PueblosOriginariosVS</b></p><a name=\"PueblosOriginariosVS\"> </a><a name=\"hcPueblosOriginariosVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-PueblosOriginariosCS.html\"><code>https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/PueblosOriginariosCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.2.3</span></li></ul></div>"
+  },
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/ValueSet/PueblosOriginariosVS",
+  "version" : "0.2.3",
+  "name" : "PueblosOriginariosVS",
+  "title" : "Pueblos Originarios de Chile",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-07-22T14:55:14-04:00",
+  "publisher" : "Unidad de Interoperabilidad - MINSAL",
+  "contact" : [{
+    "name" : "Unidad de Interoperabilidad - MINSAL",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://interoperabilidad.minsal.cl"
+    }]
+  },
+  {
+    "name" : "Jorge Mansilla",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "jorge.mansilla@minsal.cl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Pueblos Originarios de Chile",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/PueblosOriginariosCS"
+    }]
+  }
+}

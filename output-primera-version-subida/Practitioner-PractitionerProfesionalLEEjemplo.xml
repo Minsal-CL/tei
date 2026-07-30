@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="PractitionerProfesionalLEEjemplo"/>
+  <meta>
+    <profile value="https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PractitionerProfesionalLE"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practicante / Profesional PractitionerProfesionalLEEjemplo</b></p><a name="PractitionerProfesionalLEEjemplo"> </a><a name="hcPractitionerProfesionalLEEjemplo"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PractitionerProfesionalLE.html">Prestador Profesional LE</a></p></div><p><b>identifier</b>: Rol Único Nacional/90000000-6 (use: official, ), Registro Nacional de Prestadores Individuales/9999999 (use: secondary, )</p><p><b>active</b>: true</p><p><b>name</b>: Víctor Gonzalez </p><p><b>address</b>: Dirección falsa 123,depto 1202 null (work)</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1980-01-01</p><h3>Qualifications</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Identifier</b></td><td><b>Code</b></td><td><b>Period</b></td><td><b>Issuer</b></td></tr><tr><td style="display: none">*</td><td>cert</td><td><span title="Codes:{https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional 1}">MÉDICO CIRUJANO</span></td><td>2007-11-01 --&gt; (ongoing)</td><td>Universidad de Chile</td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador"/>
+        <code value="01"/>
+        <display value="RUN"/>
+      </coding>
+      <text value="Rol Único Nacional"/>
+    </type>
+    <value value="90000000-6"/>
+    <assigner>
+      <display value="Republica de Chile"/>
+    </assigner>
+  </identifier>
+  <identifier>
+    <use value="secondary"/>
+    <type>
+      <coding>
+        <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador"/>
+        <code value="13"/>
+        <display value="RNPI"/>
+      </coding>
+      <text value="Registro Nacional de Prestadores Individuales"/>
+    </type>
+    <value value="9999999"/>
+    <assigner>
+      <display value="Intendencia de prestadores individuales - Superintendencia de Salud"/>
+    </assigner>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <family value="Gonzalez">
+      <extension url="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido">
+        <valueString value="Torres"/>
+      </extension>
+    </family>
+    <given value="Víctor"/>
+    <prefix value="Dr"/>
+  </name>
+  <address>
+    <use value="work"/>
+    <line value="Dirección falsa 123,depto 1202"/>
+    <state>
+      <extension url="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodRegionCL"/>
+            <code value="13"/>
+            <display value="Metropolitana de Santiago"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+    </state>
+  </address>
+  <gender value="male"/>
+  <birthDate value="1980-01-01"/>
+  <qualification>
+    <identifier>
+      <value value="cert"/>
+    </identifier>
+    <code>
+      <coding>
+        <system value="https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional"/>
+        <code value="1"/>
+        <display value="MÉDICO CIRUJANO"/>
+      </coding>
+      <text value="MÉDICO CIRUJANO"/>
+    </code>
+    <period>
+      <start value="2007-11-01"/>
+    </period>
+    <issuer>
+      <display value="Universidad de Chile"/>
+    </issuer>
+  </qualification>
+</Practitioner>

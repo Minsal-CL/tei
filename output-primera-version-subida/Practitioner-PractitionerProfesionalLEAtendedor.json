@@ -1,0 +1,112 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "PractitionerProfesionalLEAtendedor",
+  "meta" : {
+    "profile" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PractitionerProfesionalLE"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practicante / Profesional PractitionerProfesionalLEAtendedor</b></p><a name=\"PractitionerProfesionalLEAtendedor\"> </a><a name=\"hcPractitionerProfesionalLEAtendedor\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PractitionerProfesionalLE.html\">Prestador Profesional LE</a></p></div><p><b>identifier</b>: Rol Único Nacional/19949350-7\u00a0(use:\u00a0official,\u00a0), Registro Nacional de Prestadores Individuales/1234543\u00a0(use:\u00a0secondary,\u00a0)</p><p><b>active</b>: true</p><p><b>name</b>: Gonzalo Gonzalez </p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1980-01-01</p><blockquote><p><b>qualification</b></p><p><b>identifier</b>: cert</p><p><b>code</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional 1}\">MÉDICO CIRUJANO</span></p><p><b>period</b>: 2007-11-01 --&gt; (ongoing)</p><p><b>issuer</b>: Universidad de Chile</p></blockquote><blockquote><p><b>qualification</b></p><p><b>identifier</b>: esp</p><p><b>code</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadMed 30}\">MEDICINA INTERNA</span></p><p><b>period</b>: 2010-11-01 --&gt; (ongoing)</p><p><b>issuer</b>: Pontificia Universidad Católica de Chile</p></blockquote><blockquote><p><b>qualification</b></p><p><b>identifier</b>: subesp</p><p><b>code</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadMed 14}\">ENDOCRINOLOGÍA ADULTO</span></p><p><b>period</b>: 2014-11-01 --&gt; (ongoing)</p><p><b>issuer</b>: Universidad de Valparaíso</p></blockquote></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+        "code" : "01",
+        "display" : "RUN"
+      }],
+      "text" : "Rol Único Nacional"
+    },
+    "value" : "19949350-7",
+    "assigner" : {
+      "display" : "Republica de Chile"
+    }
+  },
+  {
+    "use" : "secondary",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+        "code" : "13",
+        "display" : "RNPI"
+      }],
+      "text" : "Registro Nacional de Prestadores Individuales"
+    },
+    "value" : "1234543",
+    "assigner" : {
+      "display" : "Intendencia de prestadores individuales - Superintendencia de Salud"
+    }
+  }],
+  "active" : true,
+  "name" : [{
+    "family" : "Gonzalez",
+    "_family" : {
+      "extension" : [{
+        "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+        "valueString" : "Torres"
+      }]
+    },
+    "given" : ["Gonzalo"],
+    "prefix" : ["Dr"]
+  }],
+  "gender" : "male",
+  "birthDate" : "1980-01-01",
+  "qualification" : [{
+    "identifier" : [{
+      "value" : "cert"
+    }],
+    "code" : {
+      "coding" : [{
+        "system" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional",
+        "code" : "1",
+        "display" : "MÉDICO CIRUJANO"
+      }],
+      "text" : "MÉDICO CIRUJANO"
+    },
+    "period" : {
+      "start" : "2007-11-01"
+    },
+    "issuer" : {
+      "display" : "Universidad de Chile"
+    }
+  },
+  {
+    "identifier" : [{
+      "value" : "esp"
+    }],
+    "code" : {
+      "coding" : [{
+        "system" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadMed",
+        "code" : "30",
+        "display" : "MEDICINA INTERNA"
+      }],
+      "text" : "MEDICINA INTERNA"
+    },
+    "period" : {
+      "start" : "2010-11-01"
+    },
+    "issuer" : {
+      "display" : "Pontificia Universidad Católica de Chile"
+    }
+  },
+  {
+    "identifier" : [{
+      "value" : "subesp"
+    }],
+    "code" : {
+      "coding" : [{
+        "system" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSEspecialidadMed",
+        "code" : "14",
+        "display" : "ENDOCRINOLOGÍA ADULTO"
+      }],
+      "text" : "ENDOCRINOLOGÍA ADULTO"
+    },
+    "period" : {
+      "start" : "2014-11-01"
+    },
+    "issuer" : {
+      "display" : "Universidad de Valparaíso"
+    }
+  }]
+}

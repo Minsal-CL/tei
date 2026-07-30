@@ -1,0 +1,65 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interoperabilidad.minsal.cl/fhir/ig/tei/ServiceRequest/EjemploSolicitudExamen> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EjemploSolicitudExamen"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ServiceRequestExamenLE"^^xsd:anyURI ;
+       fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/ServiceRequestExamenLE>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PeticiónServicio EjemploSolicitudExamen</b></p><a name=\"EjemploSolicitudExamen\"> </a><a name=\"hcEjemploSolicitudExamen\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ServiceRequestExamenLE.html\">Solicitud de Examen LE</a></p></div><p><b>basedOn</b>: <a href=\"ServiceRequest-EjemploSolicitudInterconsultaFinalizada.html\">ServiceRequest Patient referral to specialist</a></p><p><b>status</b>: Draft</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 2857-1}\">Antigeno Prostático Específico en Suero o Plasma</span></p><p><b>subject</b>: <a href=\"Patient-EjemploPatientLE.html\">María Josefina Gonzalez (official) Male, DoB: 1974-12-25 ( Rol Único Nacional: 90000000-6 (use: official, ))</a></p><p><b>occurrence</b>: 2024-01-19 16:00:00-0300</p><p><b>authoredOn</b>: 2024-01-17 16:00:00-0300</p><p><b>requester</b>: <a href=\"Practitioner-PractitionerProfesionalLEEjemplo.html\">Practitioner Víctor Gonzalez </a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://snomed.info/sct 414205003}\">antecedente familiar de neoplasia maligna de próstata</span></p><p><b>note</b>: </p><blockquote><div><p>paciente con APE elevado en 2022, se solicita examen vigente previo a atención con especialidad</p>\n</div></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:basedOn ( [
+     fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/ServiceRequest/EjemploSolicitudInterconsultaFinalizada> ;
+     fhir:reference [ fhir:v "ServiceRequest/EjemploSolicitudInterconsultaFinalizada" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:2857-1 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "2857-1" ] ;
+       fhir:display [ fhir:v "Ag específico de próstata: Suero o Plasma : Punto temporal: Concentración de masa: Cuantitativo:" ]
+     ] ) ;
+     fhir:text [ fhir:v "Antigeno Prostático Específico en Suero o Plasma" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/Patient/EjemploPatientLE> ;
+     fhir:reference [ fhir:v "Patient/EjemploPatientLE" ]
+  ] ; # 
+  fhir:occurrence [
+     a fhir:dateTime ;
+     fhir:v "2024-01-19T16:00:00-03:00"^^xsd:dateTime
+  ] ; # 
+  fhir:authoredOn [ fhir:v "2024-01-17T16:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:requester [
+     fhir:link <https://interoperabilidad.minsal.cl/fhir/ig/tei/Practitioner/PractitionerProfesionalLEEjemplo> ;
+     fhir:reference [ fhir:v "Practitioner/PractitionerProfesionalLEEjemplo" ]
+  ] ; # 
+  fhir:reasonCode ( [
+     fhir:coding ( [
+       a sct:414205003 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "414205003" ]
+     ] ) ;
+     fhir:text [ fhir:v "antecedente familiar de neoplasia maligna de próstata" ]
+  ] ) ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "paciente con APE elevado en 2022, se solicita examen vigente previo a atención con especialidad" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -7,7 +7,8 @@
     - SubProblemadeSaludGES	-> 'string'
 
 #### ValueSet
-- Se agrega ValueSet Problemas de Salud GES 
+- Se agrega ValueSet [Problemas de Salud GES](ValueSet-vs-problema-ges-tei.html)
+
 
 ### Versión 0.2.2
 

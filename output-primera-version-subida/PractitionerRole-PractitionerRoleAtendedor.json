@@ -1,0 +1,26 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "PractitionerRoleAtendedor",
+  "meta" : {
+    "versionId" : "2.0",
+    "profile" : ["https://interoperabilidad.minsal.cl/fhir/ig/tei/StructureDefinition/PractitionerRoleLE"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RolProfesional PractitionerRoleAtendedor</b></p><a name=\"PractitionerRoleAtendedor\"> </a><a name=\"hcPractitionerRoleAtendedor\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2.0</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PractitionerRoleLE.html\">PractitionerRole LE</a></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-PractitionerProfesionalLEAtendedor.html\">Practitioner Gonzalo Gonzalez </a></p><p><b>organization</b>: <a href=\"Organization-OrganizationLEAtendedor.html\">Organization Centro de Referencia de Salud Miraflores</a></p><p><b>code</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSPractitionerTipoRolLE atendedor}\">Atendedor</span></p></div>"
+  },
+  "active" : true,
+  "practitioner" : {
+    "reference" : "Practitioner/PractitionerProfesionalLEAtendedor"
+  },
+  "organization" : {
+    "reference" : "Organization/OrganizationLEAtendedor"
+  },
+  "code" : [{
+    "coding" : [{
+      "system" : "https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSPractitionerTipoRolLE",
+      "code" : "atendedor",
+      "display" : "Atendedor"
+    }]
+  }]
+}

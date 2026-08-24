@@ -6,7 +6,7 @@ Description: "AllergyIntolerance Iniciar LE"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 0
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status].valueCode = #draft
 
-// * obeys ait-1 and ait-2
+// * obeys ait-1 and ait-2 ----------
 
 * id 1..1 MS
   * ^short = "Id temporal necesario para identificar el recurso"
